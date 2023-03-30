@@ -17,15 +17,16 @@ def home():
 def generate_text():
     prompt = request.form["prompt"]
     response = openai.Completion.create(
-        engine="text-davinci-002",
+        engine="text-davinci-003",
         prompt=prompt,
-        max_tokens=1024,
+        max_tokens=3000,
         n=1,
         stop=None,
-        temperature=0.5,
+        temperature=0.9,
     )
     text = response.choices[0].text.strip()
     return render_template("generated_text.html", text=text)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=80)
+

@@ -1,14 +1,98 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>OpenAI Text Generation</title>
+    <title>OpenAI Prompt Submission</title>
+     <script>
+    function changeTextOne() {
+      var newText = "1.Поиск и обработка информации: сайт с ИИ может быть использован для поиска и анализа информации, как текстовой, так и графической, для получения ответов на вопросы или решения задач.<br>2.Также сайт с ИИ может иметь функционал для обработки естественного языка, что позволяет ему анализировать и интерпретировать текстовую информацию, например, для автоматического создания сводок, ответов на вопросы или категоризации текстов.<br>3.Кроме того, сайт с ИИ может использовать машинное обучение для улучшения результатов поиска и обработки информации, обучаясь на основе предыдущих запросов и анализа данных.<br>3.Рекомендации и персонализация: Используя данные о поведении пользователя и его предпочтениях, сайт с ИИ может предложить персонализированные рекомендации, например, товаров или услуг.";
+      document.getElementById("text").innerHTML = newText;
+      document.getElementById("par").innerHTML = "Как использовать сайт?";
+    }
+    
+    function changeTextTwo() {
+      var newText = "TThis is<br> the first line.\nThis is the second line.\nThis ishis is the first line.\n";
+      document.getElementById("text").innerHTML = newText;
+    }
+  </script>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .content{
+            flex-grow: 1;
+            margin-right: 30px;
+        }
+        h1{
+            text-align: center;
+            font-size: 36px;
+            color: #333;
+            margin-top: 0;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+	    margin-top: 200px;
+        }
+        label{
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        textarea{
+            height: 300px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: #f4f4f4;
+            margin-bottom: 200px;
+            resize: none;
+            font-size: 16px;
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+        input[type="submit"]{
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s ease-in-out;
+        }
+        input[type="submit"]:hover{
+            background-color: #444;
+        }
+    </style>
   </head>
-  <body>
-    <h1>OpenAI Text Generation</h1>
-    <form method="post" action="/generate_text">
-      <label for="prompt">Enter a text prompt:</label><br>
-      <textarea id="prompt" name="prompt" rows="5" cols="50"></textarea><br>
-      <input type="submit" value="Generate Text">
-    </form>
+    <body background="https://i.postimg.cc/Zqqk6rKC/ARTIFICi-AL-2.png" bgcolor="#000000" bgproperties="scroll">
+        <form action="/generate_text" method="POST">
+          <textarea id="prompt" style="background-color:#c8ece2 ;" name="prompt" placeholder="Enter your prompt here" required></textarea>
+          <input type="submit" value="Submit">
+        </form>
+	<div class="instructions">
+        <h2 id="par">How to use the program</h2>
+        <div id="text">
+        <p>1. To use the site, you need to enter a query in the "Search" field. For example, you can enter a word or phrase related to your search queries.</p>
+        <p>2. After entering your query, click the "Search" button. A site with artificial intelligence will process your request and display the result on the screen</p>
+        <p>3. If you didn't find the necessary information the first time, try changing your query to narrow down the search area. For example, you can add additional keywords or change their order.</p>
+        </div>
+        <button onclick="changeTextOne()">RUS</button>
+        <button onclick="changeTextTwo()">KAZ</button>
+      </div>
+
   </body>
 </html>
