@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import openai
 import os
-
+#oasidfoasidj
 app = Flask(__name__)
 
 # Set up OpenAI API credentials
