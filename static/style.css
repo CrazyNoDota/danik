@@ -8,8 +8,13 @@ body {
   background-size: cover;
   background-position: center;
 }
+.daneker1{
+	margin-top:5em;
+}
+.daneker2{
+	margin-top:5em;
+}
 .multiline {
-	        position:absolute;
         top:300px;
         right:600px;
         color:#fff;
@@ -23,17 +28,18 @@ body {
 
 }
 .fancy-button {
-
   background-color: #4CAF50; /* Green background color */
   border: none; /* No border */
   color: white; /* White text color */
-  padding: 15px 32px; /* Large padding */
-  text-align: center; /* Center text horizontally */
+  padding: 15px 32px; /* Large padding */ /* Center text horizontally */
   text-decoration: none; /* No underline */
   display: inline-block; /* Display as inline block */
   font-size: 16px; /* Font size */
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Add shadow */
+  length: 100px;
+  width: 100px;
+  padding-right: 80px;
 }
 
 .fancy-button:hover {
@@ -48,7 +54,6 @@ body {
 .container {
   width: 80%;
   margin: 0 auto;
-  padding: 20px;
   margin-bottom:200px;
   margin-top:30px;
 }
@@ -70,4 +75,71 @@ label {
 
 input[type="submit"]:hover {
   background-color: #3e8e41;
+}
+
+.parent {
+  margin-top:1em;
+  display: flex;
+  justify-content: space-between;
+}
+.parent_buttons2{
+  margin: auto;
+  margin-left:15em;
+  margin-bottom:1em;
+  width:35em;
+}
+.type2_button{
+  width: 170px;
+  height: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  background-color: #fff;
+  border: 1px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.type2_button:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.type2_button:active{
+  transform: scale(0.95);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.type3_button{
+  width: 50px;
+  height: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  background-color: #fff;
+  border: 1px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+  float:right;
+  margin-left:0.5em;
+}
+
+.type3_button:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.type3_button:active{
+  transform: scale(0.95);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.lan_buttons{
+	display:inline;
+}
+
+.qrcode{
+	float:right;
+	margin-right:10em;
 }

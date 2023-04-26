@@ -3,31 +3,87 @@
   <head>
     <title>OpenAI Prompt Submission</title>
      <script>
+	var instructions = true;
+	var lang = "eng";
+	var text_kaz =  "&nbsp;&nbsp;&nbsp;&nbsp;1.Сайтты пайдалану үшін 'іздеу' өрісіне сұрау енгізу керек. Мысалы, іздеу сұрауларына қатысты сөзді немесе сөз тіркесін енгізуге болады.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;2.Сұрауды енгізгеннен кейін 'Submit' түймесін басыңыз. Жасанды интеллект сайты сіздің сұранысыңызды өңдейді және нәтижені экранда көрсетеді<br><br>&nbsp;&nbsp;&nbsp;&nbsp;3.Егер сіз бірінші рет қажетті ақпаратты таппаған болсаңыз, іздеуді тарылту үшін сұрауыңызды өзгертіп көріңіз. Мысалы, қосымша кілт сөздерді қосуға немесе олардың ретін өзгертуге болады.";
+	var par_kaz = "Төменде сайтты пайдалану туралы нұсқаулық берілген:";
+	var text2_kaz =  "&nbsp;&nbsp;&nbsp;&nbsp;1.Ақпаратты іздеу және өңдеу: жасанды интеллект сайты сұрақтарға жауап алу немесе мәселелерді шешу үшін мәтіндік және графикалық ақпаратты іздеу және талдау үшін пайдаланылуы мүмкін.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;2. Сондай-ақ, жасанды интеллект сайты мәтіндік ақпаратты талдауға және түсіндіруге мүмкіндік беретін табиғи тілді өңдеуге арналған функционалдылыққа ие болуы мүмкін, мысалы, түйіндемені, сұрақтарға жауаптарды немесе мәтіндерді жіктеуді автоматты түрде құру.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;3.Сонымен қатар, жасанды интеллект сайты алдыңғы сұраулар мен деректерді талдаудан сабақ алу арқылы ақпаратты іздеу және өңдеу нәтижелерін жақсарту үшін машиналық оқытуды қолдана алады.";
+	var par2_kaz = "Жасанды интеллект сайтының көптеген мақсаттары мен функциялары бар:";
+	var par_eng = "Below is an instruction for using the site:";
+	var text_eng = "&nbsp;&nbsp;&nbsp;&nbsp;1. To use the site, you need to enter a query in the 'Search' field. For example, you can enter a word or phrase related to your search queries.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;2. After entering your query, click the 'Submit' button. A site with artificial intelligence will process your request and display the result on the screen<br><br>&nbsp;&nbsp;&nbsp;&nbsp;3. If you didn't find the necessary information the first time, try changing your query to narrow down the search area. For example, you can add additional keywords or change their order.";
+	var par2_eng = "A site with artificial intelligence can have many different purposes and functions:";
+	var text2_eng =  "&nbsp;&nbsp;&nbsp;&nbsp;1. Information search and processing: An AI site can be used to search and analyze information, both textual and graphical, to get answers to questions or solve problems.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;2. Also, an AI site may have functionality for natural language processing, which allows it to analyze and interpret textual information, for example, to automatically create summaries, answers to questions or categorization of texts.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;3. In addition, an AI site can use machine learning to improve search results and information processing by learning from previous queries and data analysis.";
+	var par_rus = "Ниже приведена инструкция по использованию сайта:";
+	var text_rus = "&nbsp;&nbsp;&nbsp;&nbsp;1. Чтобы воспользоваться сайтом, вам необходимо ввести запрос в поле 'Поиск'. Например, вы можете ввести слово или фразу, связанные с вашими поисковыми запросами.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;2. После ввода вашего запроса нажмите кнопку 'Submit'. Сайт с искусственным интеллектом обработает ваш запрос и отобразит результат на экране<br><br>&nbsp;&nbsp;&nbsp;&nbsp;3. Если вы не нашли необходимую информацию с первого раза, попробуйте изменить свой запрос, чтобы сузить область поиска. Например, вы можете добавить дополнительные ключевые слова или изменить их порядок.";
+	var par2_rus = "Сайт с ИИ может иметь множество целей и функций:";
+	var text2_rus = "&nbsp;&nbsp;&nbsp;&nbsp;1.Поиск и обработка информации: Сайт с искусственным интеллектом может использоваться для поиска и анализа информации, как текстовой, так и графической, для получения ответов на вопросы или решения проблем.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;2. Также сайт с искусственным интеллектом может обладать функциональностью для обработки естественного языка, которая позволяет ему анализировать и интерпретировать текстовую информацию, например, автоматически создавать резюме, ответы на вопросы или классификацию текстов.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;3.Кроме того, сайт с искусственным интеллектом может использовать машинное обучение для улучшения результатов поиска и обработки информации, извлекая уроки из предыдущих запросов и анализа данных.";
+	 function changeVariableInst() {
+	 		instructions = true;
+			if(lang == "rus"){
+			   	document.getElementById("text").innerHTML = text_rus;
+      			document.getElementById("par").innerHTML = par_rus;
+              }else if(lang == "eng"){
+              	document.getElementById("text").innerHTML = text_eng;
+              	document.getElementById("par").innerHTML = par_eng;
+              }else if(lang == "kaz"){
+              	document.getElementById("text").innerHTML = text_kaz;
+      			document.getElementById("par").innerHTML = par_kaz;
+              }
+         }
+
+        function changeVariableGoal(){
+        	instructions = false;
+        	if(lang == "rus"){
+        		document.getElementById("par").innerHTML = par2_rus;
+      			document.getElementById("text").innerHTML = text2_rus;
+        	}else if(lang == "eng"){
+        		document.getElementById("par").innerHTML = par2_eng;
+        		document.getElementById("text").innerHTML = text2_eng;
+        	}else if(lang == "kaz"){
+        		document.getElementById("par").innerHTML = par2_kaz;
+      			document.getElementById("text").innerHTML = text2_kaz;
+        	}
+        }
     function changeTextOne() {
-      var newText = "&nbsp;&nbsp;&nbsp;&nbsp;1. Чтобы воспользоваться сайтом, вам необходимо ввести запрос в поле 'Поиск'. Например, вы можете ввести слово или фразу, связанные с вашими поисковыми запросами.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;2. После ввода вашего запроса нажмите кнопку 'Submit'. Сайт с искусственным интеллектом обработает ваш запрос и отобразит результат на экране<br><br>&nbsp;&nbsp;&nbsp;&nbsp;3. Если вы не нашли необходимую информацию с первого раза, попробуйте изменить свой запрос, чтобы сузить область поиска. Например, вы можете добавить дополнительные ключевые слова или изменить их порядок.";
-      document.getElementById("text").innerHTML = newText;
-      document.getElementById("par2").innerHTML = "Сайт с ИИ может иметь множество целей и функций:";
-      document.getElementById("text2").innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;1.Поиск и обработка информации: Сайт с искусственным интеллектом может использоваться для поиска и анализа информации, как текстовой, так и графической, для получения ответов на вопросы или решения проблем.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;2. Также сайт с искусственным интеллектом может обладать функциональностью для обработки естественного языка, которая позволяет ему анализировать и интерпретировать текстовую информацию, например, автоматически создавать резюме, ответы на вопросы или классификацию текстов.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;3.Кроме того, сайт с искусственным интеллектом может использовать машинное обучение для улучшения результатов поиска и обработки информации, извлекая уроки из предыдущих запросов и анализа данных.";
-      document.getElementById("par").innerHTML = "Ниже приведена инструкция по использованию сайта:";
-      var newText3 = "&nbsp;&nbsp;&nbsp;&nbsp;1.Поиск и обработка информации: Сайт с искусственным интеллектом может использоваться для поиска и анализа информации, как текстовой, так и графической, для получения ответов на вопросы или решения проблем.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;2. Также сайт с искусственным интеллектом может обладать функциональностью для обработки естественного языка, которая позволяет ему анализировать и интерпретировать текстовую информацию, например, автоматически создавать резюме, ответы на вопросы или классификацию текстов.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;3.Кроме того, сайт с искусственным интеллектом может использовать машинное обучение для улучшения результатов поиска и обработки информации, извлекая уроки из предыдущих запросов и анализа данных.";
+    	lang = "rus";
+    	document.getElementById("button4").innerText = "Инструкции";
+    	document.getElementById("button5").innerText = "Цели";
+      if(instructions){
+      	document.getElementById("text").innerHTML = text_rus;
+      	document.getElementById("par").innerHTML = par_rus;
+      }else{
+      	document.getElementById("par").innerHTML = par2_rus;
+      	document.getElementById("text").innerHTML = text2_rus;
+      }
+  
     }
     
     function changeTextTwo() {
-      var newText =  "&nbsp;&nbsp;&nbsp;&nbsp;1.Сайтты пайдалану үшін 'іздеу' өрісіне сұрау енгізу керек. Мысалы, іздеу сұрауларына қатысты сөзді немесе сөз тіркесін енгізуге болады.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;2.Сұрауды енгізгеннен кейін 'Submit' түймесін басыңыз. Жасанды интеллект сайты сіздің сұранысыңызды өңдейді және нәтижені экранда көрсетеді<br><br>&nbsp;&nbsp;&nbsp;&nbsp;3.Егер сіз бірінші рет қажетті ақпаратты таппаған болсаңыз, іздеуді тарылту үшін сұрауыңызды өзгертіп көріңіз. Мысалы, қосымша кілт сөздерді қосуға немесе олардың ретін өзгертуге болады.";
-      document.getElementById("text").innerHTML = newText;
-      var newText2 = "&nbsp;&nbsp;&nbsp;&nbsp;1.Ақпаратты іздеу және өңдеу: жасанды интеллект сайты сұрақтарға жауап алу немесе мәселелерді шешу үшін мәтіндік және графикалық ақпаратты іздеу және талдау үшін пайдаланылуы мүмкін.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;2. Сондай-ақ, жасанды интеллект сайты мәтіндік ақпаратты талдауға және түсіндіруге мүмкіндік беретін табиғи тілді өңдеуге арналған функционалдылыққа ие болуы мүмкін, мысалы, түйіндемені, сұрақтарға жауаптарды немесе мәтіндерді жіктеуді автоматты түрде құру.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;3.Сонымен қатар, жасанды интеллект сайты алдыңғы сұраулар мен деректерді талдаудан сабақ алу арқылы ақпаратты іздеу және өңдеу нәтижелерін жақсарту үшін машиналық оқытуды қолдана алады.";
-      document.getElementById("par2").innerHTML = "Жасанды интеллект сайтының көптеген мақсаттары мен функциялары бар:";
-      document.getElementById("text2").innerHTML = newText2;
-      document.getElementById("par").innerHTML = "Төменде сайтты пайдалану туралы нұсқаулық берілген:";
+      lang = "kaz";
+      document.getElementById("button4").innerText = "Нұсқаулық";
+      document.getElementById("button5").innerText = "Мақсаттар";
+          if(instructions){
+      	document.getElementById("text").innerHTML = text_kaz;
+      	document.getElementById("par").innerHTML = par_kaz;
+      }else{
+      	document.getElementById("par").innerHTML = par2_kaz;
+      	document.getElementById("text").innerHTML = text2_kaz;
+      }
     }
     function changeTextThree(){
-	var newText = "&nbsp;&nbsp;&nbsp;&nbsp;1. To use the site, you need to enter a query in the 'Search' field. For example, you can enter a word or phrase related to your search queries.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;2. After entering your query, click the 'Submit' button. A site with artificial intelligence will process your request and display the result on the screen<br><br>&nbsp;&nbsp;&nbsp;&nbsp;3. If you didn't find the necessary information the first time, try changing your query to narrow down the search area. For example, you can add additional keywords or change their order.";
-	document.getElementById("text").innerHTML = newText;
-	var newText2 = "&nbsp;&nbsp;&nbsp;&nbsp;1. Information search and processing: An AI site can be used to search and analyze information, both textual and graphical, to get answers to questions or solve problems.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;2. Also, an AI site may have functionality for natural language processing, which allows it to analyze and interpret textual information, for example, to automatically create summaries, answers to questions or categorization of texts.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;3. In addition, an AI site can use machine learning to improve search results and information processing by learning from previous queries and data analysis.";
-	document.getElementById("text2").innerHTML = newText2;
-	document.getElementById("par").innerHTML = "Below is an instruction for using the site:";
-	 document.getElementById("par2").innerHTML = "A site with artificial intelligence can have many different purposes and functions:";
+    
+    lang = "eng";
+    	document.getElementById("button4").innerText = "Website Instructions";
+    	document.getElementById("button5").innerText = "Website Goals";
+      if(instructions){
+      	document.getElementById("text").innerHTML = text_eng;
+      	document.getElementById("par").innerHTML = par_eng;
+      }else{
+      	document.getElementById("par").innerHTML = par2_eng;
+      	document.getElementById("text").innerHTML = text2_eng;
+      }
 }
+
   </script>
     <link rel="stylesheet" type="text/css" href="static/style.css">
     <style>
@@ -42,12 +98,10 @@
 	.howusetext{
 	
 	text-align:justify;
+	font-size:18px;
+	
 }
 	.button1{
-	
-	position:absolute;
-	top:814px;
-	right:1040px;
 	background-color: white;
         color: black;
         border: 2px solid black;
@@ -61,10 +115,6 @@
 
 }
 	        .button3{
-
-        position:absolute;
-        top:770px;
-        right:1040px;
         background-color: white;
         color: black;
         border: 2px solid black;
@@ -79,7 +129,6 @@
 }
 
 	.button2{
-	position:absolute;
         top:726px;
         right:1040px;
         background-color: white;
@@ -98,19 +147,12 @@
  	 position: relative;
  	 z-index: 1;
 	}
-
-	input[type="submit"] {
-        position: absolute; /* Make the submit button an absolute positioned element */
-        top: 500px; /* Set the top offset to 10 pixels from the top of the form container */
-        right: 925px; /* Set the right offset to 10 pixels from the right of the form container */
-    }
 	
         .container{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: flex-start;
-            width: 80%;
             margin: auto;
             padding: 20px;
             border-radius: 5px;
@@ -131,7 +173,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-	    margin-top: 200px;
+	   	    margin-top: 20px
      	}
         label{
             font-size: 18px;
@@ -145,7 +187,6 @@
             border-radius: 5px;
             border: none;
             background-color: #f4f4f4;
-            margin-bottom: 200px;
             resize: none;
             font-size: 16px;
             color: #333;
@@ -163,11 +204,35 @@
         input[type="submit"]:hover{
             background-color: #444;
         }
+
 	.instructions{
-	position:absolute;
-	width: 550px;
-	top:550px;
-	right:1100px;
+	width:35em;
+	margin-left:15em;
+	length:50em;
+	color:#fff;
+	text-align:justify;
+	background-color: rgba(128, 128, 128, 0.5); /* grey color with 50% opacity */
+        border-radius: 10px; /* round borders */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* drop shadow effect */
+        padding: 20px; /* add some padding inside the container */
+        text-align: center; /* center align text inside the container */
+        padding-top: 0px;
+}
+.qrcode1{
+		width:15em;
+	color:#fff;
+	text-align:justify;
+	margin-right:-17em;
+	background-color: rgba(128, 128, 128, 0.5); /* grey color with 50% opacity */
+        border-radius: 10px; /* round borders */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* drop shadow effect */
+        padding: 20px; /* add some padding inside the container */
+        text-align: center; /* center align text inside the container */
+        padding-top: 0px;
+}
+.qrcode2{
+		width:15em;
+		margin-right:19em;
 	color:#fff;
 	text-align:justify;
 	background-color: rgba(128, 128, 128, 0.5); /* grey color with 50% opacity */
@@ -184,10 +249,6 @@
 }
 
 	.theory{
-	position:absolute;
-        width: 550px;
-        top:-10px;
-        right:-830px;
         color:#fff;
 	padding-top: 0px;
         text-align:justify;
@@ -204,7 +265,6 @@
 	.welcomemessage{
 	font-size:80px;
 	color:#fff;
-	margin:80px;
 	font-weight: bold;
 	text-shadow: 0px 0px 10px #00ccff;
 	font-family: 'Montserrat Extra-Bold', sans-serif;
@@ -215,7 +275,6 @@
 }
 
 	.textarea1{
-	position:absolute;
 	background-color:#c8ece2;
 	
 }
@@ -239,12 +298,12 @@
   font-size: 16px; /* Font size */
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Add shadow */
+  margin-top:20px;
 
 
 }
 	form {
 	length:500px;
-	margin-top:40em;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -255,18 +314,14 @@
 	length:500px;	
 }
 	textarea{
-	top:150px;
 	display: block;
         margin: auto;	
 }
 	input {
-	position:absolute;
 	right:10em;
         width: 150px;
   }
 	input[type="submit"] {
-  position: absolute;
-  top: 30em;
   right: 56em;
 }
 	.first{
@@ -282,29 +337,38 @@
           <textarea class="textarea1" style="width: 600px; height: 300px;" id="prompt" name="prompt" placeholder="Enter your prompt here" required></textarea>
           <input class="buttonsubmit" type="submit" value="Submit">
         </form>
-	<div class="instructions">
-        <h2 class="howuse" id="par">Below is an instruction for using the site:</h2>
-        <div class="howusetext" id="text">
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;1. To use the site, you need to enter a query in the 'Search' field. For example, you can enter a word or phrase related to your search queries.</p>
-        <p>&nbsp;&nbsp;&nbsp;2. After entering your query, click the 'Submit' button. A site with artificial intelligence will process your request and display the result on the screen</p>
-        <p>&nbsp;&nbsp;&nbsp;3. If you didn't find the necessary information the first time, try changing your query to narrow down the search area. For example, you can add additional keywords or change their order.</p>
+        <div>
+			 <div class="parent_buttons2">
+            <button class="type2_button" id="button4" onclick="changeVariableInst()">Website Instructions</button>
+            <button class="type2_button" id="button5" onclick="changeVariableGoal()">Website Goals</button>
+            <div class="lan_buttons">
+            	<button class="type3_button" onclick="changeTextOne()">RUS</button>
+                <button class="type3_button" onclick="changeTextTwo()">KAZ</button>
+                <button class="type3_button" onclick="changeTextThree()">ENG</button>
+            </div>
+            
         </div>
-	<div class="theory">
-	<h2 class="theory1" id="par2">A site with artificial intelligence can have many different purposes and functions:</h2>
-	<div class="theorytext" id="text2">
-	<p>&nbsp;&nbsp;&nbsp;&nbsp;1. Information search and processing: An AI site can be used to search and analyze information, both textual and graphical, to get answers to questions or solve problems.</p>
-        <p>&nbsp;&nbsp;&nbsp;2. Also, an AI site may have functionality for natural language processing, which allows it to analyze and interpret textual information, for example, to automatically create summaries, answers to questions or categorization of texts.</p>
-        <p>&nbsp;&nbsp;&nbsp;3. In addition, an AI site can use machine learning to improve search results and information processing by learning from previous queries and data analysis.</p>
-        </div>
-
-	</div>
-	
-	</div>
-        
-      </div>
-      <button class="button1" onclick="changeTextOne()">RUS</button>
-      <button class="button2" onclick="changeTextTwo()">KAZ</button>
-      <button class="button3" onclick="changeTextThree()">ENG</button>
-
+        <div class="parent">
+            <div class="instructions">
+                <h2 class="howuse" id="par">Below is an instruction for using the site:</h2>
+                <div class="howusetext" id="text">
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;1. To use the site, you need to enter a query in the 'Search' field. For example, you can enter a word or phrase related to your search queries.</p>
+                <p>&nbsp;&nbsp;&nbsp;2. After entering your query, click the 'Submit' button. A site with artificial intelligence will process your request and display the result on the screen</p>
+                <p>&nbsp;&nbsp;&nbsp;3. If you didn't find the necessary information the first time, try changing your query to narrow down the search area. For example, you can add additional keywords or change their order.</p>
+                </div>
+                 
+            </div>
+            <div class="qrcode1">
+            	<div class="daneker1">
+                     <a href="https://www.youtube.com/watch?v=3eEPB1-bXrE">	<img src="https://cdn.discordapp.com/attachments/751401341511008267/1100771886889185362/shutterstock_566842834-fotor-bg-remover-202304261967.png" alt="Girl in a jacket"> </a>
+                </div>         	 	
+             </div>
+             
+             <div class="qrcode2">
+				<div class="daneker2"><a href="http://pnrtscr.com/kqrkc7"><img src="https://cdn.discordapp.com/attachments/751401341511008267/1100771886889185362/shutterstock_566842834-fotor-bg-remover-202304261967.png"></a></div>
+             </div>
+           </div>
+           		
+        </div>      
   </body>
 </html>
