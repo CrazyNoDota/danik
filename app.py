@@ -17,6 +17,10 @@ kazakh = False
 def home():
     return render_template("index.html")
 
+@app.route("/files.html")
+def serve_files_html():
+    return render_template('files.html')
+
 # Define route for generating text
 @app.route("/generate_text", methods=["POST"])
 def generate_text():

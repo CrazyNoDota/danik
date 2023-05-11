@@ -46,6 +46,7 @@
         }
     function changeTextOne() {
     	lang = "rus";
+    	document.getElementById("aiWelCome").innerText = "Исскуственный Интеллект";
     	document.getElementById("button4").innerText = "Инструкции";
     	document.getElementById("button5").innerText = "Цели";
       if(instructions){
@@ -60,6 +61,7 @@
     
     function changeTextTwo() {
       lang = "kaz";
+      document.getElementById("aiWelCome").innerText = "ЖАСАНДЫ ИНТЕЛЛЕКТ";
       document.getElementById("button4").innerText = "Нұсқаулық";
       document.getElementById("button5").innerText = "Мақсаттар";
           if(instructions){
@@ -71,7 +73,7 @@
       }
     }
     function changeTextThree(){
-    
+    document.getElementById("aiWelCome").innerText = "ARTIFICIAL INTELLEGENCE";
     lang = "eng";
     	document.getElementById("button4").innerText = "Website Instructions";
     	document.getElementById("button5").innerText = "Website Goals";
@@ -331,7 +333,7 @@
   </head>
     <body background="https://i.postimg.cc/2yLrJYWX/ARTIFICi-AL-14.png" bgcolor="#000000" bgproperties="scroll">
 	<div class="first" style="text-align: center;">
-  		<p class="welcomemessage">Artificial intelligence</p>
+  		<p class="welcomemessage" id="aiWelCome">Artificial intelligence</p>
 	</div>
         <form class="form1" action="/generate_text" method="POST">
           <textarea class="textarea1" style="width: 600px; height: 300px;" id="prompt" name="prompt" placeholder="Enter your prompt here" required></textarea>
@@ -369,6 +371,8 @@
              </div>
            </div>
            		
-        </div>      
+        </div>
+        <br>
+        <a href="files.html">About</a>
   </body>
 </html>
