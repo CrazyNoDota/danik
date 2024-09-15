@@ -29,7 +29,7 @@ def generate_text():
         response = openai.completions.create(
             model="gpt-3.5-turbo",
             prompt=prompt,
-            max_tokens=500,
+            max_tokens=50,
             temperature=0.9
         )
 
