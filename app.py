@@ -1,12 +1,12 @@
 from flask import Flask, render_template, request
 import openai
-
+import os
 import time
 
 app = Flask(__name__)
 
-# Set up OpenAI API credentials
-openai.api_key = "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"
+# Set up OpenAI API credentials from environment variable
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 kazakh = False
 
@@ -25,12 +25,12 @@ def generate_text():
     prompt = request.form["prompt"]
     
     response = openai.Completion.create(
-    engine="text-davinci-003",
-    prompt=prompt,
-    max_tokens=3000,
-    n=1,
-    stop=None,
-    temperature=0.9,
+        engine="text-davinci-003",
+        prompt=prompt,
+        max_tokens=3000,
+        n=1,
+        stop=None,
+        temperature=0.9,
     )
    
     text = response.choices[0].text.strip()
@@ -41,7 +41,7 @@ def update_bool():
     global kazakh
     kazakh = not kazakh
     if kazakh == False:
-        return 'language set to english plase return'
+        return 'language set to english please return'
     else:
         return 'The language changed to kazakh please return'
 
