@@ -1,13 +1,12 @@
 from flask import Flask, render_template, request
-from openai import OpenAI
-
-client = OpenAI(api_key='sk-ysog-fqhkwfmNOq086mQcnr9Qf_ssxZoRmmAXOyirHT3BlbkFJGvVeGhAEU8pAFmRWKQH_6eF8tCTwX_Mxpmbst559AA')
+import openai
 import os
 
+# Initialize Flask app
 app = Flask(__name__)
 
-# Set up OpenAI API credentials
-  # Replace 'your-api-key-here' with your actual API key
+# Set up OpenAI API credentials from environment variable
+openai.api_key = os.getenv('OPENAI_API_KEY')
 
 # Define system message (optional)
 system_message = {"role": "system", "content": "You are a helpful assistant."}
@@ -25,17 +24,25 @@ def serve_files_html():
 def generate_text():
     prompt = request.form["prompt"]
 
-    # Correct API call with the system message
-    response = client.chat.completions.create(model="gpt-3.5-turbo",
-    messages=[
-        system_message,  # You can modify this message or remove it if not needed
-        {"role": "user", "content": prompt}
-    ],
-    max_tokens=1024,
-    temperature=0.9)
+    try:
+        # Correct API call with the system message
+        response = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                system_message,  # Optional system message
+                {"role": "user", "content": prompt}
+            ],
+            max_tokens=1024,
+            temperature=0.9
+        )
 
-    # Accessing the response in the new structure
-    text = response.choices[0].message.content.strip()
+        # Accessing the response in the correct structure
+        text = response.choices[0].message['content'].strip()
+
+    except Exception as e:
+        # Handle any API or response parsing errors
+        text = f"An error occurred: {str(e)}"
+
     return render_template("generated_text.html", text=text)
 
 if __name__ == "__main__":
