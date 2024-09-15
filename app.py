@@ -19,22 +19,25 @@ def home():
 def serve_files_html():
     return render_template('files.html')
 
-# Define route for generating text
 @app.route("/generate_text", methods=["POST"])
 def generate_text():
     prompt = request.form["prompt"]
     
-    response = openai.Completion.create(
-        engine="text-davinci-003",
-        prompt=prompt,
+    # Updated API call to the new ChatCompletion method
+    response = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",  # You can also use "gpt-4" depending on your access
+        messages=[{"role": "system", "content": "You are a helpful assistant."},
+                  {"role": "user", "content": prompt}],
         max_tokens=3000,
         n=1,
         stop=None,
         temperature=0.9,
     )
-   
-    text = response.choices[0].text.strip()
+    
+    # Extracting the response text
+    text = response.choices[0].message['content'].strip()
     return render_template("generated_text.html", text=text)
+
 
 @app.route('/update_bool', methods=['POST'])
 def update_bool():
