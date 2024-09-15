@@ -25,19 +25,16 @@ def generate_text():
     prompt = request.form["prompt"]
 
     try:
-        # Correct API call for ChatCompletion with required arguments
-        response = openai.ChatCompletion.create(
+        # Using new API for openai>=1.0.0
+        response = openai.completions.create(
             model="gpt-3.5-turbo",
-            messages=[
-                system_message,  # Optional system message
-                {"role": "user", "content": prompt}
-            ],
+            prompt=prompt,
             max_tokens=1024,
             temperature=0.9
         )
 
-        # Accessing the response in the correct structure
-        text = response['choices'][0]['message']['content'].strip()
+        # Accessing the response correctly
+        text = response['choices'][0]['text'].strip()
 
     except Exception as e:
         # Handle any API or response parsing errors
