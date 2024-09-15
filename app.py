@@ -1,11 +1,9 @@
 from flask import Flask, render_template, request
 import openai
-from googletrans import Translator, LANGUAGES
+
 import time
 
 app = Flask(__name__)
-
-translator = Translator(service_urls=['translate.google.com'])
 
 # Set up OpenAI API credentials
 openai.api_key = "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"
