@@ -4,8 +4,10 @@ import os
 
 app = Flask(__name__)
 
-# Set up OpenAI API credentials from environment variable
-openai.api_key = os.getenv("OPENAI_API_KEY")
+# Set up OpenAI API credentials
+openai.api_key = 'sk-WRJBKQkTAYIk4gSJRAy971h2EteV_YX8XZe_K3PL6iT3BlbkFJPnUlwGUaoEnHj_HWmEMh3rsgUA_-xqnugZWiI3KHgA'  # Replace 'your-api-key-here' with your actual API key
+
+kazakh = False
 
 # Define home page route
 @app.route("/")
@@ -16,23 +18,28 @@ def home():
 def serve_files_html():
     return render_template('files.html')
 
+# Define route for generating text
 @app.route("/generate_text", methods=["POST"])
 def generate_text():
     prompt = request.form["prompt"]
     
-    # Updated API call to the new chat_completions method
-    response = openai.chat_completions.create(
-        model="gpt-3.5-turbo",  # You can also use "gpt-4" depending on your access
+    # Build messages list based on the 'kazakh' variable
+    if kazakh:
+        system_message = {"role": "system", "content": "You are an assistant that communicates in Kazakh language."}
+    else:
+        system_message = {"role": "system", "content": "You are an assistant that communicates in English language."}
+    
+    response = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "You are a helpful assistant."},
+            system_message,
             {"role": "user", "content": prompt}
         ],
-        max_tokens=3000,
+        max_tokens=1024,
         n=1,
         temperature=0.9,
     )
-    
-    # Extracting the response text
+   
     text = response.choices[0].message['content'].strip()
     return render_template("generated_text.html", text=text)
 
@@ -43,7 +50,7 @@ def update_bool():
     if kazakh == False:
         return 'Language set to English. Please return.'
     else:
-        return 'The language changed to Kazakh. Please return.'
+        return 'Language changed to Kazakh. Please return.'
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=80)
