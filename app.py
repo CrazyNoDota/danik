@@ -18,7 +18,6 @@ def home():
 def serve_files_html():
     return render_template('files.html')
 
-# Define route for generating text
 @app.route("/generate_text", methods=["POST"])
 def generate_text():
     prompt = request.form["prompt"]
@@ -29,6 +28,7 @@ def generate_text():
     else:
         system_message = {"role": "system", "content": "You are an assistant that communicates in English language."}
     
+    # Use the new ChatCompletion method with updated API
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
@@ -40,8 +40,9 @@ def generate_text():
         temperature=0.9,
     )
    
-    text = response.choices[0].message['content'].strip()
+    text = response['choices'][0]['message']['content'].strip()
     return render_template("generated_text.html", text=text)
+
 
 @app.route('/update_bool', methods=['POST'])
 def update_bool():
