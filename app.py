@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Set up OpenAI API credentials
-openai.api_key = 'sk-WRJBKQkTAYIk4gSJRAy971h2EteV_YX8XZe_K3PL6iT3BlbkFJPnUlwGUaoEnHj_HWmEMh3rsgUA_-xqnugZWiI3KHgA'  # Replace 'your-api-key-here' with your actual API key
+openai.api_key = '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'  # Replace 'your-api-key-here' with your actual API key
 
 kazakh = False
 
