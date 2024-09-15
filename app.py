@@ -5,9 +5,9 @@ import os
 app = Flask(__name__)
 
 # Set up OpenAI API credentials
-openai.api_key = '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'  # Replace 'your-api-key-here' with your actual API key
+openai.api_key = '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'  # Replace 'your-api-key-here' with your actual API key
 
-kazakh = False
+
 
 # Define home page route
 @app.route("/")
@@ -21,12 +21,6 @@ def serve_files_html():
 @app.route("/generate_text", methods=["POST"])
 def generate_text():
     prompt = request.form["prompt"]
-    
-    # Build messages list based on the 'kazakh' variable
-    if kazakh:
-        system_message = {"role": "system", "content": "You are an assistant that communicates in Kazakh language."}
-    else:
-        system_message = {"role": "system", "content": "You are an assistant that communicates in English language."}
     
     # Correct API call with updated structure
     response = openai.ChatCompletion.create(
@@ -44,14 +38,7 @@ def generate_text():
     return render_template("generated_text.html", text=text)
 
 
-@app.route('/update_bool', methods=['POST'])
-def update_bool():
-    global kazakh
-    kazakh = not kazakh
-    if kazakh == False:
-        return 'Language set to English. Please return.'
-    else:
-        return 'Language changed to Kazakh. Please return.'
+
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=80)
