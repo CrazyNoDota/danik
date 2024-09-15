@@ -25,8 +25,8 @@ def generate_text():
     prompt = request.form["prompt"]
 
     try:
-        # Correct API call for openai>=1.0.0
-        response = openai.completions.create(
+        # Correct API call for ChatCompletion with required arguments
+        response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=[
                 system_message,  # Optional system message
