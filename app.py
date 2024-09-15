@@ -28,8 +28,8 @@ def generate_text():
     else:
         system_message = {"role": "system", "content": "You are an assistant that communicates in English language."}
     
-    # New format for API call
-    response = openai.chat_completions.create(
+    # Correct API call with updated structure
+    response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
             system_message,
@@ -39,9 +39,10 @@ def generate_text():
         temperature=0.9,
     )
    
-    # Accessing response in the new structure
+    # Accessing the response in the new structure
     text = response['choices'][0]['message']['content'].strip()
     return render_template("generated_text.html", text=text)
+
 
 @app.route('/update_bool', methods=['POST'])
 def update_bool():
