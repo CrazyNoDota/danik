@@ -25,7 +25,7 @@ def generate_text():
 
     try:
         # Correct API call for the GPT-4 chat-based model with the new API
-        response = openai.chat_completions.create(
+        response = openai.ChatCompletion.create(
             model="gpt-4",
             messages=[
                 {"role": "system", "content": system_message},
