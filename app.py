@@ -24,16 +24,19 @@ def generate_text():
     prompt = request.form["prompt"]
 
     try:
-        # Correct API call for the new version of OpenAI's API
-        response = openai.completions.create(
-            model="gpt-3.5-turbo",
-            prompt=f"{system_message}\n{prompt}",
+        # Correct API call for the GPT-4 chat-based model
+        response = openai.ChatCompletion.create(
+            model="gpt-4",
+            messages=[
+                {"role": "system", "content": system_message},
+                {"role": "user", "content": prompt}
+            ],
             max_tokens=1024,
             temperature=0.9
         )
 
-        # Accessing the response correctly
-        text = response['choices'][0]['text'].strip()
+        # Accessing the response correctly for the GPT-4 chat-based API
+        text = response['choices'][0]['message']['content'].strip()
 
     except Exception as e:
         # Handle any API or response parsing errors
