@@ -1,6 +1,6 @@
 import wave, struct, os
 from openai import OpenAI
-
+client = OpenAI(api_key="<OPENAI_API_KEY>")
 class Chatbot:
     def __init__(self, client):
         self.client = client
