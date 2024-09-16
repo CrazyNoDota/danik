@@ -24,8 +24,8 @@ def generate_text():
     prompt = request.form["prompt"]
 
     try:
-        # Correct API call for the GPT-4 chat-based model
-        response = openai.ChatCompletion.create(
+        # Correct API call for the GPT-4 chat-based model with the new API
+        response = openai.chat_completions.create(
             model="gpt-4",
             messages=[
                 {"role": "system", "content": system_message},
@@ -35,7 +35,7 @@ def generate_text():
             temperature=0.9
         )
 
-        # Accessing the response correctly for the GPT-4 chat-based API
+        # Accessing the response correctly for the new chat-based API
         text = response['choices'][0]['message']['content'].strip()
 
     except Exception as e:
