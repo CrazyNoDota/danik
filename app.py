@@ -9,37 +9,31 @@ app = Flask(__name__)
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
 # Define system message (optional)
-system_message = {"role": "system", "content": "You are a helpful assistant."}
+system_message = "You are a helpful assistant."
 
-# Define home page route
 @app.route("/")
 def home():
     return render_template("index.html")
 
-# Route to serve files.html
 @app.route("/files.html")
 def serve_files_html():
     return render_template('files.html')
 
-# Route to generate text based on user input
 @app.route("/generate_text", methods=["POST"])
 def generate_text():
     prompt = request.form["prompt"]
 
     try:
-        # Correct API call for the chat model
-        response = openai.ChatCompletion.create(
+        # Correct API call for the new version of OpenAI's API
+        response = openai.completions.create(
             model="gpt-3.5-turbo",
-            messages=[
-                {"role": "system", "content": "You are a helpful assistant."},
-                {"role": "user", "content": prompt}
-            ],
+            prompt=f"{system_message}\n{prompt}",
             max_tokens=1024,
             temperature=0.9
         )
 
         # Accessing the response correctly
-        text = response['choices'][0]['message']['content'].strip()
+        text = response['choices'][0]['text'].strip()
 
     except Exception as e:
         # Handle any API or response parsing errors
@@ -47,6 +41,5 @@ def generate_text():
 
     return render_template("generated_text.html", text=text)
 
-# Main entry point for the Flask app
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=80)
