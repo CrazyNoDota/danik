@@ -1,4 +1,6 @@
-import wave, struct, os
+import wave
+import struct
+import os
 from openai import OpenAI
 from flask import Flask, render_template, request
 
@@ -12,13 +14,14 @@ class Chatbot:
     def __init__(self, client):
         self.client = client
         self.context = [
-            {"role": "system", "content": "You are a witty assistant, always answering with a joke."}
+            {
+                "role": "system",
+                "content": "You are a witty assistant, always answering with a joke."
+            }
         ]
 
     def chat(self, message):
-        self.context.append(
-            {"role": "user", "content": message}
-        )
+        self.context.append({"role": "user", "content": message})
         
         response = self.client.chat.completions.create(
             model="gpt-4-0125-preview",
@@ -26,18 +29,15 @@ class Chatbot:
         )
         
         response_content = response.choices[0].message.content
-        self.context.append(
-            {"role": "assistant", "content": response_content}
-        )
-        self.print_chat()
+        self.context.append({"role": "assistant", "content": response_content})
+        return response_content  # Return the assistant's response
 
     def print_chat(self):
-        for message in self.context:
-            if message["role"] == "user":
-                return(f'USER: {message["content"]}')
-            elif message["role"] == "assistant":
-                return(f'BOT: {message["content"]}')
-
+        # Return the last assistant message
+        for message in reversed(self.context):
+            if message["role"] == "assistant":
+                return f'BOT: {message["content"]}'
+        return ''
 
 @app.route("/")
 def home():
@@ -52,8 +52,8 @@ def serve_files_html():
 def generate_text():
     prompt = request.form["prompt"]
     chatbot = Chatbot(client)
-    return render_template("generated_text.html", text=chatbot.chat(prompt))
-
+    generated_text = chatbot.chat(prompt)
+    return render_template("generated_text.html", text=generated_text)
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=80)
