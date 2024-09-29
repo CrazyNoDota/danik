@@ -15,10 +15,10 @@ body {
   background-position: center;
 }
 .daneker1{
-	margin-top:2.5em;
+	margin-top:0.5em;
 }
 .daneker2{
-	margin-top:2.5em;
+	margin-top:0.5em;
 }
 .multiline {
         top:300px;
@@ -166,7 +166,7 @@ input[type="submit"]:hover {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   margin-top:0.5em;
   width:10em;
-  margin-left:0.5em;
+  margin-left:0.1em;
 }
 
 .about-button:hover {
