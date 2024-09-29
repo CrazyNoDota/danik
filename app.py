@@ -1,9 +1,13 @@
 import wave, struct, os
 from openai import OpenAI
 from flask import Flask, render_template, request
-client = OpenAI(api_key="sk-TDpzrP8LTYBD5AOVOQtS_BAc_2ipjjOGhHkjJUQsfDT3BlbkFJUbJODhBEsI269PlgbBbu4n3nh7tHPXQDcmGx_TzbAA")
+
+# Load API key from environment variable
+api_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=api_key)
 
 app = Flask(__name__)
+
 class Chatbot:
     def __init__(self, client):
         self.client = client
@@ -42,6 +46,7 @@ def home():
 @app.route("/files.html")
 def serve_files_html():
     return render_template('files.html')
+
 # Define route for generating text
 @app.route("/generate_text", methods=["POST"])
 def generate_text():
@@ -50,8 +55,5 @@ def generate_text():
     return render_template("generated_text.html", text=chatbot.chat(prompt))
 
 
-
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=80)
-
-
