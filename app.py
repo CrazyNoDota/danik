@@ -60,15 +60,18 @@ def generate_text():
 @app.route("/generate_image", methods=["POST"])
 def generate_image():
     prompt = request.form["prompt"]
+    response = client.images.generate(
+    model="dall-e-3",
+    prompt="a white siamese cat",
+    size="1024x1024",
+    quality="standard",
+    n=1,
+    )
+
+    image_url = response.data[0].url
+   
+    return render_template("image.html", image_url=image_url)
     
-    try:
-        # Call OpenAI image generation API (DALL·E)
-        response = openai.Image.create(prompt=prompt, n=1, size="1024x1024")
-        image_url = response['data'][0]['url']
-        
-        return render_template("image.html", image_url=image_url)
-    except Exception as e:
-        return f"Error: {str(e)}"
 
 
 
