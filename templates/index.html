@@ -374,7 +374,9 @@
            </div>
 
            <div class="image-gen-container">
-            <p>Generate an Image</p>
+            <div class="first" style="text-align: center;">
+              <p class="welcomemessage" id="aiWelCome">Artificial intelligence</p>
+          </div>
             <form action="/generate_image" method="POST">
               <label for="prompt">Enter an image prompt:</label>
               <input type="text" id="prompt" name="prompt" placeholder="Describe the image you want" required>
