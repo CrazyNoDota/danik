@@ -3,6 +3,8 @@ import struct
 import os
 from openai import OpenAI
 from flask import Flask, render_template, request
+from openai import Image
+
 
 # Load API key from environment variable
 api_key = os.getenv("OPENAI_API_KEY")
@@ -54,6 +56,20 @@ def generate_text():
     chatbot = Chatbot(client)
     generated_text = chatbot.chat(prompt)
     return render_template("generated_text.html", text=generated_text)
+
+@app.route("/generate_image", methods=["POST"])
+def generate_image():
+    prompt = request.form["prompt"]
+    
+    try:
+        # Call OpenAI image generation API (e.g., DALL·E)
+        response = client.images.create(prompt=prompt, n=1, size="1024x1024")
+        image_url = response['data'][0]['url']
+        
+        return render_template("image.html", image_url=image_url)
+    except Exception as e:
+        return f"An error occurred: {str(e)}"
+
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=80)
