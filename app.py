@@ -18,7 +18,7 @@ class Chatbot:
         self.context = [
             {
                 "role": "system",
-                "content": "You are a witty assistant, always answering with a joke."
+                "content": "Answer like an intelligent proffessor, answer from science perspective"
             }
         ]
 
