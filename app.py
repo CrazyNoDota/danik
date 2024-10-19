@@ -62,13 +62,14 @@ def generate_image():
     prompt = request.form["prompt"]
     
     try:
-        # Call OpenAI image generation API (e.g., DALL·E)
-        response = client.images.create(prompt=prompt, n=1, size="1024x1024")
+        # Call OpenAI image generation API (DALL·E)
+        response = openai.Image.create(prompt=prompt, n=1, size="1024x1024")
         image_url = response['data'][0]['url']
         
         return render_template("image.html", image_url=image_url)
     except Exception as e:
-        return f"An error occurred: {str(e)}"
+        return f"Error: {str(e)}"
+
 
 
 if __name__ == "__main__":
