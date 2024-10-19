@@ -373,12 +373,14 @@
            </div>
            </div>
 
-           <h2>Generate an Image</h2>
+           <div class="image-gen-container">
+            <h2>Generate an Image</h2>
             <form action="/generate_image" method="POST">
               <label for="prompt">Enter an image prompt:</label>
-              <input type="text" id="prompt" name="prompt" required>
+              <input type="text" id="prompt" name="prompt" placeholder="Describe the image you want" required>
               <button type="submit">Generate Image</button>
             </form>
+          </div>
 
            		
         </div>
