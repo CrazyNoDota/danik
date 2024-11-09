@@ -196,5 +196,50 @@
 		
 	</div>
 </div>
+	<!-- Линейная регрессия - Интерактивное задание -->
+<div class="container">
+	<h2>Интерактивная Линейная Регрессия</h2>
+	<p>Введите данные X и Y через запятую:</p>
+	<label for="dataX">Данные X:</label>
+	<input type="text" id="dataX" placeholder="Пример: 1, 2, 3, 4">
+	<br>
+	<label for="dataY">Данные Y:</label>
+	<input type="text" id="dataY" placeholder="Пример: 2, 4, 6, 8">
+	<br>
+	<button onclick="performLinearRegression()">Запуск Регрессии</button>
+	<p id="output"></p>
+  </div>
+  
+  <script>
+	function performLinearRegression() {
+	  // Получаем данные из текстовых полей
+	  const xValues = document.getElementById("dataX").value.split(",").map(Number);
+	  const yValues = document.getElementById("dataY").value.split(",").map(Number);
+  
+	  if (xValues.length !== yValues.length || xValues.length === 0) {
+		document.getElementById("output").textContent = "Пожалуйста, введите равное количество данных X и Y.";
+		return;
+	  }
+  
+	  // Расчет средней X и Y
+	  const meanX = xValues.reduce((a, b) => a + b) / xValues.length;
+	  const meanY = yValues.reduce((a, b) => a + b) / yValues.length;
+  
+	  // Расчет коэффициентов для линейной регрессии
+	  let numerator = 0;
+	  let denominator = 0;
+	  for (let i = 0; i < xValues.length; i++) {
+		numerator += (xValues[i] - meanX) * (yValues[i] - meanY);
+		denominator += (xValues[i] - meanX) ** 2;
+	  }
+  
+	  const slope = numerator / denominator;
+	  const intercept = meanY - slope * meanX;
+  
+	  // Вывод уравнения линейной регрессии
+	  document.getElementById("output").textContent = `Уравнение линейной регрессии: Y = ${slope.toFixed(2)}X + ${intercept.toFixed(2)}`;
+	}
+  </script>
+  
 </body>
 </html>
